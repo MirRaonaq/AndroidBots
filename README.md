@@ -1,2 +1,3 @@
 # AndroidBots
-CSE 442 
+
+## Battle Chess
