@@ -4,7 +4,7 @@
 
 ### Project Description
 
-### User Story
+**User Story**
 
 "I want to play chess type game but more entertaining and lively."
 
