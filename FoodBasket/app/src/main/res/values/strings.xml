@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Food Basket</string>
+    <string name="shareButton">Share</string>
+    <string name="claimButton">Claim</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="top_text">Fill in the following information</string>
+</resources>
