@@ -1,4 +1,4 @@
-package buffalo.cse.foodbasket;
+package com.example.fatin.foodbasket;
 
 import org.junit.Test;
 

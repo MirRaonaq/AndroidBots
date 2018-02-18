@@ -1,4 +1,4 @@
-package buffalo.cse.foodbasket;
+package com.example.fatin.foodbasket;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("buffalo.cse.foodbasket", appContext.getPackageName());
+        assertEquals("com.example.fatin.foodbasket", appContext.getPackageName());
     }
 }
