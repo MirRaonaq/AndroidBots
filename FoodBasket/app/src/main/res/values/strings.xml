@@ -2,7 +2,10 @@
     <string name="app_name">Food Basket</string>
     <string name="shareButton">Share</string>
     <string name="claimButton">Claim</string>
+<<<<<<< HEAD
+=======
     <string name="title_activity_main3">Main3Activity</string>
+>>>>>>> develop
 
     <!--<string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>

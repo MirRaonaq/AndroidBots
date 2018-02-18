@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD:FoodBasket/app/src/main/AndroidManifest.xml
+    package="com.example.fatin.foodbasket" >
+=======
     package="com.example.fatin.foodbasket">
+>>>>>>> develop:FoodBasket/app/src/main/AndroidManifest.xml
 
     <application
         android:allowBackup="true"
@@ -8,19 +12,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD:FoodBasket/app/src/main/AndroidManifest.xml
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+=======
         android:theme="@style/AppTheme">
         <activity android:name=".Main3Activity">
+>>>>>>> develop:FoodBasket/app/src/main/AndroidManifest.xml
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD:FoodBasket/app/src/main/AndroidManifest.xml
+        <activity android:name=".Main2Activity" >
+        </activity>
+=======
         <activity android:name=".Main2Activity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main3"
             android:theme="@style/AppTheme"></activity>
+>>>>>>> develop:FoodBasket/app/src/main/AndroidManifest.xml
     </application>
 
 </manifest>
