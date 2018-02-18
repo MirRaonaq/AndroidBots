@@ -1,7 +1,9 @@
 package com.example.fatin.foodbasket;
 
 import android.content.Intent;
+import android.content.IntentSender;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +20,11 @@ public class Main3Activity extends AppCompatActivity {
     private Button Login;
     private TextView Info;
     private int counter = 5;
+
+    @Override
+    public void startActivityForResult(Intent intent, int requestCode) {
+        super.startActivityForResult(intent, requestCode);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
