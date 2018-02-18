@@ -1,36 +1,34 @@
 # Team AndroidBots
 
-## Battle Chess
+## Food Basket
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndroidBots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Project Description
 
+An android app that helps to find and share leftover food and items with others for free.
+
 **User Story**
 
-"I want to play chess type game but more entertaining and lively."
+"I want free food"
+
+"I have food that nobody wants and I don't want to throw it away."
+
+"I have a chair that I don't need it but it could be useful for someone else."
+
+"There's always leftovers after the event, someone must want it."
 
 **MVP(Minimum Viable Product)**
-“Battle Chess” is a Android Chess game. Our goal for the app is design and create a new chess game in Android. The game idea combined normal chess game and SRPG (Strategy Role-Playing Game). We have our own rules, such as how to win and how to play it, each chess pieces has it's own move set. Also, our goal for the app is to make people play with friends or other people for fun in their spare time. Each time two people can play it. We are trying to add more elements to make the game colorful.
+
+Food Basket is an android app that helps user to share and find any leftover food. A user would be able to take a picture of the food and the location along with a description such as building and room number then share it with others. Other users would be notified of the location and can view the picture the food. Then they will have the ability to vote whether the food is claimed or report as fake.
+
 
 **Add-on Features:**
 
-1. Upgrade System: If chess are in some condition, they will be upgrade and become stronger. As each player has their own color (cyan and red), when a chess upgraded it will also change the color (red become orange, cyan become blue).
+1. Ability to moderate fraud/fake activities
 
-2. Terrain System: set up some special terrain (such as river, wall, and holy water) on the chess board.
+2. Users would be able to register an account with the app
 
-3. Pass a round: If the player don’t want to move the chess in a round, he can choose pass a round.
+3. Android smart watch compatibility.
 
-4. Revive system: Use some function to revive friendly forces’.
-
-5. Other Playing Mode: Different play ways from the basic “Battle Chess” game. Such as players can choose chess they use in a battle.
-
-6. AI System: Player can play with AI Bot.
-
-7. Be able to add opponent through their username.
-
-8. Be able share my score on social media page- twitter, facebook, etc.
-
-
-
-
+4. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
