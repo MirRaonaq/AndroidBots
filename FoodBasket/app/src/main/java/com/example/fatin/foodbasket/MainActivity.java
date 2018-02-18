@@ -26,11 +26,25 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("FoodBasket", "Share button pressed");
             }
         });
+
+        Button button1 = findViewById(R.id.claimButton);
+        button1.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view3){
+                Main4Activity(view3);
+
+            }
+        });
     }
     public void Main2Activity(){
         //Open the user input page or second acitivity
         Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
+
+    }
+
+    public void Main4Activity(View view3){
+        Intent intent3 = new Intent(this,Main4Activity.class);
+        startActivity(intent3);
 
     }
 }
