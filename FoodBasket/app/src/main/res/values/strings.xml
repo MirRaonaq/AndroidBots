@@ -3,8 +3,12 @@
     <string name="shareButton">Share</string>
     <string name="claimButton">Claim</string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <!--<string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="top_text">Fill in the following information</string>
+    <string name="buildingName">Building name</string>
+    <string name="roomNumber">Room number</string>
+    <string name="typeSomething">testing input box</string>-->
+
+
 </resources>
