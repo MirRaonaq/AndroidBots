@@ -1,21 +1,59 @@
 package com.example.fatin.foodbasket;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentSender;
+import android.location.Address;
+import android.location.Geocoder;
 import android.nfc.Tag;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.PendingResult;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.LocationSettingsRequest;
+import com.google.android.gms.location.LocationSettingsResult;
+import com.google.android.gms.location.LocationSettingsStates;
+import com.google.android.gms.location.LocationSettingsStatusCodes;
+
+import java.io.IOException;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    AppLocationServices locationServices;
+    double _latitude =0.0;
+    double _longitude =0.0;
+    public static final int REQUEST_LOCATION=001;
+    GoogleApiClient googleApiClient;
+    LocationRequest locationRequest;
+    LocationSettingsRequest.Builder locationSettingsRequest;
+
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@NonNull Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        locationServices = new AppLocationServices(this);
 
-        //Find the button by its id from XML file(shareButton)
+        if (locationServices.getLocationIsEnable()) {
+            locationServices.setLocationAvailable(false);
+
+        } else {
+            locationServices.displayLocationSetting();
+          //  enableLocation();
+        }
+
         Button button = findViewById(R.id.shareButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,8 +64,34 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("FoodBasket", "Share button pressed");
             }
         });
+
+
+
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+
+        }
+    }
+
     public void Main2Activity(){
+
         //Open the user input page or second acitivity
         Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
