@@ -20,7 +20,7 @@ An android app that helps to find and share leftover food and items with others 
 
 **MVP(Minimum Viable Product)**
 
-Food Basket is an android app that helps users share and find any leftover food. A user would be able to snap a picture of the food and share the location along with a description such as building and room number then share it with others. Other users would be notified of the location and can view the picture the food. Then they will have the ability to vote whether the food is claimed or report as fake.
+Food Basket is an android app that helps users share and find any leftover food. A user would be able to snap a picture of the food and share the location along with a description such as building and room number. Other nearby users would be notified of the location and can view the picture the food. Then they will have the ability to vote whether the food is claimed or report as fake.
 
 
 **Add-on Features:**
