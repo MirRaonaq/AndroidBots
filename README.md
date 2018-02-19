@@ -33,4 +33,4 @@ Food Basket is an android app that helps users share and find any leftover food 
 
 4. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
 
-5. Able to quicly sell food or items for cash. 
+5. Able to quickly sell food or items for cash. 
