@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
     }
     public void Main2Activity(){
         //Open the user input page or second acitivity
