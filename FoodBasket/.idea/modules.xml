@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FoodBasket.iml" filepath="$PROJECT_DIR$/FoodBasket.iml" />
-      <module fileurl="file://C:\zza\CSE442\newnew\AndroidBots\FoodBasket\FoodBasket.iml" filepath="C:\zza\CSE442\newnew\AndroidBots\FoodBasket\FoodBasket.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\zza\CSE442\newnew\AndroidBots\FoodBasket\app\app.iml" filepath="C:\zza\CSE442\newnew\AndroidBots\FoodBasket\app\app.iml" />
     </modules>
   </component>
 </project>

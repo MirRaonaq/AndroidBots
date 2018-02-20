@@ -3,7 +3,6 @@ package com.example.fatin.foodbasket;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-
 public class Main4Activity extends AppCompatActivity {
 
     @Override
@@ -12,5 +11,3 @@ public class Main4Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main4);
     }
 }
-
-/////sdf

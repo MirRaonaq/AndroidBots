@@ -28,10 +28,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button button1 = findViewById(R.id.claimButton);
-        button1.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view3){
-                Main4Activity(view3);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Main4Activity();
+                //Log.d is to see if the button is actually working or not
+                Log.d("FoodBasket", "Claim button pressed");
             }
         });
 
@@ -42,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-
-    public void Main4Activity(View view3){
-        Intent intent3 = new Intent(this,Main4Activity.class);
-        startActivity(intent3);
+    public void Main4Activity(){
+//        Log.d("FoodBasket", "Share button pressed");
+        Intent intent4 = new Intent(this,Main4Activity.class);
+        startActivity(intent4);
 
     }
 }
