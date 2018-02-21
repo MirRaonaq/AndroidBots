@@ -32,3 +32,6 @@ Food Basket is an android app that helps user to share and find any leftover foo
 3. Android smart watch compatibility.
 
 4. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
+
+**Prototype**
+https://www.youtube.com/watch?v=X_XTFI-sr04
