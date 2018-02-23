@@ -1,1 +1,39 @@
-
+Date: 02/23/2018 @ 4:00 pm
+Memebers present: 
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+Meeting Discussions:
+	- Next meeting date
+	- The UI design of all pages
+	- How to integrate camera, also saving and uploading images to server
+	- Which database service to use (Firebase)
+	
+	
+Individual Contributions since last meeting:
+	Kemo 
+		- Finished location services for Food Basket
+	Mir 
+		- Created issues, worked on meeting minutes
+    - Released prototype, uploaded YouTube video, added instructions for prototype
+		- Finished sign in page
+	Fatin:
+		- Developed camera for share button
+	Wentao:
+		- Worked on fake or claimed page
+	Ziang:
+		- Created claim page
+		
+Individual Expected Contributions before next meeting:
+	Kemo 
+		Setup the app database for login and registration
+	Fatin
+		Finish camera setup for share button, update project description
+	Mir 
+		Work on register page and help work on database
+	Ziang 
+		Work on the frontend (background)
+	Wentao 
+		Work on the frontend (buttons)
