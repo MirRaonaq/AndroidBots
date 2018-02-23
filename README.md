@@ -45,4 +45,12 @@ https://www.youtube.com/watch?v=X_XTFI-sr04
 
 2.	Copy the repository link and paste into Android Studio version control then clone:
 
+![](images/one.png)
+![](images/two.png)
+
+3. Once gradle has finished building the project click the green play “Run” button. Then pick any virtual device as shown below:
+
+![](images/three.png)
+
+Also, if you have an android device, enable “USB debugging” from developer option. Then run the app on your phone.
 
