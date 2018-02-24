@@ -8,7 +8,7 @@
 
 Food Basket is for free food and items.
 
-Suppose you are at an event and at the end there are pizza slices left. Instead of throwing it out, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, and location such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it.
+Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, and location such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it.
 
 This same process also works with unwanted items such as furniture, books, and more.
 
