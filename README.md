@@ -6,7 +6,7 @@
 
 ### Project Description
 
-An android app to find and share leftover food and items with others for free.
+Suppose you are at an event and at the end there are pizza slices left. Instead of throwing it out, you can share the food with the community by taking a snap of it. After sharing, other users will be able to see what is being shared and pick it up.
 
 **User Story**
 
