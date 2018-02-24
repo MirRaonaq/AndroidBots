@@ -6,7 +6,12 @@
 
 ### Project Description
 
-An android app to find and share leftover food and items with others for free.
+Food Basket is for free food and items.
+
+Suppose you are at an event and at the end there are pizza slices left. Instead of throwing it out, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, and location such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it.
+
+This same process also works with unwanted items such as furniture, books, and more.
+
 
 **User Story**
 
@@ -31,9 +36,11 @@ Food Basket is an android app that helps users share and find any leftover food 
 
 3. Android smart watch compatibility.
 
-4. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
+4. Ability to use within a group instead or location. For example to only share location of food or item within a dorm hall or with a group of friends.
 
-5. Able to quickly sell food or items for cash.
+5. A sell section, able to quickly sell food or items for cash.
+
+6. Food Basket for iOS.
 
 
 **Prototype**:
