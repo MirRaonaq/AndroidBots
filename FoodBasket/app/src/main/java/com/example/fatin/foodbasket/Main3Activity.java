@@ -17,7 +17,7 @@ public class Main3Activity extends AppCompatActivity {
     private EditText Password;
     private Button Login;
     private TextView Info;
-    private int counter = 5;
+    private int counter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class Main3Activity extends AppCompatActivity {
         Login = (Button)findViewById(R.id.btnLogin);
         Info = (TextView)findViewById(R.id.tvInfo);
 
-        Info.setText("No of attempts remaining: 5");
+        Info.setText("No of attempts: 0");
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,13 +56,10 @@ public class Main3Activity extends AppCompatActivity {
             Intent intent = new Intent(Main3Activity.this,MainActivity.class);
             startActivity(intent);
         }else{
-            counter --;
+            counter ++;
 
-            Info.setText("No of attemps remaining: " + String.valueOf(counter));
+            Info.setText("No of attemps: " + String.valueOf(counter));
 
-            if(counter == 0){
-                Login.setEnabled(false);
-            }
         }
     }
 
