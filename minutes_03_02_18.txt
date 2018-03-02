@@ -34,7 +34,7 @@ Individual Expected Contributions before next meeting:
 	Fatin
 		Finish camera setup for share button
 	Mir 
-		Work on backend, improve registration, login, claim, and share page
+		Work on backend, create main menu button on information page
 	Ziang 
 		Work on the frontend (background)
 	Wentao 
