@@ -63,8 +63,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button button1 = findViewById(R.id.claimButton);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-
+                Main4Activity();
+                //Log.d is to see if the button is actually working or not
+                Log.d("FoodBasket", "Claim button pressed");
+            }
+        });
     }
 
     @Override
@@ -93,6 +101,12 @@ public class MainActivity extends AppCompatActivity {
         //Open the user input page or second acitivity
         Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
+
+    }
+    public void Main4Activity(){
+//        Log.d("FoodBasket", "Share button pressed");
+        Intent intent4 = new Intent(this,Main4Activity.class);
+        startActivity(intent4);
 
     }
 }
