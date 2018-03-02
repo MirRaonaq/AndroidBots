@@ -10,14 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Main3Activity extends AppCompatActivity {
 
     private EditText Name;
     private EditText Password;
     private Button Login;
-    private TextView Info;
-    private int counter = 0;
+    private Button Register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,17 +26,23 @@ public class Main3Activity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Name = (EditText)findViewById(R.id.etName);
-        Password = (EditText)findViewById(R.id.etPassword);
-        Login = (Button)findViewById(R.id.btnLogin);
-        Info = (TextView)findViewById(R.id.tvInfo);
+        Name = (EditText) findViewById(R.id.etName);
+        Password = (EditText) findViewById(R.id.etPassword);
+        Login = (Button) findViewById(R.id.btnLogin);
+        Register = (Button) findViewById(R.id.btnReg);
 
-        Info.setText("No of attempts: 0");
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validate(Name.getText().toString(),Password.getText().toString());
+                validate(Name.getText().toString(), Password.getText().toString());
+            }
+        });
+
+        Register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                main5();
             }
         });
 
@@ -51,16 +57,20 @@ public class Main3Activity extends AppCompatActivity {
         });
     }
 
+
+
     private void validate(String userName, String userPassword){
         if ((userName.equals("Mir")) && (userPassword.equals("1234"))){
             Intent intent = new Intent(Main3Activity.this,MainActivity.class);
             startActivity(intent);
         }else{
-            counter ++;
-
-            Info.setText("No of attemps: " + String.valueOf(counter));
-
+            Toast.makeText(this, "Incorrect Username or Password", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void main5(){
+        Intent intent= new Intent(Main3Activity.this,Main5Activity.class);
+        startActivity(intent);
     }
 
 }
