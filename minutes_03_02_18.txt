@@ -20,7 +20,7 @@ Individual Contributions since last meeting:
 	Kemo 
 		- Continued work on Firebase
 	Mir 
-    - Finished registration page, created an alert box for wrong username and passwords 
+    		- Finished registration page, created an alert box for wrong username and passwords, recover password page
 	Fatin:
 		- Got the camera to work but does not save images
 	Wentao:
