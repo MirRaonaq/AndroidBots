@@ -1,0 +1,41 @@
+Date: 03/02/2018 @ 4:00 pm
+** Did a group call meeting through Facebook at 12:00 p.m. **
+** Campus closed because of storm **
+
+Memebers present: 
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+  
+Meeting Discussions:
+	- Next meeting date
+	- Progress on UI design
+	- Progress on camera integration
+	- Progress on database
+	
+	
+Individual Contributions since last meeting:
+	Kemo 
+		- Continued work on Firebase
+	Mir 
+    - Finished registration page, created an alert box for wrong username and passwords 
+	Fatin:
+		- Got the camera to work but does not save images
+	Wentao:
+		- Working on button designs
+	Ziang:
+		- Working on UI
+		
+Individual Expected Contributions before next meeting:
+	Kemo 
+		Database for login and registration
+	Fatin
+		Finish camera setup for share button
+	Mir 
+		Work on backend, improve registration, login, claim, and share page
+	Ziang 
+		Work on the frontend (background)
+	Wentao 
+		Work on the frontend (buttons)
