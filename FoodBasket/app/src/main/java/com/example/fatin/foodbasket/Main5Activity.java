@@ -32,6 +32,7 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
         user_password=(EditText)findViewById(R.id.password);
         firebaseAuth=FirebaseAuth.getInstance();
         register_btn.setOnClickListener(this);
+        user_name =(EditText)findViewById(R.id.username);
     }
 
     @Override
@@ -44,9 +45,12 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
-                    Toast.makeText(Main5Activity.this,"Account Created Sucessfully", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Main5Activity.this,user_name +" Account Created Sucessfully", Toast.LENGTH_LONG).show();
                    // FirebaseUser user = firebaseAuth.getCurrentUser();
                   //  updateUI(user);
+                }else {
+                    Toast.makeText(Main5Activity.this,user_name+" Account Created Unsucessfully", Toast.LENGTH_LONG).show();
+
                 }
             }
         });

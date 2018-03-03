@@ -58,7 +58,7 @@ public final class R {
         public static final int button = 0x7f0d009e;
         public static final int center = 0x7f0d003d;
         public static final int dark = 0x7f0d0063;
-        public static final int email = 0x7f0d00a6;
+        public static final int email = 0x7f0d00a4;
         public static final int icon_only = 0x7f0d0060;
         public static final int light = 0x7f0d0064;
         public static final int none = 0x7f0d0024;
@@ -67,7 +67,6 @@ public final class R {
         public static final int standard = 0x7f0d0061;
         public static final int text = 0x7f0d0010;
         public static final int text2 = 0x7f0d0011;
-        public static final int toolbar = 0x7f0d00a0;
         public static final int wide = 0x7f0d0062;
         public static final int wrap_content = 0x7f0d003a;
     }

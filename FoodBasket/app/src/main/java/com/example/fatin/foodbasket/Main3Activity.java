@@ -33,6 +33,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import org.w3c.dom.Text;
 
+import java.time.LocalDate;
 import java.util.Map;
 import java.util.jar.JarEntry;
 
@@ -42,13 +43,13 @@ public class Main3Activity extends AppCompatActivity{
     private EditText Password;
     private Button Login;
     private Button Register;
-    private TextView Info;
+  //  private TextView Info;
     private int counter = 5;
     FirebaseDatabase fBase;
     DatabaseReference dataRef;
 
     //authentication variable
-    FirebaseAuth firebaseAuth =null;
+   FirebaseAuth firebaseAuth =null;
     FirebaseAuth.AuthStateListener authStateListener;
 
     String TAG ="MAIN_TEST";
@@ -61,13 +62,13 @@ public class Main3Activity extends AppCompatActivity{
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
                 inputMethodManager.hideSoftInputFromInputMethod(getCurrentFocus().getWindowToken(),0);
-                HideKeyBoard hide = new HideKeyBoard(view,getSystemService(Activity.INPUT_METHOD_SERVICE));
+                //HideKeyBoard hide = new HideKeyBoard(view,getSystemService(Activity.INPUT_METHOD_SERVICE));
                // hide.hideSoftKeyboard();
                 return false;
             }
         });
-     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-     setSupportActionBar(toolbar);
+     //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+    // setSupportActionBar(toolbar);
 
         Name = (EditText) findViewById(R.id.etName);
         Password = (EditText) findViewById(R.id.etPassword);
@@ -88,7 +89,7 @@ public class Main3Activity extends AppCompatActivity{
 
                 }
         };
-        Info.setText("No of attempts remaining: 5");
+     //   Info.setText("No of attempts remaining: 5");
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,7 +125,7 @@ public class Main3Activity extends AppCompatActivity{
             }
         });
 
-
+/*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -132,7 +133,7 @@ public class Main3Activity extends AppCompatActivity{
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
     }
 
@@ -228,9 +229,9 @@ public class Main3Activity extends AppCompatActivity{
             });**/
             alert.show();
             counter --;
-            Info.setText("Invalid Credentials.\nPlease, Enter Password Again. Attemps remain: "+ String.valueOf(counter));
+       //     Info.setText("Invalid Credentials.\nPlease, Enter Password Again. Attemps remain: "+ String.valueOf(counter));
             if (counter==0){
-                Info.setText("No of attemps has reached the limit: ");
+      //          Info.setText("No of attemps has reached the limit: ");
             }
             if(counter == 0){
                 Login.setEnabled(false);
@@ -239,6 +240,7 @@ public class Main3Activity extends AppCompatActivity{
     }
 
     public void main5(){
+        Log.d(TAG, "main5: is called");
         Intent intent= new Intent(Main3Activity.this,Main5Activity.class);
         startActivity(intent);
     }
