@@ -8,52 +8,53 @@ package android.support.constraint;
 
 public final class R {
     public static final class attr {
-        public static final int constraintSet = 0x7f030062;
-        public static final int layout_constraintBaseline_creator = 0x7f0300bf;
-        public static final int layout_constraintBaseline_toBaselineOf = 0x7f0300c0;
-        public static final int layout_constraintBottom_creator = 0x7f0300c1;
-        public static final int layout_constraintBottom_toBottomOf = 0x7f0300c2;
-        public static final int layout_constraintBottom_toTopOf = 0x7f0300c3;
-        public static final int layout_constraintDimensionRatio = 0x7f0300c4;
-        public static final int layout_constraintEnd_toEndOf = 0x7f0300c5;
-        public static final int layout_constraintEnd_toStartOf = 0x7f0300c6;
-        public static final int layout_constraintGuide_begin = 0x7f0300c7;
-        public static final int layout_constraintGuide_end = 0x7f0300c8;
-        public static final int layout_constraintGuide_percent = 0x7f0300c9;
-        public static final int layout_constraintHeight_default = 0x7f0300ca;
-        public static final int layout_constraintHeight_max = 0x7f0300cb;
-        public static final int layout_constraintHeight_min = 0x7f0300cc;
-        public static final int layout_constraintHorizontal_bias = 0x7f0300cd;
-        public static final int layout_constraintHorizontal_chainStyle = 0x7f0300ce;
-        public static final int layout_constraintHorizontal_weight = 0x7f0300cf;
-        public static final int layout_constraintLeft_creator = 0x7f0300d0;
-        public static final int layout_constraintLeft_toLeftOf = 0x7f0300d1;
-        public static final int layout_constraintLeft_toRightOf = 0x7f0300d2;
-        public static final int layout_constraintRight_creator = 0x7f0300d3;
-        public static final int layout_constraintRight_toLeftOf = 0x7f0300d4;
-        public static final int layout_constraintRight_toRightOf = 0x7f0300d5;
-        public static final int layout_constraintStart_toEndOf = 0x7f0300d6;
-        public static final int layout_constraintStart_toStartOf = 0x7f0300d7;
-        public static final int layout_constraintTop_creator = 0x7f0300d8;
-        public static final int layout_constraintTop_toBottomOf = 0x7f0300d9;
-        public static final int layout_constraintTop_toTopOf = 0x7f0300da;
-        public static final int layout_constraintVertical_bias = 0x7f0300db;
-        public static final int layout_constraintVertical_chainStyle = 0x7f0300dc;
-        public static final int layout_constraintVertical_weight = 0x7f0300dd;
-        public static final int layout_constraintWidth_default = 0x7f0300de;
-        public static final int layout_constraintWidth_max = 0x7f0300df;
-        public static final int layout_constraintWidth_min = 0x7f0300e0;
-        public static final int layout_editor_absoluteX = 0x7f0300e2;
-        public static final int layout_editor_absoluteY = 0x7f0300e3;
-        public static final int layout_goneMarginBottom = 0x7f0300e4;
-        public static final int layout_goneMarginEnd = 0x7f0300e5;
-        public static final int layout_goneMarginLeft = 0x7f0300e6;
-        public static final int layout_goneMarginRight = 0x7f0300e7;
-        public static final int layout_goneMarginStart = 0x7f0300e8;
-        public static final int layout_goneMarginTop = 0x7f0300e9;
-        public static final int layout_optimizationLevel = 0x7f0300ec;
+        public static final int constraintSet = 0x7f010000;
+        public static final int layout_constraintBaseline_creator = 0x7f010004;
+        public static final int layout_constraintBaseline_toBaselineOf = 0x7f010005;
+        public static final int layout_constraintBottom_creator = 0x7f010006;
+        public static final int layout_constraintBottom_toBottomOf = 0x7f010007;
+        public static final int layout_constraintBottom_toTopOf = 0x7f010008;
+        public static final int layout_constraintDimensionRatio = 0x7f010009;
+        public static final int layout_constraintEnd_toEndOf = 0x7f01000a;
+        public static final int layout_constraintEnd_toStartOf = 0x7f01000b;
+        public static final int layout_constraintGuide_begin = 0x7f01000c;
+        public static final int layout_constraintGuide_end = 0x7f01000d;
+        public static final int layout_constraintGuide_percent = 0x7f01000e;
+        public static final int layout_constraintHeight_default = 0x7f01000f;
+        public static final int layout_constraintHeight_max = 0x7f010010;
+        public static final int layout_constraintHeight_min = 0x7f010011;
+        public static final int layout_constraintHorizontal_bias = 0x7f010012;
+        public static final int layout_constraintHorizontal_chainStyle = 0x7f010013;
+        public static final int layout_constraintHorizontal_weight = 0x7f010014;
+        public static final int layout_constraintLeft_creator = 0x7f010015;
+        public static final int layout_constraintLeft_toLeftOf = 0x7f010016;
+        public static final int layout_constraintLeft_toRightOf = 0x7f010017;
+        public static final int layout_constraintRight_creator = 0x7f010018;
+        public static final int layout_constraintRight_toLeftOf = 0x7f010019;
+        public static final int layout_constraintRight_toRightOf = 0x7f01001a;
+        public static final int layout_constraintStart_toEndOf = 0x7f01001b;
+        public static final int layout_constraintStart_toStartOf = 0x7f01001c;
+        public static final int layout_constraintTop_creator = 0x7f01001d;
+        public static final int layout_constraintTop_toBottomOf = 0x7f01001e;
+        public static final int layout_constraintTop_toTopOf = 0x7f01001f;
+        public static final int layout_constraintVertical_bias = 0x7f010020;
+        public static final int layout_constraintVertical_chainStyle = 0x7f010021;
+        public static final int layout_constraintVertical_weight = 0x7f010022;
+        public static final int layout_constraintWidth_default = 0x7f010023;
+        public static final int layout_constraintWidth_max = 0x7f010024;
+        public static final int layout_constraintWidth_min = 0x7f010025;
+        public static final int layout_editor_absoluteX = 0x7f010026;
+        public static final int layout_editor_absoluteY = 0x7f010027;
+        public static final int layout_goneMarginBottom = 0x7f010028;
+        public static final int layout_goneMarginEnd = 0x7f010029;
+        public static final int layout_goneMarginLeft = 0x7f01002a;
+        public static final int layout_goneMarginRight = 0x7f01002b;
+        public static final int layout_goneMarginStart = 0x7f01002c;
+        public static final int layout_goneMarginTop = 0x7f01002d;
+        public static final int layout_optimizationLevel = 0x7f01002e;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int all = 0x7f08001e;
         public static final int basic = 0x7f080022;
         public static final int chains = 0x7f08002e;
@@ -63,9 +64,20 @@ public final class R {
         public static final int spread = 0x7f0800a0;
         public static final int spread_inside = 0x7f0800a1;
         public static final int wrap = 0x7f0800c9;
+=======
+        public static final int all = 0x7f0d0021;
+        public static final int basic = 0x7f0d0022;
+        public static final int chains = 0x7f0d0023;
+        public static final int none = 0x7f0d0024;
+        public static final int packed = 0x7f0d001f;
+        public static final int parent = 0x7f0d001c;
+        public static final int spread = 0x7f0d001d;
+        public static final int spread_inside = 0x7f0d0020;
+        public static final int wrap = 0x7f0d001e;
+>>>>>>> hide keyboard
     }
     public static final class styleable {
-        public static final int[] ConstraintLayout_Layout = { 0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 0x01010140, 0x7f030062, 0x7f0300bf, 0x7f0300c0, 0x7f0300c1, 0x7f0300c2, 0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 0x7f0300e0, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 0x7f0300ec };
+        public static final int[] ConstraintLayout_Layout = { 0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 0x01010140, 0x7f010000, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e };
         public static final int ConstraintLayout_Layout_android_orientation = 0;
         public static final int ConstraintLayout_Layout_android_maxWidth = 1;
         public static final int ConstraintLayout_Layout_android_maxHeight = 2;
@@ -115,7 +127,7 @@ public final class R {
         public static final int ConstraintLayout_Layout_layout_goneMarginStart = 46;
         public static final int ConstraintLayout_Layout_layout_goneMarginTop = 47;
         public static final int ConstraintLayout_Layout_layout_optimizationLevel = 48;
-        public static final int[] ConstraintSet = { 0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 0x01010322, 0x01010323, 0x01010324, 0x01010325, 0x01010327, 0x01010328, 0x010103b5, 0x010103b6, 0x010103fa, 0x01010440, 0x7f0300bf, 0x7f0300c0, 0x7f0300c1, 0x7f0300c2, 0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 0x7f0300e0, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9 };
+        public static final int[] ConstraintSet = { 0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 0x01010322, 0x01010323, 0x01010324, 0x01010325, 0x01010327, 0x01010328, 0x010103b5, 0x010103b6, 0x010103fa, 0x01010440, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d };
         public static final int ConstraintSet_android_orientation = 0;
         public static final int ConstraintSet_android_id = 1;
         public static final int ConstraintSet_android_visibility = 2;

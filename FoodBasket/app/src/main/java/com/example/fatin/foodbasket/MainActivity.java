@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
     GoogleApiClient googleApiClient;
     LocationRequest locationRequest;
     LocationSettingsRequest.Builder locationSettingsRequest;
+    Button shareBtn =null;
+    Button logoutBtn=null;
+    Button claimeBtn=null;
 
     @Override
     protected void onCreate(@NonNull Bundle savedInstanceState) {
@@ -52,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
           //  enableLocation();
         }
 
-        Button button = findViewById(R.id.shareButton);
-        button.setOnClickListener(new View.OnClickListener() {
+        shareBtn= (Button)findViewById(R.id.shareButton);
+        shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -63,14 +66,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button button1 = findViewById(R.id.claimButton);
-        button1.setOnClickListener(new View.OnClickListener() {
+        claimeBtn = findViewById(R.id.claimButton);
+        claimeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Main4Activity();
                 //Log.d is to see if the button is actually working or not
                 Log.d("FoodBasket", "Claim button pressed");
+            }
+        });
+        logoutBtn =(Button)findViewById(R.id.logout_button);
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,Main3Activity.class);
+                startActivity(intent);
+                //firebaseAuth.signOut();
+                // Intent intent = new Intent(MainActivity.this, Main3Activity.class);
+                //  startActivity(intent);
+
             }
         });
     }

@@ -29,6 +29,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.fatin.foodbasket.Main3Activity" >
             <intent-filter>
@@ -43,6 +44,11 @@
             android:label="@string/title_activity_main3"
             android:theme="@style/AppTheme" />
         <activity android:name="com.example.fatin.foodbasket.Main4Activity" />
+<<<<<<< HEAD
+=======
+        <activity android:name="com.example.fatin.foodbasket.Main5Activity" />
+        <activity android:name="com.example.fatin.foodbasket.Main6Activity" />
+>>>>>>> hide keyboard
 
         <meta-data
             android:name="android.support.VERSION"
@@ -63,6 +69,13 @@
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+<<<<<<< HEAD
+=======
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+>>>>>>> hide keyboard
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

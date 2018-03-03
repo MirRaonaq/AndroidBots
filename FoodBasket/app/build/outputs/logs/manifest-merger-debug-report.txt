@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-28:12
@@ -12,6 +13,18 @@ MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\a93e12ecd582c86e0de45e185f3503cd\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:17:1-37:12
+=======
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\a93e12ecd582c86e0de45e185f3503cd\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:17:1-32:12
+>>>>>>> hide keyboard
 MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.8.0.aar\963dfed7561a04ce72ec7371168a7cc4\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1da71e381a44dc7bbbaf2b9300cdc070\AndroidManifest.xml:2:1-6:12
@@ -21,13 +34,22 @@ MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\kemok\.gradle\cac
 MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\108399707628989fb931a1bfc3105745\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\6d8d008f243c669373c30cc9630a34d4\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\759d31319e3dc54dc0fb4a522fa1ba90\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:17:1-31:12
+<<<<<<< HEAD
+=======
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:17:1-28:12
+>>>>>>> hide keyboard
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b25b1492ecac3410202e901e89d56adc\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\736d5f6ef55742776ccafe9f483a3214\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bcdf2451430e8a976b75445465e09381\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a9b88675804369acd92f89db241e2b64\AndroidManifest.xml:17:1-31:12
+<<<<<<< HEAD
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\05e5bd72765a419eb5f840b19f89cf49\AndroidManifest.xml:2:1-6:12
@@ -36,10 +58,19 @@ MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1032d90542f5c4723cafb6719193a4d0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\95b80aab881204ce83e3fbbde2d00bad\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:17:1-30:12
+=======
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\05e5bd72765a419eb5f840b19f89cf49\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\e280c042d5ff2a7223ff5bf53d9154f5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\53b924229144fa08f617553a366cb06f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\34b2d2054c3bb026f4a12803ba857a62\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1032d90542f5c4723cafb6719193a4d0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\95b80aab881204ce83e3fbbde2d00bad\AndroidManifest.xml:2:1-6:12
+>>>>>>> hide keyboard
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\2647e3314dea0fb5575023106deef72b\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\b4ae9bd2c42c7c04a7e2dd8d9684b6bf\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\f74ff267f5d87d34c224e104f8bd7926\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8b4d7e14a82764b51a68892b25c8138f\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:2:1-6:12
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-28:12
@@ -63,6 +94,7 @@ ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBas
 	android:name
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:5:22-78
 application
+<<<<<<< HEAD
 ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:6:5-26:19
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:7:5-20
@@ -78,6 +110,19 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:22:5-35:19
+=======
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:6:5-28:19
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:22:5-30:19
+>>>>>>> hide keyboard
 MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1da71e381a44dc7bbbaf2b9300cdc070\AndroidManifest.xml:5:5-20
@@ -94,10 +139,23 @@ MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\kemok\.
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\6d8d008f243c669373c30cc9630a34d4\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\759d31319e3dc54dc0fb4a522fa1ba90\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\759d31319e3dc54dc0fb4a522fa1ba90\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:25:5-29:19
+<<<<<<< HEAD
+=======
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:22:5-26:19
+>>>>>>> hide keyboard
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b25b1492ecac3410202e901e89d56adc\AndroidManifest.xml:25:5-29:19
@@ -108,22 +166,33 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kemok\.grad
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bcdf2451430e8a976b75445465e09381\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a9b88675804369acd92f89db241e2b64\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a9b88675804369acd92f89db241e2b64\AndroidManifest.xml:25:5-29:19
+<<<<<<< HEAD
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:5:5-20
+=======
+>>>>>>> hide keyboard
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\05e5bd72765a419eb5f840b19f89cf49\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\05e5bd72765a419eb5f840b19f89cf49\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\e280c042d5ff2a7223ff5bf53d9154f5\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\e280c042d5ff2a7223ff5bf53d9154f5\AndroidManifest.xml:5:5-20
+<<<<<<< HEAD
+=======
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\53b924229144fa08f617553a366cb06f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\53b924229144fa08f617553a366cb06f\AndroidManifest.xml:5:5-20
+>>>>>>> hide keyboard
 MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\34b2d2054c3bb026f4a12803ba857a62\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\34b2d2054c3bb026f4a12803ba857a62\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1032d90542f5c4723cafb6719193a4d0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1032d90542f5c4723cafb6719193a4d0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\95b80aab881204ce83e3fbbde2d00bad\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\95b80aab881204ce83e3fbbde2d00bad\AndroidManifest.xml:5:5-20
+<<<<<<< HEAD
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:24:5-28:19
+=======
+>>>>>>> hide keyboard
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\2647e3314dea0fb5575023106deef72b\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\2647e3314dea0fb5575023106deef72b\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\b4ae9bd2c42c7c04a7e2dd8d9684b6bf\AndroidManifest.xml:5:5-20
@@ -132,6 +201,8 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kemok\.gr
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\f74ff267f5d87d34c224e104f8bd7926\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8b4d7e14a82764b51a68892b25c8138f\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8b4d7e14a82764b51a68892b25c8138f\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:5:5-20
 	android:supportsRtl
@@ -182,6 +253,7 @@ INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\Food
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:5:5-44
+<<<<<<< HEAD
 MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:21:5-23:78
@@ -192,10 +264,21 @@ MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:20:5-44
+=======
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:21:5-23:62
+>>>>>>> hide keyboard
 MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\a93e12ecd582c86e0de45e185f3503cd\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\a93e12ecd582c86e0de45e185f3503cd\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
+=======
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:20:5-44
+>>>>>>> hide keyboard
 MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.8.0.aar\963dfed7561a04ce72ec7371168a7cc4\AndroidManifest.xml:6:5-44
@@ -214,10 +297,23 @@ MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\kemok\.
 MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\6d8d008f243c669373c30cc9630a34d4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\759d31319e3dc54dc0fb4a522fa1ba90\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\759d31319e3dc54dc0fb4a522fa1ba90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:21:5-23:54
+<<<<<<< HEAD
+=======
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:20:5-44
+>>>>>>> hide keyboard
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b25b1492ecac3410202e901e89d56adc\AndroidManifest.xml:21:5-23:58
@@ -228,22 +324,33 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kemok\.grad
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bcdf2451430e8a976b75445465e09381\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a9b88675804369acd92f89db241e2b64\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a9b88675804369acd92f89db241e2b64\AndroidManifest.xml:21:5-23:58
+<<<<<<< HEAD
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\c9d36a1373432e8980b05dff84b289bf\AndroidManifest.xml:4:5-43
+=======
+>>>>>>> hide keyboard
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\05e5bd72765a419eb5f840b19f89cf49\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\05e5bd72765a419eb5f840b19f89cf49\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\e280c042d5ff2a7223ff5bf53d9154f5\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\e280c042d5ff2a7223ff5bf53d9154f5\AndroidManifest.xml:4:5-43
+<<<<<<< HEAD
+=======
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\53b924229144fa08f617553a366cb06f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\53b924229144fa08f617553a366cb06f\AndroidManifest.xml:4:5-43
+>>>>>>> hide keyboard
 MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\34b2d2054c3bb026f4a12803ba857a62\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\34b2d2054c3bb026f4a12803ba857a62\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1032d90542f5c4723cafb6719193a4d0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1032d90542f5c4723cafb6719193a4d0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\95b80aab881204ce83e3fbbde2d00bad\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\95b80aab881204ce83e3fbbde2d00bad\AndroidManifest.xml:4:5-43
+<<<<<<< HEAD
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:20:5-22:41
+=======
+>>>>>>> hide keyboard
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\2647e3314dea0fb5575023106deef72b\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\2647e3314dea0fb5575023106deef72b\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\b4ae9bd2c42c7c04a7e2dd8d9684b6bf\AndroidManifest.xml:4:5-43
@@ -252,6 +359,8 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kemok\.gr
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\f74ff267f5d87d34c224e104f8bd7926\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8b4d7e14a82764b51a68892b25c8138f\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8b4d7e14a82764b51a68892b25c8138f\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:4:5-43
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
@@ -270,16 +379,28 @@ meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\09cc49cb262962d4df8d501000f051ca\AndroidManifest.xml:26:9-28:38
+<<<<<<< HEAD
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:23:9-25:38
+=======
+>>>>>>> hide keyboard
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\2d782fa8f0d14b9b17e6b304cf5d9c44\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\9c486e851d90ab04ff27dc4a719037bf\AndroidManifest.xml:26:9-28:38
+<<<<<<< HEAD
+=======
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7f55005cac492f193e5fef188a491f14\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\99184845d000f77051746b80fb966101\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4473b4c8325f224554b9c874627bbc18\AndroidManifest.xml:23:9-25:38
+>>>>>>> hide keyboard
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\973671a514bdd8cfe23e2e7a97fa6f12\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b25b1492ecac3410202e901e89d56adc\AndroidManifest.xml:26:9-28:38
@@ -292,6 +413,7 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\c
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a9b88675804369acd92f89db241e2b64\AndroidManifest.xml:26:9-28:38
 	android:value
 		ADDED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:28:13-35
+<<<<<<< HEAD
 	android:name
 		ADDED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:27:13-51
 service#com.google.firebase.messaging.FirebaseMessagingService
@@ -315,6 +437,45 @@ ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gr
 	android:theme
 		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:26:13-72
 	android:name
+=======
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:27:13-51
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:29:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\50e6a7e89ecc642fc2a6bc823e856298\AndroidManifest.xml:32:25-75
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\9d11c8f032b5f6df6ae29c9b06f5cbc4\AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:26:13-72
+	android:name
+>>>>>>> hide keyboard
 		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\bb8e2f0bb00e253fd2b3e75279f48c19\AndroidManifest.xml:24:13-79
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\ced880f03e434a50b6d97fb70bc13361\AndroidManifest.xml:23:5-67

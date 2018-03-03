@@ -1,31 +1,42 @@
 package com.example.fatin.foodbasket;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import org.w3c.dom.Text;
+
 import java.util.Map;
 import java.util.jar.JarEntry;
 
-public class Main3Activity extends AppCompatActivity {
+public class Main3Activity extends AppCompatActivity{
 
     private EditText Name;
     private EditText Password;
@@ -35,27 +46,74 @@ public class Main3Activity extends AppCompatActivity {
     private int counter = 5;
     FirebaseDatabase fBase;
     DatabaseReference dataRef;
-    String TAG ="MAIN_TEST";
 
+    //authentication variable
+    FirebaseAuth firebaseAuth =null;
+    FirebaseAuth.AuthStateListener authStateListener;
+
+    String TAG ="MAIN_TEST";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        findViewById(R.id.home).setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                inputMethodManager.hideSoftInputFromInputMethod(getCurrentFocus().getWindowToken(),0);
+                HideKeyBoard hide = new HideKeyBoard(view,getSystemService(Activity.INPUT_METHOD_SERVICE));
+               // hide.hideSoftKeyboard();
+                return false;
+            }
+        });
+     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+     setSupportActionBar(toolbar);
 
         Name = (EditText) findViewById(R.id.etName);
         Password = (EditText) findViewById(R.id.etPassword);
         Login = (Button) findViewById(R.id.btnLogin);
         Register = (Button) findViewById(R.id.btnReg);
+        //instantiate firebaseauth
+        firebaseAuth =FirebaseAuth.getInstance();
+       /* if (firebaseAuth.getCurrentUser() != null){
+            firebaseAuth.signOut();
+        }*/
+        authStateListener =new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebase_auth) {
+                if (firebase_auth.getCurrentUser() != null) {
+                    Intent intent = new Intent(Main3Activity.this, MainActivity.class);
+                    startActivity(intent);
+                }
 
-
+                }
+        };
         Info.setText("No of attempts remaining: 5");
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validate(Name.getText().toString(), Password.getText().toString());
+                String _user_email =Name.getText().toString();
+                String _pasword =Password.getText().toString();
+                if(fieldsNotEmpty(_user_email,_pasword)){
+                    firebaseAuth.signInWithEmailAndPassword(_user_email, _pasword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (!task.isSuccessful()){
+                                inValidLogin();
+                            }else {
+                              //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
+                              //  startActivity(intent);
+                            }
+
+                        }
+                    });
+                }
+                else {
+                 inValidLogin();
+                }
+
+            //    validate(_name,_pasword);
             }
         });
 
@@ -75,8 +133,32 @@ public class Main3Activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        firebaseAuth.addAuthStateListener(authStateListener);
+        firebaseAuth.signOut();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        firebaseAuth.removeAuthStateListener(authStateListener);
+    }
+
+    private void inValidLogin() {
+        Toast.makeText(Main3Activity.this,"Invalid Credentials", Toast.LENGTH_LONG).show();
+    }
+
+    private boolean fieldsNotEmpty(String user_email, String user_pasword) {
+        if (TextUtils.isEmpty(user_email) || TextUtils.isEmpty(user_pasword)){
+            return false;
+        }
+        return true;
+    }
 
 
     private void validate(String userName, String userPassword){
@@ -86,12 +168,17 @@ public class Main3Activity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
+<<<<<<< HEAD
                 Map<String,String> user_data=dataSnapshot.getValue(Map.class);
                 //Log.d(TAG, "validate: "+dataSnapshot.getValue());
                 Log.d(TAG, "validate: "+user_data.get("kemokhan"));
                 //Toast.makeText(Main3Activity.this,dataSnapshot.getValue().toString() , Toast.LENGTH_SHORT).show();
 
 
+=======
+               //  Map<String,String> user_data=dataSnapshot.getValue(Map.class);
+                Log.d(TAG, "validate: "+dataSnapshot.getValue());
+>>>>>>> hide keyboard
             }
 
             @Override

@@ -7,6 +7,13 @@
     tools:context="com.example.fatin.foodbasket.MainActivity">
 
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Logout"
+        android:id="@+id/logout_button"
+        android:background="@drawable/register_btn"/>
+
+    <Button
         android:id="@+id/shareButton"
         android:layout_width="109dp"
         android:layout_height="63dp"
