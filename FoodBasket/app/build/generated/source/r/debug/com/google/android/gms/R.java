@@ -52,25 +52,6 @@ public final class R {
         public static final int googleg_standard_color_18 = 0x7f02006f;
     }
     public static final class id {
-<<<<<<< HEAD
-        public static final int adjust_height = 0x7f08001b;
-        public static final int adjust_width = 0x7f08001c;
-        public static final int auto = 0x7f080021;
-        public static final int button = 0x7f080028;
-        public static final int center = 0x7f08002b;
-        public static final int dark = 0x7f08003a;
-        public static final int icon_only = 0x7f080059;
-        public static final int light = 0x7f080061;
-        public static final int none = 0x7f08006e;
-        public static final int normal = 0x7f08006f;
-        public static final int radio = 0x7f08007b;
-        public static final int standard = 0x7f0800a5;
-        public static final int text = 0x7f0800ab;
-        public static final int text2 = 0x7f0800ac;
-        public static final int toolbar = 0x7f0800b7;
-        public static final int wide = 0x7f0800c7;
-        public static final int wrap_content = 0x7f0800ca;
-=======
         public static final int adjust_height = 0x7f0d0053;
         public static final int adjust_width = 0x7f0d0054;
         public static final int auto = 0x7f0d003b;
@@ -88,7 +69,6 @@ public final class R {
         public static final int toolbar = 0x7f0d00a0;
         public static final int wide = 0x7f0d0062;
         public static final int wrap_content = 0x7f0d003a;
->>>>>>> hide keyboard
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f0b0007;
