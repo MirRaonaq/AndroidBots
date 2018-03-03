@@ -168,17 +168,12 @@ public class Main3Activity extends AppCompatActivity{
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
-<<<<<<< HEAD
-                Map<String,String> user_data=dataSnapshot.getValue(Map.class);
+              //  Map<String,String> user_data=dataSnapshot.getValue(Map.class);
                 //Log.d(TAG, "validate: "+dataSnapshot.getValue());
-                Log.d(TAG, "validate: "+user_data.get("kemokhan"));
+              //  Log.d(TAG, "validate: "+user_data.get("kemokhan"));
                 //Toast.makeText(Main3Activity.this,dataSnapshot.getValue().toString() , Toast.LENGTH_SHORT).show();
-
-
-=======
-               //  Map<String,String> user_data=dataSnapshot.getValue(Map.class);
+                //  Map<String,String> user_data=dataSnapshot.getValue(Map.class);
                 Log.d(TAG, "validate: "+dataSnapshot.getValue());
->>>>>>> hide keyboard
             }
 
             @Override
