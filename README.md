@@ -1,16 +1,5 @@
 # Team AndroidBots
 ## Food Basket
-## Food Basket
-
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndroidBots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-"I want free food"
-
-### Project Description
-
-An android app that helps to find and share leftover food and items with others for free.
-
-"I have a chair that I don't need it but it could be useful for someone else."
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndroidBots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -21,16 +10,6 @@ Food Basket is for free food and items.
 Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, and location such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it.
 
 This same process also works with unwanted items such as furniture, books, and more.
-
-=======
-Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
-
-**Add-on Features:**
-Project Description
-An android app that helps to find and share leftover food and items with others for free.
-
-User Story
-An android app to find and share leftover food and items with others for free.
 
 **User Story**
 
@@ -50,16 +29,12 @@ Add-on Features:
 1. Ability to moderate fraud/fake activities
 
 2. Users would be able to register an account with the app
-Ability to moderate fraud/fake activities
 
 3. Android smart watch compatibility.
-Users would be able to register an account with the app
 
 4. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
 
-Android smart watch compatibility.
-
-Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
+5. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
 
 **Add-on Features:**
 
