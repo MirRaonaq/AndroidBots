@@ -1,75 +1,133 @@
 package com.example.fatin.foodbasket;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Main3Activity extends AppCompatActivity {
 
-    private EditText Name;
-    private EditText Password;
-    private Button Login;
-    private Button Register;
+    private EditText name;
+    private EditText password;
+    private Button login;
+    private Button register;
+    //  private TextView Info;
+    private int counter = 5;
+    FirebaseDatabase fBase;
+    DatabaseReference dataRef;
+
+    //authentication variable
+    FirebaseAuth firebaseAuth = null;
+    FirebaseAuth.AuthStateListener authStateListener;
+
+    String TAG = "MAIN_TEST";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        Name = (EditText) findViewById(R.id.etName);
-        Password = (EditText) findViewById(R.id.etPassword);
-        Login = (Button) findViewById(R.id.btnLogin);
-        Register = (Button) findViewById(R.id.btnReg);
+        HideKeyBoard.hideKeyPad(findViewById(R.id.home), Main3Activity.this);
 
+        name = (EditText) findViewById(R.id.etName);
+        password = (EditText) findViewById(R.id.etPassword);
+        login = (Button) findViewById(R.id.btnLogin);
+        register = (Button) findViewById(R.id.btnReg);
 
-        Login.setOnClickListener(new View.OnClickListener() {
+        //instantiate firebaseauth
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        authStateListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebase_auth) {
+                if (firebase_auth.getCurrentUser() != null) {
+                    //open when sign in is successful.
+                     Intent intent = new Intent(Main3Activity.this, MainActivity.class);
+                     startActivity(intent);
+                }
+
+            }
+        };
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validate(Name.getText().toString(), Password.getText().toString());
+                String _user_email = name.getText().toString();
+                String _pasword = password.getText().toString();
+                if (ValidateFieldInput.fieldsNotEmpty(_user_email, _pasword)) {
+                    firebaseAuth.signInWithEmailAndPassword(_user_email, _pasword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if (!task.isSuccessful()) {
+                                password.setText("");
+                                inValidLogin();
+                            } else {
+                                //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
+                                //  startActivity(intent);
+                            }
+
+                        }
+                    });
+                } else {
+                    password.setText("");
+                    inValidLogin();
+                }
             }
         });
 
-        Register.setOnClickListener(new View.OnClickListener() {
+        register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                main5();
+                signup();
+
             }
         });
 
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
 
-
-    private void validate(String userName, String userPassword){
-        if ((userName.equals("Mir")) && (userPassword.equals("1234"))){
-            Intent intent = new Intent(Main3Activity.this,MainActivity.class);
-            startActivity(intent);
-        }else{
-            Toast.makeText(this, "Incorrect Username or Password", Toast.LENGTH_SHORT).show();
-        }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        firebaseAuth.addAuthStateListener(authStateListener);
     }
 
-    public void main5(){
-        Intent intent= new Intent(Main3Activity.this,Main5Activity.class);
+    @Override
+    protected void onStop() {
+        super.onStop();
+        firebaseAuth.signOut();
+        firebaseAuth.removeAuthStateListener(authStateListener);
+    }
+
+    private void inValidLogin() {
+        Toast.makeText(Main3Activity.this, "Invalid Credentials", Toast.LENGTH_LONG).show();
+    }
+
+
+    public void signup() {
+        Intent intent = new Intent(Main3Activity.this, Main5Activity.class);
         startActivity(intent);
     }
 

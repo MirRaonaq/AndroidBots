@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fatin.foodbasket.Main5Activity">
+    tools:context="com.example.fatin.foodbasket.Main5Activity"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/home_register">
 
     <EditText
         android:id="@+id/username"
@@ -34,7 +37,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -43,7 +46,7 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/registerBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -51,6 +54,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Register"
+        android:background="@drawable/register_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +62,7 @@
         app:layout_constraintVertical_bias="0.745" />
 
     <EditText
-        android:id="@+id/eMail"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="296dp"
@@ -71,6 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageView3"
@@ -86,5 +91,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.117"
         app:srcCompat="@drawable/icon" />
+
 
 </android.support.constraint.ConstraintLayout>
