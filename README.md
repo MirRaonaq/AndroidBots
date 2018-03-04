@@ -25,17 +25,6 @@ This same process also works with unwanted items such as furniture, books, and m
 
 Food Basket is an android app that helps users share and find any leftover food or items. A user would be able to snap a picture of the food or item and share the location, along with a description such as building and room number. Other nearby users would be notified of the location and can view the picture the food. Then they will have the ability to vote whether the food is claimed or report as fake.
 
-Add-on Features:
-1. Ability to moderate fraud/fake activities
-
-2. Users would be able to register an account with the app
-
-3. Android smart watch compatibility.
-
-4. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
-
-5. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
-
 **Add-on Features:**
 
 1. Ability to moderate fraud/fake activities.
@@ -49,6 +38,9 @@ Add-on Features:
 5. A sell section, able to quickly sell food or items for cash.
 
 6. Food Basket for iOS.
+
+7. Ability to use within a group instead of location. For example to only share location of food or item within a dorm hall.
+
 
 
 **Prototype**:
