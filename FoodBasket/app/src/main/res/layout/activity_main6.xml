@@ -72,4 +72,6 @@
         android:background="@drawable/register_btn"
         />
 
+        app:layout_constraintVertical_bias="0.598" />
+
 </android.support.constraint.ConstraintLayout>
