@@ -34,6 +34,7 @@ public class Main3Activity extends AppCompatActivity {
     private EditText password;
     private Button login;
     private Button register;
+    private Button forgot;
     //  private TextView Info;
     private int counter = 5;
     FirebaseDatabase fBase;
@@ -71,6 +72,14 @@ public class Main3Activity extends AppCompatActivity {
 
             }
         };
+
+        forgot= (Button)findViewById(R.id.btnForgot);
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                main6Activity();
+            }
+        });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -128,6 +137,10 @@ public class Main3Activity extends AppCompatActivity {
 
     public void signup() {
         Intent intent = new Intent(Main3Activity.this, Main5Activity.class);
+        startActivity(intent);
+    }
+    public void main6Activity(){
+        Intent intent = new Intent(Main3Activity.this, Main6Activity.class);
         startActivity(intent);
     }
 
