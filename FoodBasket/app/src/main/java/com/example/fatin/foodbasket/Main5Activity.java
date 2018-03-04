@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -27,6 +28,8 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
+        HideKeyBoard.hideKeyPad(findViewById(R.id.home_register), Main5Activity.this);
+
         register_btn =(Button) findViewById(R.id.registerBtn);
         user_email =(EditText)findViewById(R.id.email);
         user_password=(EditText)findViewById(R.id.password);
@@ -45,19 +48,33 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
     }
 
     private void registerUser(final String userEmail,final String userPassword, final String userName) {
-       firebaseAuth.createUserWithEmailAndPassword(userEmail,userPassword).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-           @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
-                    Toast.makeText(Main5Activity.this,userName +" Account Created Sucessfully", Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(Main5Activity.this, Main3Activity.class);
-                    startActivity(intent);
-                }else {
+       if(ValidateFieldInput.fieldsNotEmpty(userEmail,userPassword,userName)){
+            firebaseAuth.createUserWithEmailAndPassword(userEmail,userPassword).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()){
+                        Toast.makeText(Main5Activity.this,userName +", Your account was created successfully", Toast.LENGTH_LONG).show();
+                        comfirmEnteredData(firebaseAuth.getCurrentUser());
+                    }else {
 
-                    Toast.makeText(Main5Activity.this,user_name+" Account Created Unsucessfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Main5Activity.this,user_name+", there was an error in your account creation.", Toast.LENGTH_LONG).show();
 
+                    }
                 }
-            }
-        });
+            });
+        }else {
+           Toast.makeText(Main5Activity.this,"Input field cannot be empty.", Toast.LENGTH_LONG).show();
+
+       }
+    }
+
+    private void comfirmEnteredData(FirebaseUser currentUser) {
+        findViewById(R.id.password).setVisibility(View.GONE);
+        findViewById(R.id.username).setVisibility(View.GONE);
+        findViewById(R.id.registerBtn).setVisibility(View.GONE);
+        findViewById(R.id.email).setVisibility(View.GONE);
+
+        Toast.makeText(this,currentUser.getDisplayName(),Toast.LENGTH_LONG).show();
+
     }
 }

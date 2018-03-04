@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fatin.foodbasket.Main5Activity">
+    tools:context="com.example.fatin.foodbasket.Main5Activity"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/home_register">
 
     <EditText
         android:id="@+id/username"
@@ -51,6 +54,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Register"
+        android:background="@drawable/register_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

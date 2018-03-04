@@ -24,6 +24,7 @@ import com.google.android.gms.location.LocationSettingsRequest;
 import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.io.IOException;
 import java.util.List;
@@ -52,16 +53,13 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
             locationServices.displayLocationSetting();
-          //  enableLocation();
         }
 
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 main2Activity();
-                //Log.d is to see if the button is actually working or not
                 Log.d("FoodBasket", "Share button pressed");
             }
         });
@@ -72,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Main4Activity();
-                //Log.d is to see if the button is actually working or not
                 Log.d("FoodBasket", "Claim button pressed");
             }
         });
@@ -80,11 +77,9 @@ public class MainActivity extends AppCompatActivity {
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,Main3Activity.class);
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(MainActivity.this, Main3Activity.class);
                 startActivity(intent);
-                //firebaseAuth.signOut();
-                // Intent intent = new Intent(MainActivity.this, Main3Activity.class);
-                //  startActivity(intent);
 
             }
         });
@@ -112,14 +107,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void main2Activity(){
-
-        //Open the user input page or second acitivity
         Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
 
     }
     public void Main4Activity(){
-//        Log.d("FoodBasket", "Share button pressed");
         Intent intent4 = new Intent(this,Main4Activity.class);
         startActivity(intent4);
 
