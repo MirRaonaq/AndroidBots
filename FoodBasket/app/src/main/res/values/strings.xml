@@ -11,5 +11,11 @@
     <string name="roomNumber">Room number</string>
     <string name="typeSomething">testing input box</string>-->
 
+    <string-array name="names">
+        <item>Please select a value</item>
+        <item>Home</item>
+        <item>Logout</item>
+    </string-array>
+
 
 </resources>
