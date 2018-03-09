@@ -1,0 +1,39 @@
+Date: 03/09/2018 @ 4:00 pm
+
+Memebers present: 
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+  
+Meeting Discussions:
+	- Next meeting date
+	- What needs to be done for Alpha Release
+	- How to get camera to work and send photos to database
+	- What UI will fit FoodBasket
+	
+	
+Individual Contributions since last meeting:
+	Kemo 
+		- Finished setting up database and user authentication
+	Mir 
+    - Created logout and home buttons on all pages. Added a retype password to register. Fixed all gradle errors.
+	Fatin:
+		- Continued work on the camera
+	Wentao:
+		- Working on button designs
+	Ziang:
+		- Working on UI
+		
+Individual Expected Contributions before next meeting:
+	Kemo 
+		Add ability to save photos and item information in database
+	Fatin
+		Finish camera setup with ability to send picture to database
+	Mir 
+		Prepare documentation for Alpha release and work on share page for release
+	Ziang 
+		Work on the frontend (background)
+	Wentao 
+		Work on the frontend (buttons)
