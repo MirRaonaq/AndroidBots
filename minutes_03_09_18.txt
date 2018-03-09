@@ -32,7 +32,7 @@ Individual Expected Contributions before next meeting:
 	Fatin
 		Finish camera setup with ability to send picture to database
 	Mir 
-		Prepare documentation for Alpha release and work on share page for release
+		Prepare documentation for Alpha release and work on account deactivation
 	Ziang 
 		Work on the frontend (background)
 	Wentao 
