@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68b3f191beaaf632a9ee88a484522b12\AndroidManifest.xml:17:1-31:12
@@ -43,29 +43,29 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kemok\.gr
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8b4d7e14a82764b51a68892b25c8138f\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\74d8bedc4c93857ead16df46b092a454\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:4:22-78
 application
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:6:5-28:19
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\afcd8d47cb1892b95c6b859d479002c1\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
@@ -141,55 +141,55 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kemok\.gradle\caches
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\bd70b73224b4cd8e2b0f320971c40dce\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.fatin.foodbasket.Main3Activity
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:13:19-48
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:12:19-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.example.fatin.foodbasket.Main2Activity
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:20:9-51
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:19:9-51
 	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:20:19-48
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:19:19-48
 activity#com.example.fatin.foodbasket.MainActivity
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:21:9-24:47
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:20:9-23:47
 	android:label
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:23:13-57
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:22:13-57
 	android:theme
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:24:13-44
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:23:13-44
 	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:21:13-41
 activity#com.example.fatin.foodbasket.Main4Activity
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:24:9-51
+	android:name
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:24:19-48
+activity#com.example.fatin.foodbasket.Main5Activity
 ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:25:9-51
 	android:name
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:25:19-48
-activity#com.example.fatin.foodbasket.Main5Activity
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:26:9-51
+activity#com.example.fatin.foodbasket.Main6Activity
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:26:9-60
 	android:name
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:26:19-48
-activity#com.example.fatin.foodbasket.Main6Activity
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:27:9-60
-	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:27:19-48
 uses-sdk
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
