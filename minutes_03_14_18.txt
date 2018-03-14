@@ -35,7 +35,7 @@ Individual Expected Contributions before next meeting:
 	Fatin
 		- Finish camera setup with ability to send picture to database
 	Mir 
-		- Help Kemo and Fatin with database and camera integration 
+		- Help Kemo and Fatin with database and camera integration. Fix cluttered UI. 
 	Ziang 
 		- Continue to work on the frontend (background)
 	Wentao 
