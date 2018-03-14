@@ -1,0 +1,42 @@
+Date: 03/14/2018 @ 5:00 p.m.
+**Usual meeting date is Fridays at 4:00 p.m. We are meeting at Baldy today because some members cannot attend on Friday this week.
+Due to some leaving for spring break early.**
+
+Memebers present: 
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+  
+Meeting Discussions:
+	- Next meeting date
+  - What needs to be done for Alpha release
+  - Camera integration
+  - Progress on UI
+  - Listed all tasks that needs to be done on spring break
+	
+	
+Individual Contributions since last meeting:
+	Kemo 
+		- Working on database
+	Mir 
+    - Finished account deactivation page 
+	Fatin:
+		- Continued work on the camera
+	Wentao:
+		- Working on button designs
+	Ziang:
+		- Working on UI
+		
+Individual Expected Contributions before next meeting:
+	Kemo 
+		- Add ability of account deactivation (database)
+	Fatin
+		- Finish camera setup with ability to send picture to database
+	Mir 
+		- Help Kemo and Fatin with database and camera integration 
+	Ziang 
+		- Continue to work on the frontend (background)
+	Wentao 
+		- Continue to work on the frontend (buttons)
