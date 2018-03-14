@@ -10,7 +10,7 @@ Memebers present:
 	- Mir Raonaq
   
 Meeting Discussions:
-	- Next meeting date
+  - Next meeting date
   - What needs to be done for Alpha release
   - Camera integration
   - Progress on UI
@@ -21,7 +21,7 @@ Individual Contributions since last meeting:
 	Kemo 
 		- Working on database
 	Mir 
-    - Finished account deactivation page 
+      		- Finished account deactivation page 
 	Fatin:
 		- Continued work on the camera
 	Wentao:
