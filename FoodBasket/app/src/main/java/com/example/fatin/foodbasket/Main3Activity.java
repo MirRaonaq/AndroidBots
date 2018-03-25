@@ -33,15 +33,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class Main3Activity extends AppCompatActivity {
-    private static class User {
 
-        public String email;
-        //public String user_name;
-
-        public User(String email) {
-        }
-
-    }
 
     private EditText name;
     private EditText password;
@@ -61,7 +53,6 @@ public class Main3Activity extends AppCompatActivity {
     FirebaseAuth.AuthStateListener authStateListener;
 
     String TAG = "MAIN_TEST";
-    User u;
 
    // static ArrayList<String> email_ =new ArrayList<>();
 
@@ -102,7 +93,7 @@ public class Main3Activity extends AppCompatActivity {
 
                 }else {
                     loginUserWithUserName(_user_email, _pasword);
-                   // Log.d(TAG, "onClick: email return "+ u.email);
+                    Log.d(TAG, "onClick: email return email");
                 }
 
             }
@@ -147,7 +138,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 try {
                     String retVal=dataSnapshot.child("email").getValue().toString();
-                    Log.d(TAG, "onDataChange: "+retVal);
+                   // Log.d(TAG, "onDataChange: "+retVal);
                     if (ValidateFieldInput.fieldsNotEmpty(retVal, pword)) {
                         firebaseAuth.signInWithEmailAndPassword(retVal, pword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
@@ -167,6 +158,7 @@ public class Main3Activity extends AppCompatActivity {
                         inValidLogin();
                     }
                 }catch (Exception ex){
+                    password.setText("");
                     Toast.makeText(Main3Activity.this, "The entered user name doesn't exist", Toast.LENGTH_LONG).show();
 
                 }
