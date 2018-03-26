@@ -23,7 +23,7 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".Main4Activity" />
         <activity android:name=".Main5Activity" />
-        <activity android:name=".Main6Activity"></activity>
+        <activity android:name=".ResetPassWord"></activity>
     </application>
 
 </manifest>

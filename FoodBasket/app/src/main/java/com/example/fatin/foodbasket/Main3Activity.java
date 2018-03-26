@@ -1,18 +1,12 @@
 package com.example.fatin.foodbasket;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -21,16 +15,11 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import java.util.ArrayList;
-import java.util.Map;
 
 public class Main3Activity extends AppCompatActivity {
 
@@ -39,6 +28,7 @@ public class Main3Activity extends AppCompatActivity {
     private EditText password;
     private Button login;
     private Button register;
+    private Button forgot;
     //  private TextView Info;
     private int counter = 5;
     FirebaseDatabase fBase;
@@ -47,6 +37,8 @@ public class Main3Activity extends AppCompatActivity {
     String _user_email ="";
     String _pasword="";
     String val;
+
+    ProgressDialog progressDialog;
 
     //authentication variable
     FirebaseAuth firebaseAuth = null;
@@ -82,6 +74,14 @@ public class Main3Activity extends AppCompatActivity {
 
             }
         };
+
+        forgot= (Button)findViewById(R.id.btnForgot);
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                main6Activity();
+            }
+        });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -110,14 +110,19 @@ public class Main3Activity extends AppCompatActivity {
     }
 
     private void loginUserWithEmail(String uemail, String pword) {
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("login in progress...");
+        progressDialog.show();
         if (ValidateFieldInput.fieldsNotEmpty(uemail, pword)) {
             firebaseAuth.signInWithEmailAndPassword(uemail, pword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (!task.isSuccessful()) {
                         password.setText("");
+                        progressDialog.dismiss();
                         inValidLogin();
                     } else {
+                        progressDialog.dismiss();
                         //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
                         //  startActivity(intent);
                     }
@@ -126,11 +131,15 @@ public class Main3Activity extends AppCompatActivity {
             });
         } else {
             password.setText("");
+            progressDialog.dismiss();
             inValidLogin();
         }
     }
 
     private void loginUserWithUserName(final String user_email, final String pword) {
+        progressDialog= new ProgressDialog(this);
+        progressDialog.setMessage("login in progress...");
+        progressDialog.show();
         final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users").child(user_email);
         //String val;
         user.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -145,8 +154,10 @@ public class Main3Activity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (!task.isSuccessful()) {
                                     password.setText("");
+                                    progressDialog.dismiss();
                                     inValidLogin();
                                 } else {
+                                    progressDialog.dismiss();
                                     //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
                                     //  startActivity(intent);
                                 }
@@ -155,6 +166,7 @@ public class Main3Activity extends AppCompatActivity {
                         });
                     } else {
                         password.setText("");
+                        progressDialog.dismiss();
                         inValidLogin();
                     }
                 }catch (Exception ex){
@@ -194,6 +206,10 @@ public class Main3Activity extends AppCompatActivity {
 
     public void signup() {
         Intent intent = new Intent(Main3Activity.this, Main5Activity.class);
+        startActivity(intent);
+    }
+    public void main6Activity(){
+        Intent intent = new Intent(Main3Activity.this, ResetPassWord.class);
         startActivity(intent);
     }
 

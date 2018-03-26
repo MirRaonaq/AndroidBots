@@ -40,6 +40,7 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
     private Button register_btn;
     private EditText user_name;
     private EditText user_password;
+    private EditText user_pass_reEntered;
     private EditText user_email;
 
     FirebaseAuth firebaseAuth =null;
@@ -58,6 +59,31 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
         firebaseAuth=FirebaseAuth.getInstance();
         register_btn.setOnClickListener(this);
         user_name =(EditText)findViewById(R.id.username);
+        user_pass_reEntered =(EditText) findViewById(R.id.reEnterPassword);
+
+        final String pass = user_pass_reEntered.getText().toString().trim();
+        final String iniPass =user_password.getText().toString().trim();
+
+        user_pass_reEntered.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus){
+
+                    if (!pass.equals(iniPass)){
+                        user_pass_reEntered.setBackgroundResource(R.drawable.edit_text_password);
+                    }else {
+                        user_pass_reEntered.setBackgroundResource(R.drawable.edit_text_border);
+                    }
+
+                }else {
+                    if (pass.equals(iniPass)){
+                        user_pass_reEntered.setBackgroundResource(R.drawable.edit_text_border);
+
+                    }
+                }
+            }
+
+        });
     }
 
     @Override
