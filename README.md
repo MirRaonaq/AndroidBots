@@ -66,5 +66,5 @@ https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
 
 If you run into any gradle issues while building the project, click File>Sync Project with Gradle Files.
 
-Also, if you have an android device and would like to run the app, connect your phone to your computer. Then enable “USB debugging” from developer option in your phone. Click run from and select your device on android studio. You can also download the apk file from the link provided. Before installing the apk, go to Settings>Security and enable "unknown sources"
+Also, if you have an android device and would like to run the app, connect your phone to your computer. Then enable “USB debugging” from developer option in your phone. Click run and select your device on android studio. You can also download the apk file from the link provided. Before installing the apk, go to Settings>Security and enable "unknown sources"
 
