@@ -2,14 +2,11 @@ package com.example.fatin.foodbasket;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,10 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Main5Activity extends AppCompatActivity implements View.OnClickListener{
+public class Register extends AppCompatActivity implements View.OnClickListener{
 
     private static class User {
 
@@ -50,8 +44,8 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
-        HideKeyBoard.hideKeyPad(findViewById(R.id.home_register), Main5Activity.this);
+        setContentView(R.layout.register);
+        HideKeyBoard.hideKeyPad(findViewById(R.id.home_register), Register.this);
 
         register_btn =(Button) findViewById(R.id.registerBtn);
         user_email =(EditText)findViewById(R.id.email);
@@ -59,12 +53,12 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
         firebaseAuth=FirebaseAuth.getInstance();
         register_btn.setOnClickListener(this);
         user_name =(EditText)findViewById(R.id.username);
-        user_pass_reEntered =(EditText) findViewById(R.id.reEnterPassword);
+       // user_pass_reEntered =(EditText) findViewById(R.id.reEnterPassword);
 
-        final String pass = user_pass_reEntered.getText().toString().trim();
+        //final String pass = user_pass_reEntered.getText().toString().trim();
         final String iniPass =user_password.getText().toString().trim();
 
-        user_pass_reEntered.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+    /*    user_pass_reEntered.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 if (hasFocus){
@@ -83,7 +77,7 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
                 }
             }
 
-        });
+        });*/
     }
 
     @Override
@@ -108,19 +102,19 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
                         final DatabaseReference ref = database.getReference("users");
                         DatabaseReference usersRef = ref.child(userName+"/email");
                         usersRef.setValue(userEmail);
-
-                        Toast.makeText(Main5Activity.this,userName +", Your account hayy was created successfully and Email is: " + userEmail, Toast.LENGTH_LONG).show();
                         comfirmEnteredData(firebaseAuth.getCurrentUser(), userName);
+                        Intent intent = new Intent(Register.this, Main3Activity.class);
+
                     }else {
                         user_email.setText("");
                         user_password.setText("");
-                        Toast.makeText(Main5Activity.this,user_name+", there was an error in your account creation.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Register.this,user_name+", there was an error in your account creation.", Toast.LENGTH_LONG).show();
 
                     }
                 }
             });
         }else {
-           Toast.makeText(Main5Activity.this,"Input field cannot be empty.", Toast.LENGTH_LONG).show();
+           Toast.makeText(Register.this,"Input field cannot be empty.", Toast.LENGTH_LONG).show();
 
        }
     }
@@ -163,7 +157,7 @@ public class Main5Activity extends AppCompatActivity implements View.OnClickList
 
 
 
-        Toast.makeText(this,"User Name created: "+userIScreated+"\nEmail: "+userEmail,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Account was created successfully",Toast.LENGTH_LONG).show();
 
 
 

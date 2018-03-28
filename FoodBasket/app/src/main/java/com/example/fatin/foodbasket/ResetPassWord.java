@@ -1,6 +1,7 @@
 package com.example.fatin.foodbasket;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -66,7 +67,9 @@ public class ResetPassWord extends AppCompatActivity{
 
         findViewById(R.id.resetButton).setVisibility(View.GONE);
         findViewById(R.id.resetPassword).setVisibility(View.GONE);
-        Toast.makeText(ResetPassWord.this,"Password reset email was sucessfully", Toast.LENGTH_LONG).show();
+        Toast.makeText(ResetPassWord.this,"Password reset email was send successfully", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, Main3Activity.class);
+
 
     }
 

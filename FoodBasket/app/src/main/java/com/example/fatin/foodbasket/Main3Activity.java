@@ -51,7 +51,7 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.login_main);
 
         HideKeyBoard.hideKeyPad(findViewById(R.id.home), Main3Activity.this);
         name = (EditText) findViewById(R.id.etName);
@@ -205,7 +205,7 @@ public class Main3Activity extends AppCompatActivity {
 
 
     public void signup() {
-        Intent intent = new Intent(Main3Activity.this, Main5Activity.class);
+        Intent intent = new Intent(Main3Activity.this, Register.class);
         startActivity(intent);
     }
     public void main6Activity(){
