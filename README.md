@@ -3,6 +3,10 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndroidBots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Download Food Basket here: https://drive.google.com/file/d/1V-CV9Hd0qseGGZGtPGGizd9_h60Hp2n3/view
+
+Note: Food Basket currently runs in Android API 21, 22, 23, and 24. When selecting a virutal device select an API between 21-24.  
+
 ### Project Description
 
 Food Basket is for free food and items.
@@ -51,7 +55,7 @@ https://www.youtube.com/watch?v=X_XTFI-sr04
 **Alpha Release**:
 https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
 
-**How to Run Prototype**
+**How to Run Prototype & Alpha Release**
 
 1.	First download Android Studio from here: https://developer.android.com/studio/index.html
 
