@@ -3,8 +3,6 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndroidBots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Download Food Basket here: https://drive.google.com/file/d/1V-CV9Hd0qseGGZGtPGGizd9_h60Hp2n3/view
-
 ### Project Description
 
 Food Basket is for free food and items.
@@ -66,5 +64,7 @@ https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
 
 ![](images/three.png)
 
-Also, if you have an android device, enable “USB debugging” from developer option. Then run the app on your phone.
+If you run into any gradle issues while building the project, click File>Sync Project with Gradle Files.
+
+Also, if you have an android device and would like to run the app, connect your phone to your computer. Then enable “USB debugging” from developer option in your phone. Click run from and select your device on android studio. You can also download the apk file from the link provided. Before installing the apk, go to Settings>Security and enable "unknown sources"
 
