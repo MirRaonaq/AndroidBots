@@ -3,7 +3,7 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndroidBots/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Download Food Basket here: https://drive.google.com/file/d/1V-CV9Hd0qseGGZGtPGGizd9_h60Hp2n3/view
+Download Food Basket here: https://drive.google.com/open?id=1l01u2518aAtDJa1fnhxvXlq2i01CDjJt
 
 Note: Food Basket currently runs in Android API 21, 22, 23, and 24. When selecting a virutal device select an API between 21-24.  
 
