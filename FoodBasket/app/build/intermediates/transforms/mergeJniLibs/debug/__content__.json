@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [{"name":"resources","index":0,"scopes":["PROJECT","SUB_PROJECTS","EXTERNAL_LIBRARIES"],"types":["NATIVE_LIBS"],"format":"DIRECTORY","present":false}]
+=======
+[{"name":"resources","index":5,"scopes":["PROJECT","SUB_PROJECTS","EXTERNAL_LIBRARIES"],"types":["NATIVE_LIBS"],"format":"DIRECTORY","present":false}]
+>>>>>>> 4c91d850bd7576becac74d8fd5531b12c274b4c9

@@ -1,7 +1,13 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Fri Mar 02 22:36:32 EST 2018
 2.base=C\:\\Users\\Kemo\\Desktop\\cse442\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
 5.set=DEX
+=======
+#Sun Mar 25 15:16:54 EDT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\kemok\\Desktop\\Spring2018\\CSE_442\\project\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+>>>>>>> 4c91d850bd7576becac74d8fd5531b12c274b4c9
 0.path=classes.dex
 2.baseType=DIRECTORY
 3.base=C\:\\Users\\Kemo\\Desktop\\cse442\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #Fri Mar 02 22:36:32 EST 2018
 path.1=classes.dex
+=======
+#Wed Mar 28 02:01:40 EDT 2018
+base.0=C\:\\Users\\kemok\\Desktop\\Spring2018\\CSE_442\\project\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+>>>>>>> 4c91d850bd7576becac74d8fd5531b12c274b4c9
 path.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex

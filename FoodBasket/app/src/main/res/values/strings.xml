@@ -11,5 +11,16 @@
     <string name="roomNumber">Room number</string>
     <string name="typeSomething">testing input box</string>-->
 
+    <string-array name="names">
+        <item>Menu</item>
+        <item>Home</item>
+        <item>Logout</item>
+        <item>Deactivate</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
