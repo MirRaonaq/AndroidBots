@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.1.aar/cf6a6c05fec3ae2d5d7d1fa16d672e08/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/966fd11608658ee1a060d65f71d80ade/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:17:1-31:12
@@ -51,20 +51,20 @@ MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /Users/
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/2bc536818925fdccaf48bccab8f64825/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.0.aar/e997e16254f2caf5e92f9e33bd0aa162/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/a7db92ac227c5ba234ebb49d6f8b4d65/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:11-69
@@ -533,9 +533,9 @@ ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/tran
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/ea0af235bac82dd783e45143e091b036/AndroidManifest.xml:9:13-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-39:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:25:9-27:47
 	android:value
