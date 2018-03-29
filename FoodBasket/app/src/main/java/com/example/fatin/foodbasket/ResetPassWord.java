@@ -20,7 +20,7 @@ public class ResetPassWord extends AppCompatActivity{
     EditText passwordReset;
     Button resetButton;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reset_pass_word);
 
@@ -34,32 +34,43 @@ public class ResetPassWord extends AppCompatActivity{
                 FirebaseAuth mAuth = FirebaseAuth.getInstance();
                 String email =passwordReset.getText().toString().trim();
                 final ProgressDialog progressDialog = new ProgressDialog(ResetPassWord.this);
-                progressDialog.setMessage("Sending..");
-                progressDialog.show();
-                mAuth.sendPasswordResetEmail(email)
-                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        if (task.isSuccessful()){
+                progressDialog.setMessage("Sending reset email..");
+                if (ValidateFieldInput.fieldsNotEmpty(email)){
+                    progressDialog.show();
+                    mAuth.sendPasswordResetEmail(email)
+                            .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                    if (task.isSuccessful()){
+                                        progressDialog.dismiss();
+                                        sendAlert();
+                                    }else {
+                                        progressDialog.dismiss();
+                                       // Toast.makeText(ResetPassWord.this,"Email badly formated", Toast.LENGTH_LONG).show();
+
+                                    }
+
+                                }
+                            }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
                             progressDialog.dismiss();
-                            sendAlert();
-                        }else {
-                            progressDialog.dismiss();
-                            Toast.makeText(ResetPassWord.this,"Email not send Sucessfully", Toast.LENGTH_LONG).show();
+                            String string[] = e.toString().split(":");
+                                Toast.makeText(getApplicationContext(),string[1].toString().trim(), Toast.LENGTH_SHORT).show();
+
 
                         }
+                    });
+                }else {
+                    progressDialog.dismiss();
+                    Toast.makeText(ResetPassWord.this,"Email field is required", Toast.LENGTH_LONG).show();
 
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        progressDialog.dismiss();
-                        Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT).show();
+                }
 
-                    }
-                });
             }
         });
+
+
 
     }
 

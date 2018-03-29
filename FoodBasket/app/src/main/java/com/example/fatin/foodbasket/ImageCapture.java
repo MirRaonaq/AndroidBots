@@ -22,6 +22,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -31,7 +32,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.squareup.picasso.Picasso;
+
 import android.Manifest;
+
 import java.util.Date;
 
 
@@ -41,7 +45,7 @@ public class ImageCapture extends AppCompatActivity {
     ImageView mImageLabel;
     Uri imUrl;
     ProgressDialog progressDialog;
-    String TAG ="CurrentUser";
+    String TAG = "CurrentUser";
 
     EditText desc;
     EditText buildName;
@@ -65,11 +69,11 @@ public class ImageCapture extends AppCompatActivity {
         setContentView(R.layout.capture_image);
         HideKeyBoard.hideKeyPad(findViewById(R.id.imageView), ImageCapture.this);
 
-        mImageLabel =(ImageView)findViewById(R.id.imageView);
-        btnShare=(Button)findViewById(R.id.buttonShare);
-        buildName =(EditText)findViewById(R.id.buildingName);
-        roomNum = (EditText)findViewById(R.id.roomNumber);
-        desc = (EditText)findViewById(R.id.description);
+        mImageLabel = (ImageView) findViewById(R.id.imageView);
+        btnShare = (Button) findViewById(R.id.buttonShare);
+        buildName = (EditText) findViewById(R.id.buildingName);
+        roomNum = (EditText) findViewById(R.id.roomNumber);
+        desc = (EditText) findViewById(R.id.description);
 /*
         postBuildN =(TextView) findViewById(R.id.postBuildNum);
         postDes =(TextView)findViewById(R.id.postDesc);
@@ -84,49 +88,59 @@ public class ImageCapture extends AppCompatActivity {
         DatabaseReference usersRef = ref.child(userName+"/email");
         usersRef.setValue(userEmail);*/
 
-        if (ContextCompat.checkSelfPermission((Activity)this,Manifest.permission.WRITE_EXTERNAL_STORAGE)==
-                PackageManager.PERMISSION_GRANTED){
-            ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}
-                    ,REQUEST_PERMISSION);
+        if (ContextCompat.checkSelfPermission((Activity) this, Manifest.permission.WRITE_EXTERNAL_STORAGE) ==
+                PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}
+                    , REQUEST_PERMISSION);
         }
 
 
         progressDialog = new ProgressDialog(this);
 
-       btnShare.setOnClickListener(new View.OnClickListener() {
+        btnShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 progressDialog.setTitle("Uploading........");
-                progressDialog.show();
-                if (ValidateFieldInput.fieldsNotEmpty(desc.getText().toString(), roomNum.getText().toString(),desc.getText().toString())) {
-                    DatabaseReference mdata = databaseReference.push();
-                    mdata.child("description").setValue(desc.getText().toString());
-                    mdata.child("roomNum").setValue(roomNum.getText().toString());
-                    mdata.child("buildingName").setValue(buildName.getText().toString());
-                    mdata.child("image").setValue(uri_download.toString());
-                    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                    progressDialog.dismiss();
+                if (uri_download != null) {
+                    if (ValidateFieldInput.fieldsNotEmpty(desc.getText().toString(), roomNum.getText().toString(), desc.getText().toString())) {
+                        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-                    Intent intent = new Intent(ImageCapture.this, PostedImages.class);
-                    startActivity(intent);
-                }
-                else {
-                    Toast.makeText(ImageCapture.this,"All input field are required", Toast.LENGTH_LONG).show();
+                        progressDialog.show();
+                        DatabaseReference mdata = databaseReference.push();
+                        //  FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+                        mdata.child("description").setValue(desc.getText().toString());
+                        mdata.child("roomNum").setValue(roomNum.getText().toString());
+                        mdata.child("buildingName").setValue(buildName.getText().toString());
+                        mdata.child("image").setValue(uri_download.toString());
+                        progressDialog.dismiss();
+
+                        Intent intent = new Intent(ImageCapture.this, PostedImages.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(ImageCapture.this, "All input fields are required", Toast.LENGTH_LONG).show();
+
+                    }
+                } else {
+                    Toast.makeText(ImageCapture.this, "You must take a photo", Toast.LENGTH_LONG).show();
+
                 }
 
             }
         });
 
     }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode==REQUEST_PERMISSION &&grantResults.length>0){
-            if (grantResults[0]==PackageManager.PERMISSION_GRANTED){
+        if (requestCode == REQUEST_PERMISSION && grantResults.length > 0) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             }
 
         }
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -139,7 +153,7 @@ public class ImageCapture extends AppCompatActivity {
     }
 
     private void launchCamera() {
-        Toast.makeText(this,"opening camera", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "opening camera", Toast.LENGTH_LONG).show();
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(this.getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_CODE);
@@ -153,8 +167,8 @@ public class ImageCapture extends AppCompatActivity {
             progressDialog.setMessage("Uploading image.....");
             progressDialog.show();
             imUrl = data.getData();
-            Bundle bundle= data.getExtras();
-            Log.d(TAG, "onActivityResult: "+imUrl.toString());
+            Bundle bundle = data.getExtras();
+            Log.d(TAG, "onActivityResult: " + imUrl.toString());
             // content://media/external/images/media/162500
 
             Bundle extras = data.getExtras();
@@ -167,7 +181,7 @@ public class ImageCapture extends AppCompatActivity {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         uri_download = taskSnapshot.getDownloadUrl();
-                        // Picasso.get().load(uri_download).into(mImageLabel);
+                        Picasso.get().load(uri_download).into(mImageLabel);
                         mImageLabel.setImageBitmap(imageBitmap);
 
 
@@ -181,8 +195,8 @@ public class ImageCapture extends AppCompatActivity {
 
                     }
                 });
-            }else {
-                Toast.makeText(this,"Unsupported Sdk.Use version Sdk 21", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(this, "Unsupported Sdk.Use version Sdk 21", Toast.LENGTH_LONG).show();
                 progressDialog.dismiss();
             }
         }
@@ -194,8 +208,8 @@ public class ImageCapture extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    public void main1(){
-        Intent intent= new Intent(ImageCapture.this,MainActivity.class);
+    public void main1() {
+        Intent intent = new Intent(ImageCapture.this, MainActivity.class);
         startActivity(intent);
     }
 
