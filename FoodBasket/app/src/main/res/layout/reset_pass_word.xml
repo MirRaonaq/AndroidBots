@@ -17,17 +17,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:paddingLeft="5px"
+        android:background="@drawable/edit_text_border"
         android:ems="10"
         android:hint="E-mail"
-        android:background="@drawable/edit_text_border"
         android:inputType="textEmailAddress"
+        android:paddingLeft="5px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -41,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117"
+        app:layout_constraintVertical_bias="0.083"
         app:srcCompat="@drawable/icon" />
 
     <TextView
@@ -55,11 +54,10 @@
         android:text="Reset Your Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307"
-        />
+        app:layout_constraintVertical_bias="0.346" />
 
     <Button
         android:id="@+id/resetButton"
@@ -69,14 +67,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/register_btn"
         android:text="Send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598"
-        android:background="@drawable/register_btn"
-        />
+        app:layout_constraintVertical_bias="0.767" />
 
         app:layout_constraintVertical_bias="0.598" />
 
