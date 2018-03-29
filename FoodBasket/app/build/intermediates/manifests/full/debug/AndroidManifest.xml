@@ -7,7 +7,7 @@
     <uses-sdk
         android:maxSdkVersion="26"
         android:minSdkVersion="21"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -56,10 +56,6 @@
         <activity android:name="com.example.fatin.foodbasket.PostedImages" />
         <activity android:name="com.example.fatin.foodbasket.Register" />
         <activity android:name="com.example.fatin.foodbasket.ResetPassWord" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
         <!--
              FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -146,10 +142,6 @@
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.fatin.foodbasket.com.squareup.picasso"
             android:exported="false" />
-
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>
