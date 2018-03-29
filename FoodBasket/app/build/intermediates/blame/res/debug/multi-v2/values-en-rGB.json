@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kemok\\Desktop\\Spring2018\\CSE_442\\project\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "/Users/Mir/Desktop/AndroidBots/FoodBasket/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\09cc49cb262962d4df8d501000f051ca\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/422d0a9004772f418f7f6deba83bf635/res/values-en-rGB/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,352,536,659,764,974,1095,1237,1365,1583,1686,1869,1992,2197,2371,2460,2548",
+                        "endColumns": "102,183,122,104,209,120,141,127,217,102,182,122,204,173,88,87,103",
+                        "endOffsets": "351,535,658,763,973,1094,1236,1364,1582,1685,1868,1991,2196,2370,2459,2547,2651"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2019,2126,2310,2437,2546,2756,2881,3027,3356,3574,3681,3864,3991,4196,4374,4467,4559",
+                        "endColumns": "106,183,126,108,209,124,145,131,217,106,182,126,204,177,92,91,107",
+                        "endOffsets": "2121,2305,2432,2541,2751,2876,3022,3154,3569,3676,3859,3986,4191,4369,4462,4554,4662"
+                    }
+                },
+                {
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.0.aar\\2b8d644901cbf6263a203252b597810b\\res\\values-en-rGB\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "196",
-                        "endOffsets": "447"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3159",
-                        "endColumns": "196",
-                        "endOffsets": "3351"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.0.aar\\086066034f6a7f2a243e70e1d28e045d\\res\\values-en-rGB\\values.xml",
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/res/values-en-rGB/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.0.aar\\895212b4b9e4a82f02d7c3a0aa091eb2\\res\\values-en-rGB\\values.xml",
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/res/values-en-rGB/values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "249,352,536,659,764,974,1095,1237,1365,1583,1686,1869,1992,2197,2371,2460,2548",
-                        "endColumns": "102,183,122,104,209,120,141,127,217,102,182,122,204,173,88,87,103",
-                        "endOffsets": "351,535,658,763,973,1094,1236,1364,1582,1685,1868,1991,2196,2370,2459,2547,2651"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "196",
+                        "endOffsets": "447"
                     },
                     "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2019,2126,2310,2437,2546,2756,2881,3027,3356,3574,3681,3864,3991,4196,4374,4467,4559",
-                        "endColumns": "106,183,126,108,209,124,145,131,217,106,182,126,204,177,92,91,107",
-                        "endOffsets": "2121,2305,2432,2541,2751,2876,3022,3154,3569,3676,3859,3986,4191,4369,4462,4554,4662"
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3159",
+                        "endColumns": "196",
+                        "endOffsets": "3351"
                     }
                 }
             ]

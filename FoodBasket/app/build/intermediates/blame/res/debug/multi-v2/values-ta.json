@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kemok\\Desktop\\Spring2018\\CSE_442\\project\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "/Users/Mir/Desktop/AndroidBots/FoodBasket/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\09cc49cb262962d4df8d501000f051ca\\res\\values-ta\\values-ta.xml",
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/422d0a9004772f418f7f6deba83bf635/res/values-ta/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,532,657,761,972,1098,1237,1363,1605,1710,1894,2027,2240,2422,2510,2599",
+                        "endColumns": "102,183,124,103,210,125,138,125,241,104,183,132,212,181,87,88,105",
+                        "endOffsets": "347,531,656,760,971,1097,1236,1362,1604,1709,1893,2026,2239,2421,2509,2598,2704"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2076,2183,2367,2496,2604,2815,2945,3088,3443,3685,3794,3978,4115,4328,4514,4606,4699",
+                        "endColumns": "106,183,128,107,210,129,142,129,241,108,183,136,212,185,91,92,109",
+                        "endOffsets": "2178,2362,2491,2599,2810,2940,3083,3213,3680,3789,3973,4110,4323,4509,4601,4694,4804"
+                    }
+                },
+                {
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.0.aar\\086066034f6a7f2a243e70e1d28e045d\\res\\values-ta\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "39",
-                        "startColumns": "4",
-                        "startOffsets": "4809",
-                        "endColumns": "104",
-                        "endOffsets": "4909"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.0.aar\\2b8d644901cbf6263a203252b597810b\\res\\values-ta\\values.xml",
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/res/values-ta/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kemok\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.0.aar\\895212b4b9e4a82f02d7c3a0aa091eb2\\res\\values-ta\\values.xml",
+                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/res/values-ta/values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,348,532,657,761,972,1098,1237,1363,1605,1710,1894,2027,2240,2422,2510,2599",
-                        "endColumns": "102,183,124,103,210,125,138,125,241,104,183,132,212,181,87,88,105",
-                        "endOffsets": "347,531,656,760,971,1097,1236,1362,1604,1709,1893,2026,2239,2421,2509,2598,2704"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
                     },
                     "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2076,2183,2367,2496,2604,2815,2945,3088,3443,3685,3794,3978,4115,4328,4514,4606,4699",
-                        "endColumns": "106,183,128,107,210,129,142,129,241,108,183,136,212,185,91,92,109",
-                        "endOffsets": "2178,2362,2491,2599,2810,2940,3083,3213,3680,3789,3973,4110,4323,4509,4601,4694,4804"
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4809",
+                        "endColumns": "104",
+                        "endOffsets": "4909"
                     }
                 }
             ]
