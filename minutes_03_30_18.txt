@@ -1,0 +1,42 @@
+Date: 03/30/2018 @ 5:00 p.m.
+
+Memebers present:
+
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+
+Meeting Discussions:
+
+  - Next meeting date
+  - Beta release objectives
+  - Assign roles for beta release
+  - What can we improve from Alpha Release
+
+
+Individual Contributions since last meeting:
+	Kemo
+		- Added ability to see items on claim page now, finished account 		  	  deactivation
+	Mir
+    		- Updated README, added developer documentation, uploaded video, and 			  account deactivation page
+	Fatin:
+		- Integrated camera, now able to snap pictures and write descriptions, 			  recorded video for Alpha release
+	Wentao:
+		- Working on button designs
+	Ziang:
+		- Working on UI
+
+Individual Expected Contributions before next meeting:
+
+	Kemo
+		- Add more functionality and intuitiveness to the app using firebase
+	Fatin
+		- Update camera to use full picture instead of thumbnail
+	Mir
+		- Finish landing page for Beta release
+	Ziang
+		- Continue to work on the frontend (background)
+	Wentao
+		- Continue to work on the frontend (buttons)
