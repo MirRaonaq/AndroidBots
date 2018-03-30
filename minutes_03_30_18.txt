@@ -18,11 +18,11 @@ Meeting Discussions:
 
 Individual Contributions since last meeting:
 	Kemo
-		- Added ability to see items on claim page now, finished account 		  	  deactivation
+		- Added ability to see items on claim page now, finished account deactivation
 	Mir
-    		- Updated README, added developer documentation, uploaded video, and 			  account deactivation page
+    		- Updated README, added developer documentation, uploaded video, and account deactivation page
 	Fatin:
-		- Integrated camera, now able to snap pictures and write descriptions, 			  recorded video for Alpha release
+		- Integrated camera, now able to snap pictures and write descriptions, recorded video for Alpha release
 	Wentao:
 		- Working on button designs
 	Ziang:
