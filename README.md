@@ -5,7 +5,7 @@
 
 Download Food Basket here: https://drive.google.com/open?id=1l01u2518aAtDJa1fnhxvXlq2i01CDjJt
 
-Note: Food Basket currently runs in Android API 21, 22, and 24. When selecting a virutal device select an API between 21,22, or 24.  
+Note: Food Basket currently runs in Android API 21, 22, 23, 24 (works on phone but crashes on emulator), and 27.  
 
 ### Project Description
 
@@ -62,7 +62,8 @@ https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
 
 ![](images/three.png)
 
-NOTE: The app might crash on API 25 or 23 or greater. When selecting a virtual device choose any API between 21, 22, or 24.
+NOTE EMULATOR ONLY: The app might crash on API 25 or greater. When selecting a virtual device choose any API between 21, 22, 23, or 27.
+If the app crashes after pressing "LOGIN" you need to update google play services in the emulator. In this case launch the "Play Store" app which will prompt you to update play services.
 
 If you run into any gradle issues while building the project, click File>Sync Project with Gradle Files.
 
