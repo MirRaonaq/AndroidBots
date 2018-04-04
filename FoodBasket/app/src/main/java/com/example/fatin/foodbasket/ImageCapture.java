@@ -6,7 +6,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.PersistableBundle;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
@@ -62,6 +64,8 @@ public class ImageCapture extends AppCompatActivity {
     private Uri uri_download;
 
     static final int REQUEST_PERMISSION = 2;
+
+    Bitmap imageBitmap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -176,7 +180,7 @@ public class ImageCapture extends AppCompatActivity {
             progressDialog.show();
 
             Bundle extras = data.getExtras();
-            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            this.imageBitmap = (Bitmap) extras.get("data");
            // Log.d(TAG, "onActivityResult: " + extras.toString());
             Date date = new Date(System.currentTimeMillis());
             StorageReference ref = FirebaseStorage.getInstance().getReference().child("images").child(date.toString());
@@ -188,6 +192,7 @@ public class ImageCapture extends AppCompatActivity {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             imageBitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
             byte[] _data = baos.toByteArray();
+
 
             UploadTask uploadTask = ref.putBytes(_data);
             uploadTask.addOnFailureListener(new OnFailureListener() {
@@ -232,6 +237,22 @@ public class ImageCapture extends AppCompatActivity {
                 progressDialog.dismiss();
             }*/
         }
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        savedInstanceState.putParcelable("BitmapImage", imageBitmap);
+        super.onSaveInstanceState(savedInstanceState);
+        Bitmap image = savedInstanceState.getParcelable("BitmapImage");
+        this.imageBitmap = image;
+        mImageLabel.setImageBitmap(this.imageBitmap);
+    }
+
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState){
+        Bitmap image = savedInstanceState.getParcelable("BitmapImage");
+        mImageLabel.setImageBitmap(image);
     }
 
     @Override
