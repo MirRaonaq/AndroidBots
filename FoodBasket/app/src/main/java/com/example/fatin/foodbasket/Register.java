@@ -1,5 +1,6 @@
 package com.example.fatin.foodbasket;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +23,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
 
+    private ProgressDialog progressDialog;
+
     private static class User {
 
         public String email;
@@ -39,13 +42,15 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
     FirebaseAuth firebaseAuth =null;
     static String TAG ="HELL0";
-    boolean userIScreated =false;
+    //boolean userIScreated =false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
         HideKeyBoard.hideKeyPad(findViewById(R.id.home_register), Register.this);
+        progressDialog= new ProgressDialog(this);
+
 
         register_btn =(Button) findViewById(R.id.registerBtn);
         user_email =(EditText)findViewById(R.id.email);
@@ -56,7 +61,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
        // user_pass_reEntered =(EditText) findViewById(R.id.reEnterPassword);
 
         //final String pass = user_pass_reEntered.getText().toString().trim();
-        final String iniPass =user_password.getText().toString().trim();
+        //final String iniPass =user_password.getText().toString().trim();
 
     /*    user_pass_reEntered.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -93,27 +98,33 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     private void registerUser(final String userEmail,final String userPassword, final String userName) {
 
         if(ValidateFieldInput.fieldsNotEmpty(userEmail,userPassword,userName)){
+            progressDialog.setTitle("Registration in progress...");
+            progressDialog.show();
             firebaseAuth.createUserWithEmailAndPassword(userEmail,userPassword).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()){
-                        userIScreated=true;
+                        progressDialog.dismiss();
                         final FirebaseDatabase database = FirebaseDatabase.getInstance();
                         final DatabaseReference ref = database.getReference("users");
                         DatabaseReference usersRef = ref.child(userName+"/email");
                         usersRef.setValue(userEmail);
                         comfirmEnteredData(firebaseAuth.getCurrentUser(), userName);
+                        firebaseAuth.signOut();
                         Intent intent = new Intent(Register.this, Main3Activity.class);
+                        startActivity(intent);
 
                     }else {
+                        progressDialog.dismiss();
                         user_email.setText("");
                         user_password.setText("");
-                        Toast.makeText(Register.this,user_name+", there was an error in your account creation.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Register.this,"There was an error in creating your account.", Toast.LENGTH_LONG).show();
 
                     }
                 }
             });
         }else {
+            progressDialog.dismiss();
            Toast.makeText(Register.this,"Input field cannot be empty.", Toast.LENGTH_LONG).show();
 
        }
@@ -157,7 +168,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
 
 
-        Toast.makeText(this,"Account was created successfully",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Your account was created successfully",Toast.LENGTH_LONG).show();
 
 
 
