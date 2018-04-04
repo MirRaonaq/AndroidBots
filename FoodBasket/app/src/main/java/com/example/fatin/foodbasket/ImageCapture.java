@@ -212,30 +212,6 @@ public class ImageCapture extends AppCompatActivity {
                 }
             });
 
-
-           /* if (imUrl != null) {
-                ref.putFile(imUrl).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                    @Override
-                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        uri_download = taskSnapshot.getDownloadUrl();
-                        Picasso.get().load(uri_download).into(mImageLabel);
-                        mImageLabel.setImageBitmap(imageBitmap);
-
-
-                        progressDialog.dismiss();
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        e.printStackTrace();
-                        progressDialog.dismiss();
-
-                    }
-                });
-            } else {
-                Toast.makeText(this, "Unsupported Sdk.Use version Sdk 21", Toast.LENGTH_LONG).show();
-                progressDialog.dismiss();
-            }*/
         }
     }
 

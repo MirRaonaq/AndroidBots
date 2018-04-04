@@ -17,23 +17,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main3Activity">
+        <activity android:name=".Main3Activity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImageCapture"
+        <activity android:name=".ImageCapture" android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity" android:screenOrientation="portrait"
             android:label="@string/title_activity_main3"
             android:theme="@style/AppTheme" />
-        <activity android:name=".PostedImages" />
-        <activity android:name=".Register" />
-        <activity android:name=".ResetPassWord"></activity>
+        <activity android:name=".PostedImages" android:screenOrientation="portrait"/>
+        <activity android:name=".Register" android:screenOrientation="portrait"/>
+        <activity android:name=".ResetPassWord" android:screenOrientation="portrait"></activity>
     </application>
 
 
