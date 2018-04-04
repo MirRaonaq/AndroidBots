@@ -175,20 +175,6 @@ MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\kemok\.gradle\cac
 MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.0.aar\d344456e6139d83b0b86d5811c3033da\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:8:22-64
-uses-feature#android.hardware.camera
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:9:5-83
-	android:required
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:9:58-81
-	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:9:19-57
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:10:5-80
-	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:10:22-77
-uses-permission#android.permission.CAMERA
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:11:5-81
-	android:name
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:11:22-62
 application
 ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:13:5-37:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
@@ -485,3 +471,5 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-39:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-39:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-39:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE

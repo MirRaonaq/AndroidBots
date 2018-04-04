@@ -36,6 +36,7 @@ import com.squareup.picasso.Picasso;
 
 import android.Manifest;
 
+import java.io.ByteArrayOutputStream;
 import java.util.Date;
 
 
@@ -107,12 +108,19 @@ public class ImageCapture extends AppCompatActivity {
 
                         progressDialog.show();
                         DatabaseReference mdata = databaseReference.push();
-                        //  FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+                        String currUser = user.getEmail();
+                        String u = currUser.split("@")[0];
 
                         mdata.child("description").setValue(desc.getText().toString());
                         mdata.child("roomNum").setValue(roomNum.getText().toString());
                         mdata.child("buildingName").setValue(buildName.getText().toString());
                         mdata.child("image").setValue(uri_download.toString());
+                        mdata.child("date").setValue(new Date(System.currentTimeMillis()).toString());
+                        mdata.child("posted_by").setValue(u);
+
+
+
                         progressDialog.dismiss();
 
                         Intent intent = new Intent(ImageCapture.this, PostedImages.class);
@@ -161,22 +169,46 @@ public class ImageCapture extends AppCompatActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE && resultCode == this.RESULT_OK) {
             progressDialog.setMessage("Uploading image.....");
             progressDialog.show();
-            imUrl = data.getData();
-            Bundle bundle = data.getExtras();
-            Log.d(TAG, "onActivityResult: " + imUrl.toString());
-            // content://media/external/images/media/162500
 
             Bundle extras = data.getExtras();
-            final Bitmap imageBitmap = (Bitmap) extras.get("data");
-
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+           // Log.d(TAG, "onActivityResult: " + extras.toString());
             Date date = new Date(System.currentTimeMillis());
             StorageReference ref = FirebaseStorage.getInstance().getReference().child("images").child(date.toString());
-            if (imUrl != null) {
+
+            mImageLabel.setImageBitmap(imageBitmap);
+            mImageLabel.setDrawingCacheEnabled(true);
+            mImageLabel.buildDrawingCache();
+
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            imageBitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            byte[] _data = baos.toByteArray();
+
+            UploadTask uploadTask = ref.putBytes(_data);
+            uploadTask.addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception exception) {
+                    // Handle unsuccessful uploads
+                    Log.d(TAG, "onFailure: "+  exception.toString());
+                    progressDialog.dismiss();
+                }
+            }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                    // taskSnapshot.getMetadata() contains file metadata such as size, content-type, and download URL.
+                   // Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                    uri_download = taskSnapshot.getDownloadUrl();
+                    progressDialog.dismiss();
+                }
+            });
+
+
+           /* if (imUrl != null) {
                 ref.putFile(imUrl).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -198,7 +230,7 @@ public class ImageCapture extends AppCompatActivity {
             } else {
                 Toast.makeText(this, "Unsupported Sdk.Use version Sdk 21", Toast.LENGTH_LONG).show();
                 progressDialog.dismiss();
-            }
+            }*/
         }
     }
 
