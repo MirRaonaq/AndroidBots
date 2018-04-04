@@ -24,11 +24,14 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="360dp"
-                android:layout_height="290dp"
-                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:layout_marginLeft="5pt"
+                android:layout_marginLeft="15pt"
+                android:contentDescription="@string/_image"
+
+
                 app:srcCompat="@android:color/background_light" />
 
             <TextView
@@ -131,6 +134,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.845" />
+          <!--DATE FIELD
+            <TextView
+                android:layout_width="20pt"
+                android:layout_height="20pt"
+                android:hint="date posted:"
+                android:id="@+id/posted_date"/> -->
         </LinearLayout>
     </ScrollView>
 
