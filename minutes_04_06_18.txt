@@ -20,7 +20,7 @@ Individual Contributions since last meeting:
 	Kemo
 		- Fixed all the bugs reported to GitHub
 	Mir
-    - Finished Beta Tasks, worked on landing page, tested app for anymore bugs
+    		- Finished Beta Tasks, worked on landing page, tested app for anymore bugs
 	Fatin:
 		- Made app available to more API versions of Android, fixed landscape issues
 	Wentao:
@@ -31,11 +31,11 @@ Individual Contributions since last meeting:
 Individual Expected Contributions before next meeting:
 
 	Kemo
-		- Ability to send notifications to nearby users
+		- Ability to send notifications to nearby users and report button
 	Fatin
 		- Ability to claim food
 	Mir
-		- Finish landing page for Beta release
+		- Finish landing page for Beta release help with ability to claim food
 	Ziang
 		- Continue to work on the frontend (background)
 	Wentao
