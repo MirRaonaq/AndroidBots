@@ -1,0 +1,42 @@
+Date: 04/06/2018 @ 5:00 p.m.
+
+Memebers present:
+
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+
+Meeting Discussions:
+
+  - Next meeting date
+  - Beta release objectives
+  - Progress on Beta Release
+  - Landing Page layout
+
+
+Individual Contributions since last meeting:
+	Kemo
+		- Fixed all the bugs reported to GitHub
+	Mir
+    - Finished Beta Tasks, worked on landing page, tested app for anymore bugs
+	Fatin:
+		- Made app available to more API versions of Android, fixed landscape issues
+	Wentao:
+		- Worked on makeup report and beta tasks
+	Ziang:
+		- Worked on makeup report and beta tasks
+
+Individual Expected Contributions before next meeting:
+
+	Kemo
+		- Ability to send notifications to nearby users
+	Fatin
+		- Ability to claim food
+	Mir
+		- Finish landing page for Beta release
+	Ziang
+		- Continue to work on the frontend (background)
+	Wentao
+		- Continue to work on the frontend (buttons)
