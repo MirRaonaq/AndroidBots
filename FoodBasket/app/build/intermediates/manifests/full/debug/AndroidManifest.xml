@@ -7,17 +7,10 @@
     <uses-sdk
         android:maxSdkVersion="26"
         android:minSdkVersion="21"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="true" />
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -29,7 +22,12 @@
     <uses-permission android:name="com.example.fatin.foodbasket.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--
+- <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    -->
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -37,8 +35,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.fatin.foodbasket.Main3Activity" >
+        <activity
+            android:name="com.example.fatin.foodbasket.Main3Activity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,18 +48,22 @@
         </activity>
         <activity
             android:name="com.example.fatin.foodbasket.ImageCapture"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name="com.example.fatin.foodbasket.MainActivity"
             android:label="@string/title_activity_main3"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.example.fatin.foodbasket.PostedImages" />
-        <activity android:name="com.example.fatin.foodbasket.Register" />
-        <activity android:name="com.example.fatin.foodbasket.ResetPassWord" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
+        <activity
+            android:name="com.example.fatin.foodbasket.PostedImages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.fatin.foodbasket.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.fatin.foodbasket.ResetPassWord"
+            android:screenOrientation="portrait" />
         <!--
              FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -145,10 +150,6 @@
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.fatin.foodbasket.com.squareup.picasso"
             android:exported="false" />
-
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

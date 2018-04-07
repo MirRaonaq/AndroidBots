@@ -139,16 +139,14 @@ public class Main3Activity extends AppCompatActivity {
     private void loginUserWithUserName(final String user_email, final String pword) {
         progressDialog= new ProgressDialog(this);
         progressDialog.setMessage("login in progress...");
-        progressDialog.show();
         final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users").child(user_email);
-        //String val;
         user.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 try {
                     String retVal=dataSnapshot.child("email").getValue().toString();
-                   // Log.d(TAG, "onDataChange: "+retVal);
                     if (ValidateFieldInput.fieldsNotEmpty(retVal, pword)) {
+                        progressDialog.show();
                         firebaseAuth.signInWithEmailAndPassword(retVal, pword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -195,8 +193,9 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        firebaseAuth.signOut();
-        firebaseAuth.removeAuthStateListener(authStateListener);
+       // firebaseAuth.signOut();
+       //
+       firebaseAuth.removeAuthStateListener(authStateListener);
     }
 
     private void inValidLogin() {

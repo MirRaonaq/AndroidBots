@@ -6,8 +6,7 @@ INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidMani
 INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.1.aar/cf6a6c05fec3ae2d5d7d1fa16d672e08/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/966fd11608658ee1a060d65f71d80ade/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:design:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ce38be0503e2be21616e64e075ce3766/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.0.aar/3081ee711817072e3dc98e6a9d8a3fac/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.firebase:firebase-storage:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.0.aar/2034217115ac832d4f1e50332d6de943/AndroidManifest.xml:2:1-8:12
@@ -23,24 +22,27 @@ MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/Mir/.gradl
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/78e5c19c61ae2d7662bf16d5272ad235/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.0.aar/887e57b5d801996ef2b894d5af79a3b5/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/1b36d7efc61d502ff3ca69c6974179f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/78b1db460b2eaadcaf2a2b6afde408ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/f87bf70e438c18bdb65d1c2000c627fe/AndroidManifest.xml:17:1-22:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/ea0af235bac82dd783e45143e091b036/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/30b3f641b7b68060b7f839d44f4bb869/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/7399f417bc753179e1337154f0b94b9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/6816510220e14d2337c370b5171eb3d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/adf001597907db94dd22843c2afc10fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/16922a362745562a3847b59ac12f6016/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/616a88d2694b4bc96cde2a60c68b51e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/806e63658fbfbc6ce16846574fc33172/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/1833a92df498a3c749250c87162b408c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/fada3e037e9dd007176423945fa35d13/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/849f612c3400a624636ba2f334fed94b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.0.aar/af85ebcd5f5f6cb53b4c034da0655a60/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-auth-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.0.aar/f2c46cddc611fa25a2baec3f05fdccf4/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.0.aar/3093706e471fc6c5646cc74cc5fa0a28/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-location-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.0.aar/042036e8e39177fd3f7b2c3545e3e62b/AndroidManifest.xml:2:1-8:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:17:1-30:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4edde0fb2abc8ac52700229068c8bed8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/098a6e8e57a3d17189f45ee6a2707e2d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c2171c69870d67a0e358cffd47def4bf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/6cd42d7cab009f9da9ce8fb78965cd78/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/23a116bd0198953cab744a3971b4f411/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-common-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.0.aar/c15c545ec495d280b9e2db494cc0666b/AndroidManifest.xml:2:1-8:12
@@ -48,6 +50,7 @@ MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /Users/Mir/.
 MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/d7c9ae946d84c1de38ca53b95e24e10a/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/94e0608a221131260225ac95fb03daf4/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.0.aar/5f3b36ac515cdc235a31cc64bbaf110e/AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cc16b84d1fc1d5d63dbce466086cca90/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/2bc536818925fdccaf48bccab8f64825/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.0.aar/e997e16254f2caf5e92f9e33bd0aa162/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/a7db92ac227c5ba234ebb49d6f8b4d65/AndroidManifest.xml:2:1-8:12
@@ -76,10 +79,8 @@ MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /Users/Mir/.gradle/cache
 MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.1.aar/cf6a6c05fec3ae2d5d7d1fa16d672e08/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/966fd11608658ee1a060d65f71d80ade/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/966fd11608658ee1a060d65f71d80ade/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ce38be0503e2be21616e64e075ce3766/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ce38be0503e2be21616e64e075ce3766/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.0.aar/3081ee711817072e3dc98e6a9d8a3fac/AndroidManifest.xml:20:5-44
@@ -110,38 +111,44 @@ MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /Users/Mir/.gra
 MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.0.aar/887e57b5d801996ef2b894d5af79a3b5/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/1b36d7efc61d502ff3ca69c6974179f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/1b36d7efc61d502ff3ca69c6974179f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/78b1db460b2eaadcaf2a2b6afde408ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/78b1db460b2eaadcaf2a2b6afde408ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/f87bf70e438c18bdb65d1c2000c627fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/f87bf70e438c18bdb65d1c2000c627fe/AndroidManifest.xml:20:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/ea0af235bac82dd783e45143e091b036/AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/ea0af235bac82dd783e45143e091b036/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/30b3f641b7b68060b7f839d44f4bb869/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/30b3f641b7b68060b7f839d44f4bb869/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/7399f417bc753179e1337154f0b94b9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/7399f417bc753179e1337154f0b94b9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/6816510220e14d2337c370b5171eb3d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/6816510220e14d2337c370b5171eb3d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/adf001597907db94dd22843c2afc10fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/adf001597907db94dd22843c2afc10fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/16922a362745562a3847b59ac12f6016/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/16922a362745562a3847b59ac12f6016/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/616a88d2694b4bc96cde2a60c68b51e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/616a88d2694b4bc96cde2a60c68b51e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/806e63658fbfbc6ce16846574fc33172/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/806e63658fbfbc6ce16846574fc33172/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/1833a92df498a3c749250c87162b408c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/1833a92df498a3c749250c87162b408c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/fada3e037e9dd007176423945fa35d13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/fada3e037e9dd007176423945fa35d13/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/849f612c3400a624636ba2f334fed94b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/849f612c3400a624636ba2f334fed94b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4edde0fb2abc8ac52700229068c8bed8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4edde0fb2abc8ac52700229068c8bed8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/098a6e8e57a3d17189f45ee6a2707e2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/098a6e8e57a3d17189f45ee6a2707e2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c2171c69870d67a0e358cffd47def4bf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c2171c69870d67a0e358cffd47def4bf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cc16b84d1fc1d5d63dbce466086cca90/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cc16b84d1fc1d5d63dbce466086cca90/AndroidManifest.xml:20:5-44
 INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:4:5-6:37
 INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:4:5-6:37
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:23:9-59
 	android:maxSdkVersion
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:6:9-35
 	android:targetSdkVersion
@@ -168,28 +175,10 @@ MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/Mir/.gradle/caches/
 MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/e449d4bbc5ef5c98bde966d855c5c548/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:8:22-64
-uses-feature#android.hardware.camera
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:9:5-83
-	android:required
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:9:58-81
-	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:9:19-57
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:10:5-80
-	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:10:22-77
-uses-permission#android.permission.CAMERA
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:11:5-81
-	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:11:22-62
 application
 ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:13:5-37:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/966fd11608658ee1a060d65f71d80ade/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/966fd11608658ee1a060d65f71d80ade/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.0.aar/3081ee711817072e3dc98e6a9d8a3fac/AndroidManifest.xml:22:5-30:19
@@ -212,30 +201,8 @@ MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/Mir/.grad
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/78e5c19c61ae2d7662bf16d5272ad235/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/a89a83cae6e9151b01f1360095853543/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:22:5-26:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/ea0af235bac82dd783e45143e091b036/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/ea0af235bac82dd783e45143e091b036/AndroidManifest.xml:7:5-12:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.0.aar/af85ebcd5f5f6cb53b4c034da0655a60/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.0.aar/af85ebcd5f5f6cb53b4c034da0655a60/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-auth-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.0.aar/f2c46cddc611fa25a2baec3f05fdccf4/AndroidManifest.xml:5:5-6:19
@@ -244,8 +211,6 @@ MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /Users/Mir/.gr
 MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.0.aar/3093706e471fc6c5646cc74cc5fa0a28/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-location-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.0.aar/042036e8e39177fd3f7b2c3545e3e62b/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-location-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.0.aar/042036e8e39177fd3f7b2c3545e3e62b/AndroidManifest.xml:5:5-6:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/6cd42d7cab009f9da9ce8fb78965cd78/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/6cd42d7cab009f9da9ce8fb78965cd78/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/23a116bd0198953cab744a3971b4f411/AndroidManifest.xml:5:5-6:19
@@ -280,6 +245,8 @@ MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /U
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.example.fatin.foodbasket.Main3Activity
 ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:screenOrientation
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:20:49-85
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:20:19-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
@@ -294,12 +261,16 @@ ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifes
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.example.fatin.foodbasket.ImageCapture
 ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:27:9-29:15
+	android:screenOrientation
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:27:48-84
 	android:theme
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:28:13-71
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:27:19-47
 activity#com.example.fatin.foodbasket.MainActivity
 ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:30:9-33:47
+	android:screenOrientation
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:31:42-78
 	android:label
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:32:13-57
 	android:theme
@@ -307,47 +278,23 @@ ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifes
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:31:13-41
 activity#com.example.fatin.foodbasket.PostedImages
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:34:9-50
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:34:9-86
+	android:screenOrientation
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:34:48-84
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:34:19-47
 activity#com.example.fatin.foodbasket.Register
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:35:9-46
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:35:9-82
+	android:screenOrientation
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:35:44-80
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:35:19-43
 activity#com.example.fatin.foodbasket.ResetPassWord
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:36:9-60
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:36:9-97
+	android:screenOrientation
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:36:49-85
 	android:name
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:36:19-48
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d7f3cd074607064deb83e7c732ec4ac7/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/dec345aa13ea6d7040be96721e561916/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/daa2b550f9c6521b347923dd3eee283a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5749e670ee2648813da2f6b986484e4d/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/9db5c2fda637ca3c5296e6fdd63e5fc2/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b07e6618b936e5caf6a6483b3c80e1a8/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4a4311b0733abcb511ae79b08faf4f67/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8a40f2d2a340ac2ded7606b32b99d36f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a735b3a15b4886a205cc12488e1fbc3d/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c8052833f7c93d2ebe848baf5ad138d4/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0b5462c4118f78bcf6f8caf1f34c3c09/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/17743502636ea656a64d20bf79c47903/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:design:26.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/6eac9c78e982e532807612ea67a218d9/AndroidManifest.xml:27:13-51
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/f72363b228c61ec0a40d5999e9e8a933/AndroidManifest.xml:28:9-34:19
 	android:exported
@@ -536,9 +483,5 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/48e6f41e088438322e9e7f461ed2d79b/AndroidManifest.xml:26:13-58
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
