@@ -70,9 +70,9 @@ Note: If the app crashes after pressing "LOGIN" you need to update google play s
 
 You can also install Food Basket from the browser on your Android smartphone or tablet. 
 
-Open your browser, naviagte to this page, tap the download the APK abpve. You should then be able to see it downloading on the top bar of your device. Once it's downloaded, open Downloads , tap on the APK file, and tap Yes when prompted. The app will begin installing on your device.
+Open your browser, naviagte to this page, tap the download the APK above. You should then be able to see it downloading on the top bar of your device. Once it's downloaded, open Downloads , tap on the APK file, and tap Yes when prompted. The app will begin installing on your device.
 
-Note: If the app crashes after pressing "LOGIN" you need to update google play services in the emulator. In this case launch the "Play Store" app which will prompt you to update play services.
+Note: If the app crashes after pressing "LOGIN" you need to update google play services in your phone. In this case launch the "Play Store" app which will prompt you to update play services.
 
 **How to Run Food Basket (Android Studio)**
 
