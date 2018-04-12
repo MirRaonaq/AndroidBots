@@ -29,22 +29,28 @@
             android:scaleType="centerCrop"
             android:padding="10dp"
             />
+
         <TextView
+            android:id="@+id/post_building_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:id="@+id/post_building_name"/>
+            android:textColor="#050505" />
+
         <TextView
+            android:id="@+id/post_room_num"
             android:layout_width="match_parent"
-            android:padding="10dp"
             android:layout_height="wrap_content"
-            android:id="@+id/post_room_num"/>
-        <TextView
-            android:layout_width="match_parent"
             android:padding="10dp"
+            android:textColor="#020202" />
+
+        <TextView
+            android:id="@+id/post_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="description"
-            android:layout_height="wrap_content"
-            android:id="@+id/post_description"/>
+            android:padding="10dp"
+            android:textColor="#050505" />
     </LinearLayout>
 
 </android.support.v7.widget.CardView>
