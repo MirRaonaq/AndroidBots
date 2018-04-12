@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Mir/Desktop/AndroidBots/FoodBasket/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\Users\\ToTo\\Desktop\\CSE442\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/30b3f641b7b68060b7f839d44f4bb869/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\ToTo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\9630680a1811ea641d3167fa9f38cf7d\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
