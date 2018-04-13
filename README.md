@@ -7,7 +7,7 @@
 
 Check out our landing page: http://mirraonaq.me/FoodBasket.github.io/
 
-Download Food Basket here: https://drive.google.com/open?id=1ek8FigTiZ66UWbex-M7hhxvXzG8_olE8
+Download Food Basket here: https://drive.google.com/file/d/1dKXIOgqJ5dImI3pDASv3DXEo-B_g81xh/view
 
 Note: Food Basket currently runs on Android API 21, 22, 23 (6.0), and 27 (8.1.0).  
 
@@ -52,6 +52,9 @@ https://www.youtube.com/watch?v=X_XTFI-sr04
 
 **Alpha Release**:
 https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
+
+**Beta Release**:
+https://www.youtube.com/watch?v=iSJF_6s901c&t=2s
 
 ### Run Food Basket
 
