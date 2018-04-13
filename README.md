@@ -15,7 +15,7 @@ Note: Food Basket currently runs on Android API 21, 22, 23 (6.0), and 27 (8.1.0)
 
 Food Basket is for free food and items.
 
-Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, and location such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it. This same process also works with unwanted items such as furniture, books, and more.
+Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it. This same process also works with unwanted items such as furniture, books, and more.
 
 
 - No "half eaten food" meaning no food that someone has taken a bite out of
@@ -34,15 +34,15 @@ Suppose you are at an event and at the end there are pizza slices left. Instead 
 
 ### MVP(Minimum Viable Product)
 
-Food Basket is an android app that helps users share and find any food or items. Food should be untouched, left in a sanitary area, and accessible to users. A user would be able to snap a picture of the food or item and share the location, along with a description such as building and room number. Other nearby users would be notified of the location and can view the picture the food. Then they will have the ability to claim the food is claimed or report as fake.
+Food Basket is an android app that helps users share and claim foods or items. A user would be able to snap a picture of the food or item. Then, the user will provide a description , along with the building and room number in which the food or item is located in. Other nearby users will be notified that a food or an item has been posted. Users will be able to view or claim the food or item in the claim page.
 
 ### Add-on Features:
 
-1. Ability to moderate fraud/fake activities.
+1. Ability to moderate fraud/fake activities. Such as users can report other users for fake or absurd content.
 
-2. Users would be able to register an account with the app.
+2. Users will be limited to the amount of times they can claim an item or food
 
-3. Users can filer the list to food or items
+3. Users can filter the list to food or items
 
 4. Ability to use within a group instead or location. For example to only share location of food or item within a dorm hall or with a group of friends.
 
