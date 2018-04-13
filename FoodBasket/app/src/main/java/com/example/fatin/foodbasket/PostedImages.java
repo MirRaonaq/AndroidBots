@@ -64,6 +64,14 @@ public class PostedImages extends AppCompatActivity {
                 viewHolder.setRoom(model.getBuildingName());
                 viewHolder.setBuildName(model.getRoomNum());
                 viewHolder.setImage(model.getImage());
+
+                viewHolder.view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent clickPost = new Intent(PostedImages.this,ClaimReport.class);
+                        startActivity(clickPost);
+                    }
+                });
             }
 
         };
