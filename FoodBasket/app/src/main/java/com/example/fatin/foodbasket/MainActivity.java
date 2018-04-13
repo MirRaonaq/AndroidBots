@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 main2Activity();
-                Log.d("FoodBasket", "Share button pressed");
+               // Log.d("FoodBasket", "Share button pressed");
             }
         });
 
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Main4Activity();
-                Log.d("FoodBasket", "Claim button pressed");
+              //  Log.d("FoodBasket", "Claim button pressed");
             }
         });
     }

@@ -2,10 +2,12 @@ package com.example.fatin.foodbasket;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,14 +16,19 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.example.fatin.foodbasket.notification.Notification;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 public class PostedImages extends AppCompatActivity {
     RecyclerView recyclerView;
+    public static String TAG = "testNotification";
     DatabaseReference databaseReference;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +38,7 @@ public class PostedImages extends AppCompatActivity {
         //recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
+        databaseReference.orderByChild("date");
 
     }
 

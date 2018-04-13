@@ -10,6 +10,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.PersistableBundle;
 import android.provider.MediaStore;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -25,12 +26,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.fatin.foodbasket.notification.Notification;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -93,6 +97,8 @@ public class ImageCapture extends AppCompatActivity {
         DatabaseReference usersRef = ref.child(userName+"/email");
         usersRef.setValue(userEmail);*/
 
+        FirebaseInstanceId.getInstance().getToken();
+
         if (ContextCompat.checkSelfPermission((Activity) this, Manifest.permission.WRITE_EXTERNAL_STORAGE) ==
                 PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}
@@ -106,6 +112,7 @@ public class ImageCapture extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 progressDialog.setTitle("Uploading........");
+
                 if (uri_download != null) {
                     if (ValidateFieldInput.fieldsNotEmpty(desc.getText().toString(), roomNum.getText().toString(), desc.getText().toString())) {
                         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -120,12 +127,15 @@ public class ImageCapture extends AppCompatActivity {
                         mdata.child("roomNum").setValue(roomNum.getText().toString());
                         mdata.child("buildingName").setValue(buildName.getText().toString());
                         mdata.child("image").setValue(uri_download.toString());
-                        mdata.child("date").setValue(new Date(System.currentTimeMillis()).toString());
+                        mdata.child("date").setValue(String.valueOf(System.currentTimeMillis()));
                         mdata.child("posted_by").setValue(u);
 
 
 
                         progressDialog.dismiss();
+                        Notification.notifyUsers(getApplicationContext());
+                        FirebaseMessaging.getInstance().subscribeToTopic("all");
+
 
                         Intent intent = new Intent(ImageCapture.this, PostedImages.class);
                         startActivity(intent);

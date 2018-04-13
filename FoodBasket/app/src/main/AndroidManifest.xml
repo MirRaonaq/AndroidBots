@@ -34,6 +34,8 @@
         <activity android:name=".PostedImages" android:screenOrientation="portrait"/>
         <activity android:name=".Register" android:screenOrientation="portrait"/>
         <activity android:name=".ResetPassWord" android:screenOrientation="portrait"></activity>
+
+
     </application>
 
 

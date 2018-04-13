@@ -45,6 +45,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="paddingPercent" value="-10" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -62,13 +63,27 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="textAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="fontFamily" value="Rockwell Condensed" />
+                                                <entry key="text" value="food" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                     </map>
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="camera_capture2" />
+                                      <entry key="assetType" value="TEXT" />
+                                      <entry key="imageAsset" value="C:\Users\kemok\Desktop\notificationLogo.jpg" />
+                                      <entry key="outputName" value="notification_ico" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="fbfff0" />
+                                      <entry key="themeColor" value="020507" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -85,11 +100,62 @@
                                 </PersistentState>
                               </value>
                             </entry>
+                            <entry key="notification">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="5" />
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="text">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="textAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="text" value="food" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="TEXT" />
+                                      <entry key="imageAsset" value="C:\Users\kemok\Desktop\notification_logo.jpg" />
+                                      <entry key="outputName" value="notification_icon" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
                           </map>
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
+                            <entry key="outputIconType" value="NOTIFICATION" />
                           </map>
                         </option>
                       </PersistentState>

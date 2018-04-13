@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.1] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-ui-database-0.4.1.aar\7906c2b38f02b55210b9308557e91d10\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\b3dc9668a04175b12b7f4877a88c6e62\AndroidManifest.xml:17:1-22:12
@@ -54,20 +54,20 @@ MERGED from [android.arch.core:runtime:1.1.0] C:\Users\kemok\.gradle\caches\tran
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.0.aar\a62eabb0b053bbbcb7173de133b66b7b\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.0.aar\e40b5d32ab0706033184abfdb708d146\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.0.aar\d37ad434d1b67ae6177e415ccf46b3bf\AndroidManifest.xml:2:1-8:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:11-69
@@ -176,7 +176,7 @@ MERGED from [com.google.firebase:firebase-iid:12.0.0] C:\Users\kemok\.gradle\cac
 	android:name
 		ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:8:22-64
 application
-ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:13:5-37:19
+ADDED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:13:5-39:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\933316cb99316f2615de8604f0dbbf09\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.0.aar\086066034f6a7f2a243e70e1d28e045d\AndroidManifest.xml:22:5-35:19
@@ -480,8 +480,8 @@ ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\kemok\.gradle\caches\
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\kemok\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\43c91da4bd045d51a57451971a257ff7\AndroidManifest.xml:9:13-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-40:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\kemok\Desktop\Spring2018\CSE_442\project\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-42:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
