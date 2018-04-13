@@ -122,6 +122,8 @@ public class ImageCapture extends AppCompatActivity {
                         mdata.child("image").setValue(uri_download.toString());
                         mdata.child("date").setValue(new Date(System.currentTimeMillis()).toString());
                         mdata.child("posted_by").setValue(u);
+                        mdata.child("claimed").setValue(0);
+                        mdata.child("reported").setValue(0);
 
 
 

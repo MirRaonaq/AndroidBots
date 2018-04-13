@@ -27,7 +27,7 @@ public class PostedImages extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.posted_images);
-        recyclerView = (RecyclerView)findViewById(R.id.recycleView);
+        recyclerView = findViewById(R.id.recycleView);
         //recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
@@ -63,6 +63,7 @@ public class PostedImages extends AppCompatActivity {
     }
 
     private void deactivateAccount() {
+        //Optional
     }
 
     public static class PostImage extends RecyclerView.ViewHolder{
@@ -70,6 +71,13 @@ public class PostedImages extends AppCompatActivity {
 
         public PostImage(View _view) {
             super(_view);
+            _view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(view.getContext(),ClaimReport.class);
+                    view.getContext().startActivity(intent);
+                }
+            });
             this.view=_view;
         }
 
@@ -86,11 +94,12 @@ public class PostedImages extends AppCompatActivity {
             post_title.setText("Room#: "+build_name);
         }
         public void setImage(String image){
-            ImageView imageView = (ImageView) view.findViewById(R.id.post_image);
+            ImageView imageView = view.findViewById(R.id.post_image);
             Picasso.get().load(image).into(imageView);
+
         }
     }
-    }
+}
 
 
 
