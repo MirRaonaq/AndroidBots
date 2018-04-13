@@ -20,7 +20,7 @@ Individual Contributions since last meeting:
 	Kemo
 		- Added MVP feature set of notifications
 	Mir
-    - Finished landing page, updated README, finished Beta use and test cases, uploaded youtube video
+    		- Finished landing page, updated README, finished Beta use and test cases, uploaded youtube video
 	Fatin:
 		- Testing API availability and worked on MVP feature set of claiming food, and filmed YouTube video.
 	Wentao:
