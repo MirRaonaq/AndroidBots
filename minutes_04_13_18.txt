@@ -1,0 +1,42 @@
+Date: 04/13/2018 @ 4:00 p.m.
+
+Memebers present:
+
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+
+Meeting Discussions:
+
+  - Next meeting date
+  - Official release objectives
+  - How to improve from MVP feature set
+  - Individual help wanted issues
+
+
+Individual Contributions since last meeting:
+	Kemo
+		- Added MVP feature set of notifications
+	Mir
+    - Finished landing page, updated README, finished Beta use and test cases, uploaded youtube video
+	Fatin:
+		- Testing API availability and worked on MVP feature set of claiming food, and filmed YouTube video.
+	Wentao:
+		- Worked on beta tasks and created logo
+	Ziang:
+		- Worked on beta tasks and helped work on logo, created background for app
+
+Individual Expected Contributions before next meeting:
+
+	Kemo
+		- Work on collaboration phase, Beta Release Maintenance
+	Fatin
+		- Work on collaboration phase, Beta Release Maintenance
+	Mir
+		- Work on collaboration phase, update website if needed, Beta Release Maintenance
+	Ziang
+		- Work on collaboration phase, Continue to work on the frontend (background)
+	Wentao
+		- Work on collaboration phase, Continue to work on the frontend (buttons)
