@@ -52,10 +52,23 @@ public class PostedImages extends AppCompatActivity {
 
             @Override
             protected void populateViewHolder(PostImage viewHolder, Post model, int position) {
+
+
+
+                final String postKey = getRef(position).getKey();
                 viewHolder.setDescription(model.getDescription());
                 viewHolder.setRoom(model.getBuildingName());
                 viewHolder.setBuildName(model.getRoomNum());
                 viewHolder.setImage(model.getImage());
+
+                viewHolder.view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent clickPost = new Intent(PostedImages.this,ClaimReport.class);
+                        clickPost.putExtra("postKey",postKey);
+                        startActivity(clickPost);
+                    }
+                });
             }
 
         };
@@ -71,14 +84,15 @@ public class PostedImages extends AppCompatActivity {
 
         public PostImage(View _view) {
             super(_view);
-            _view.setOnClickListener(new View.OnClickListener() {
+            view = _view;
+            /*_view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent intent = new Intent(view.getContext(),ClaimReport.class);
                     view.getContext().startActivity(intent);
                 }
-            });
-            this.view=_view;
+            });*/
+            //this.view=_view;
         }
 
         public void setRoom(String room_title) {
@@ -94,7 +108,7 @@ public class PostedImages extends AppCompatActivity {
             post_title.setText("Room#: "+build_name);
         }
         public void setImage(String image){
-            ImageView imageView = view.findViewById(R.id.post_image);
+            ImageView imageView =view.findViewById(R.id.post_image);
             Picasso.get().load(image).into(imageView);
 
         }
