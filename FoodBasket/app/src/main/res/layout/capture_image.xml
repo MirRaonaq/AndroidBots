@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
+
     tools:context="com.example.fatin.foodbasket.ImageCapture">
 
     <ScrollView
@@ -19,6 +20,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/background"
             android:orientation="vertical">
 
 
@@ -68,7 +70,7 @@
                 android:hint="Building name"
                 android:inputType="textPersonName"
                 android:textColor="@android:color/background_dark"
-                android:textColorHint="@android:color/darker_gray"
+                android:textColorHint="@android:color/background_dark"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -89,7 +91,7 @@
                 android:hint="Room number"
                 android:inputType="textPersonName"
                 android:textColor="@android:color/black"
-                android:textColorHint="@android:color/darker_gray"
+                android:textColorHint="@android:color/background_dark"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +112,7 @@
                 android:hint="Description"
                 android:inputType="textPersonName"
                 android:textColor="@android:color/black"
-                android:textColorHint="@android:color/darker_gray"
+                android:textColorHint="@android:color/background_dark"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
