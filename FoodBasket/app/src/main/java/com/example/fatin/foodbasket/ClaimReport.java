@@ -29,15 +29,16 @@ public class ClaimReport extends AppCompatActivity {
     private DatabaseReference databaseReference;
     FirebaseAuth mAuth;
     FirebaseAuth.AuthStateListener mAuthListener;
-
+    static String TAG = "testpost";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_claim_report);
 
-        /*databaseReference=FirebaseDatabase.getInstance().getReference("users").child("photos").child(PostKey);
         PostKey = getIntent().getExtras().getString("postKey");
+        Log.d(TAG, "onCreate: "+PostKey);
+        databaseReference=FirebaseDatabase.getInstance().getReference("users").child("photos").child(PostKey);
 
         singleBuilding = findViewById(R.id.singleBuildingName);
         singleRoom = findViewById(R.id.singleRoomNumber);
@@ -62,7 +63,7 @@ public class ClaimReport extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {
 
             }
-        });*/
+        });
 
         userClaim = findViewById(R.id.userClaim);
         userClaim.setOnClickListener(new View.OnClickListener() {

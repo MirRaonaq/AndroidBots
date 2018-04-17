@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Fatin\\Desktop\\hotfix1\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Fatin\\Desktop\\beta fatin\\AndroidBots\\FoodBasket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Fatin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c656a2e470a20be7847e209ecdcef400\\res\\values\\values.xml",
@@ -42,37 +42,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fatin\\Desktop\\hotfix1\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Fatin\\Desktop\\beta fatin\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "6,4,2,3",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "206,157,57,105",
-                        "endColumns": "49,45,46,50",
-                        "endOffsets": "251,198,99,151"
+                        "startLines": "3,22,24,18,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,988,1082,822,377",
+                        "endLines": "8,22,24,20,16",
+                        "endColumns": "12,90,80,12,12",
+                        "endOffsets": "369,1074,1158,980,814"
                     },
                     "to": {
-                        "startLines": "118,131,132,133",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5854,6794,6840,6887",
-                        "endColumns": "49,45,46,50",
-                        "endOffsets": "5899,6835,6882,6933"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Fatin\\Desktop\\hotfix1\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "41",
-                        "endOffsets": "54"
-                    },
-                    "to": {
-                        "startLines": "712",
-                        "startColumns": "4",
-                        "startOffsets": "60405",
-                        "endColumns": "41",
-                        "endOffsets": "60442"
+                        "startLines": "872,878,879,1967,1970",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "72759,73071,73161,142559,142720",
+                        "endLines": "877,878,879,1969,1976",
+                        "endColumns": "12,89,79,12,12",
+                        "endOffsets": "73066,73156,73236,142715,143151"
                     }
                 },
                 {
@@ -93,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fatin\\Desktop\\hotfix1\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Fatin\\Desktop\\beta fatin\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "14,4,1,3,23,2,5",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -109,6 +94,23 @@
                         "endLines": "8,791,821,825,852,860,862",
                         "endColumns": "19,40,48,45,69,45,62",
                         "endOffsets": "310,65084,67252,67651,70900,71891,72025"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fatin\\Desktop\\beta fatin\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "6,4,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "206,157,57,105",
+                        "endColumns": "49,45,46,50",
+                        "endOffsets": "251,198,99,151"
+                    },
+                    "to": {
+                        "startLines": "118,131,132,133",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5854,6794,6840,6887",
+                        "endColumns": "49,45,46,50",
+                        "endOffsets": "5899,6835,6882,6933"
                     }
                 },
                 {
@@ -128,6 +130,23 @@
                         "endLines": "11,2481",
                         "endColumns": "60,12",
                         "endOffsets": "475,180731"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fatin\\Desktop\\beta fatin\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "712",
+                        "startColumns": "4",
+                        "startOffsets": "60405",
+                        "endColumns": "41",
+                        "endOffsets": "60442"
                     }
                 },
                 {
@@ -162,25 +181,6 @@
                         "startOffsets": "70133",
                         "endColumns": "81",
                         "endOffsets": "70210"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Fatin\\Desktop\\hotfix1\\AndroidBots\\FoodBasket\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,22,24,18,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "57,988,1082,822,377",
-                        "endLines": "8,22,24,20,16",
-                        "endColumns": "12,90,80,12,12",
-                        "endOffsets": "369,1074,1158,980,814"
-                    },
-                    "to": {
-                        "startLines": "872,878,879,1967,1970",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "72759,73071,73161,142559,142720",
-                        "endLines": "877,878,879,1969,1976",
-                        "endColumns": "12,89,79,12,12",
-                        "endOffsets": "73066,73156,73236,142715,143151"
                     }
                 },
                 {
@@ -256,23 +256,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Fatin\\Desktop\\hotfix1\\AndroidBots\\FoodBasket\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,310,392,496,599,719,819",
-                        "endColumns": "143,110,81,103,102,119,99,76",
-                        "endOffsets": "194,305,387,491,594,714,814,891"
-                    },
-                    "to": {
-                        "startLines": "844,846,847,848,849,850,851,858",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "69989,70215,70326,70408,70512,70615,70735,71720",
-                        "endColumns": "143,110,81,103,102,119,99,76",
-                        "endOffsets": "70128,70321,70403,70507,70610,70730,70830,71792"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Fatin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\bcf07a3598c83013adfdc18bc03aa7b6\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,54,55,59,60,61",
@@ -289,6 +272,23 @@
                         "endLines": "172,173,667,668,669,670,671,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,749,750,758,759,767,768,769,772,790,861,2217,2221,2223,2229,2231,2417,2418",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "9592,9655,57574,57642,57714,57784,57845,61500,61561,61623,61687,61749,61810,61878,61978,62038,62104,62177,62246,62303,62355,62417,62942,63018,63398,63433,63815,63849,63884,64011,65043,71962,161967,162168,162344,162728,162923,176741,176808"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fatin\\Desktop\\beta fatin\\AndroidBots\\FoodBasket\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,310,392,496,599,719,819",
+                        "endColumns": "143,110,81,103,102,119,99,76",
+                        "endOffsets": "194,305,387,491,594,714,814,891"
+                    },
+                    "to": {
+                        "startLines": "844,846,847,848,849,850,851,858",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "69989,70215,70326,70408,70512,70615,70735,71720",
+                        "endColumns": "143,110,81,103,102,119,99,76",
+                        "endOffsets": "70128,70321,70403,70507,70610,70730,70830,71792"
                     }
                 },
                 {
