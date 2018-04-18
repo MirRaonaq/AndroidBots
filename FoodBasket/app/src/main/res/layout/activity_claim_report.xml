@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.827" />
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/singleImage"
         android:layout_width="match_parent"
         android:layout_height="239dp"
@@ -30,47 +30,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
         app:srcCompat="@android:color/background_light"
-        />
-
-    <TextView
-        android:id="@+id/singleBuildingName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="246dp"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="TEST"
-        android:textColor="@color/cardview_dark_background"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/singleRoomNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="185dp"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="TEST"
-        android:textColor="@color/cardview_dark_background"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/singleDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="118dp"
-        android:background="@android:color/background_light"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="TEST"
-        android:textColor="@color/cardview_dark_background"
-        android:textSize="20sp" />
-
-
+        />-->
 </RelativeLayout>

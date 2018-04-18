@@ -52,9 +52,6 @@ public class PostedImages extends AppCompatActivity {
 
             @Override
             protected void populateViewHolder(PostImage viewHolder, Post model, int position) {
-
-
-
                 final String postKey = getRef(position).getKey();
                 viewHolder.setDescription(model.getDescription());
                 viewHolder.setRoom(model.getBuildingName());
@@ -85,14 +82,6 @@ public class PostedImages extends AppCompatActivity {
         public PostImage(View _view) {
             super(_view);
             view = _view;
-            /*_view.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent(view.getContext(),ClaimReport.class);
-                    view.getContext().startActivity(intent);
-                }
-            });*/
-            //this.view=_view;
         }
 
         public void setRoom(String room_title) {
