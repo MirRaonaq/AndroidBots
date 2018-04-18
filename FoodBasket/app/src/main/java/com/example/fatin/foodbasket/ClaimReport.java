@@ -1,5 +1,6 @@
 package com.example.fatin.foodbasket;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,8 +28,8 @@ public class ClaimReport extends AppCompatActivity {
     private TextView singleDescription;
     private String PostKey=null;
     private DatabaseReference databaseReference;
-    FirebaseAuth mAuth;
-    FirebaseAuth.AuthStateListener mAuthListener;
+    //FirebaseAuth mAuth;
+    //FirebaseAuth.AuthStateListener mAuthListener;
     static String TAG = "testpost";
 
     @Override
@@ -71,6 +72,9 @@ public class ClaimReport extends AppCompatActivity {
             public void onClick(View view) {
                 // handle counter increment here
                 Log.d("Food","Button pressed");
+                databaseReference.removeValue();
+                Intent intent = new Intent(ClaimReport.this,PostedImages.class);
+                startActivity(intent);
 
             }
         });

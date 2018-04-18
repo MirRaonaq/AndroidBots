@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
+    android:background="@drawable/background"
     tools:context=".ClaimReport">
 
     <Button
@@ -29,7 +29,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
-        android:background="@color/cardview_light_background" />
+        app:srcCompat="@android:color/background_light"
+        />
 
     <TextView
         android:id="@+id/singleBuildingName"
