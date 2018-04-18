@@ -28,8 +28,14 @@ public class PostedImages extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.posted_images);
         recyclerView = findViewById(R.id.recycleView);
-        //recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setHasFixedSize(true);
+        //Show recent to oldest post
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        linearLayoutManager.setReverseLayout(true);
+        linearLayoutManager.setStackFromEnd(true);
+        recyclerView.setLayoutManager(linearLayoutManager);
+
+
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
 
     }
