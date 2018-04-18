@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -56,7 +57,8 @@ public class ClaimReport extends AppCompatActivity {
             public void onClick(View view) {
                 // handle counter increment here
                 databaseReference.removeValue();
-                Intent intent = new Intent(ClaimReport.this,PostedImages.class);
+                Toast.makeText(ClaimReport.this,"Claimed",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(ClaimReport.this,MainActivity.class);
                 startActivity(intent);
 
             }
