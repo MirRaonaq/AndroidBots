@@ -1,0 +1,42 @@
+Date: 04/20/2018 @ 4:00 p.m.
+
+Memebers present:
+
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+
+Meeting Discussions:
+
+  - Next meeting date
+  - Presentation to 100 level students
+  - What’s next for official release?
+  - Last touch ups to code and UI 
+
+
+Individual Contributions since last meeting:
+	Kemo
+		- Set up presentation, finished collaboration 
+	Mir
+    		- Updated landing page, and set up presentation, finished collaboration 
+	Fatin:
+		- Adding extra functionality to claim feature and set up presentation, finished collaboration 
+	Wentao:
+		- Set up presentation, finished collaboration 
+	Ziang:
+		- Set up presentation, finished collaboration 
+
+Individual Expected Contributions before next meeting:
+
+	Kemo
+		- Official release setup, incorporate last 100 level feature
+	Fatin
+		- Official release setup, incorporate last 100 level feature, update APK
+	Mir
+		- Official release setup, incorporate last 100 level feature, update landing page
+	Ziang
+		- Official release setup, continue to work on frontend
+	Wentao
+		- Official release setup, work on front end for 100 level feature
