@@ -1,0 +1,42 @@
+Date: 04/27/2018 @ 4:00 p.m.
+
+Memebers present:
+
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+
+Meeting Discussions:
+
+  - Next meeting date
+  - Decide on feature from lab presentation
+  - Implementation of the feature (UI & backend)
+  - Official Release objectives 
+
+
+Individual Contributions since last meeting:
+	Kemo
+		- Continue to work on database
+	Mir
+    		- Updated landing page, continue to work on functionality of app.
+	Fatin:
+		- Working on extra features for the app
+	Wentao:
+		- Continued work on design (UI)
+	Ziang:
+		- Collaborating with Wentao to further develop UI
+
+Individual Expected Contributions before next meeting:
+
+	Kemo
+		- Implement new feature and maintain database
+	Fatin
+		- YouTube video and implement new feature
+	Mir
+		- Update landing page, update README, release Official Release, upload video
+	Ziang
+		- Continue to work on UI
+	Wentao
+		- continue to work on UI
