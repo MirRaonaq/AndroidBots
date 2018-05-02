@@ -4,22 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClaimReport"
-    android:background="@drawable/background">
-
+    android:background="@drawable/background"
+    tools:context=".ClaimReport">
 
     <Button
         android:id="@+id/userClaim"
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="103dp"
         android:text="Claim"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.866" />
+
+    <!--<ImageView
+        android:id="@+id/singleImage"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@android:color/background_light"
+        />-->
 </android.support.constraint.ConstraintLayout>
