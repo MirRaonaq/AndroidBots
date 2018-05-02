@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +10,7 @@
     tools:context="com.example.fatin.foodbasket.MainActivity">
 
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@drawable/background"
@@ -17,7 +18,7 @@
         tools:layout_editor_absoluteX="-7dp"
         tools:layout_editor_absoluteY="40dp">
 
-    </LinearLayout>
+    </LinearLayout>-->
 
     <Button
         android:id="@+id/shareButton"
@@ -72,35 +73,51 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.796" />
-<LinearLayout
-    android:layout_width="match_parent"
 
-    android:layout_height="wrap_content"
-    android:background="@drawable/register_btn">
+    <LinearLayout
+        android:id="@+id/linearLayout"
 
-
-    <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/profile"
-        android:hint="your name"
-        android:layout_marginTop="0dp"
-        android:paddingTop="10px"
-        android:paddingBottom="5pt"
-        android:layout_marginRight="40pt"
-        android:textAlignment="center"
-        />
+        android:background="@drawable/register_btn">
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="fill_parent"
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40pt"
+            android:layout_marginTop="0dp"
+            android:hint="your name"
+            android:paddingBottom="5pt"
+            android:paddingTop="10px"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
-       />
-</LinearLayout>
+        android:layout_marginTop="8dp"
+        android:text="MAP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
 
 
 </android.support.constraint.ConstraintLayout>

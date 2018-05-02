@@ -25,16 +25,18 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    AppLocationServices locationServices;
-    double _latitude =0.0;
+
+    //AppLocationServices locationServices;
+    /*double _latitude =0.0;
     double _longitude =0.0;
     public static final int REQUEST_LOCATION=001;
     GoogleApiClient googleApiClient;
     LocationRequest locationRequest;
-    LocationSettingsRequest.Builder locationSettingsRequest;
+    LocationSettingsRequest.Builder locationSettingsRequest;*/
     Button shareBtn =null;
     Button logoutBtn=null;
     Button claimeBtn=null;
+    Button openMapButton;
 
     TextView profile;
     FirebaseUser user;
@@ -83,14 +85,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        locationServices = new AppLocationServices(this);
+       /* locationServices = new AppLocationServices(this);
 
         if (locationServices.getLocationIsEnable()) {
             locationServices.setLocationAvailable(false);
 
         } else {
             locationServices.displayLocationSetting();
-        }
+        }*/
 
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
@@ -108,6 +110,15 @@ public class MainActivity extends AppCompatActivity {
 
                 Main4Activity();
                 Log.d("FoodBasket", "Claim button pressed");
+            }
+        });
+        openMapButton = findViewById(R.id.mapButton);
+        openMapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("map","map button");
+                Intent intent = new Intent(MainActivity.this,MapActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -149,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    @Override
+    /*@Override
     protected void onResume() {
         super.onResume();
         if(locationServices.getLocationIsEnable()){
@@ -168,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
             locationServices.setLocationAvailable(false);
 
         }
-    }
+    }*/
 
     public void main2Activity(){
         Intent intent = new Intent(this,ImageCapture.class);

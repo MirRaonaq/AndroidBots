@@ -29,6 +29,7 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
 
 
+/*
 public class AppLocationServices extends Service implements LocationListener {
     private final Context _context;
     private boolean isGpsEnable =false;
@@ -194,5 +195,6 @@ public class AppLocationServices extends Service implements LocationListener {
     }
 
 }
+*/
 
 
