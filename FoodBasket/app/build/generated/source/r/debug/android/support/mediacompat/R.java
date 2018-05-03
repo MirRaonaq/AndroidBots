@@ -53,15 +53,6 @@ public final class R {
         public static final int notification_top_pad_large_text = 0x7f070097;
     }
     public static final class drawable {
-<<<<<<< HEAD
-        public static final int notification_action_background = 0x7f080082;
-        public static final int notification_bg = 0x7f080083;
-        public static final int notification_bg_low = 0x7f080084;
-        public static final int notification_bg_low_normal = 0x7f080085;
-        public static final int notification_bg_low_pressed = 0x7f080086;
-        public static final int notification_bg_normal = 0x7f080087;
-        public static final int notification_bg_normal_pressed = 0x7f080088;
-=======
         public static final int notification_action_background = 0x7f080083;
         public static final int notification_bg = 0x7f080084;
         public static final int notification_bg_low = 0x7f080085;
@@ -69,12 +60,11 @@ public final class R {
         public static final int notification_bg_low_pressed = 0x7f080087;
         public static final int notification_bg_normal = 0x7f080088;
         public static final int notification_bg_normal_pressed = 0x7f080089;
->>>>>>> 159e022cb07e15f59199905699ae22854d981be3
-        public static final int notification_icon_background = 0x7f08008a;
-        public static final int notification_template_icon_bg = 0x7f08008b;
-        public static final int notification_template_icon_low_bg = 0x7f08008c;
-        public static final int notification_tile_bg = 0x7f08008d;
-        public static final int notify_panel_notification_icon_bg = 0x7f08008e;
+        public static final int notification_icon_background = 0x7f08008b;
+        public static final int notification_template_icon_bg = 0x7f08008c;
+        public static final int notification_template_icon_low_bg = 0x7f08008d;
+        public static final int notification_tile_bg = 0x7f08008e;
+        public static final int notify_panel_notification_icon_bg = 0x7f08008f;
     }
     public static final class id {
         public static final int action0 = 0x7f090006;

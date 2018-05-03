@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="20dp"
-    app:cardBackgroundColor="@color/cardview_light_background">
+    app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,6 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:adjustViewBounds="true"
-<<<<<<< HEAD
             android:scaleType="centerCrop"
             android:padding="10dp"
             />
@@ -30,20 +29,16 @@
             android:id="@+id/postedDate"
             android:textColor="@color/post_date"
             android:background="@drawable/textbgroundpostdate"
-            />
-=======
+            android:layout_marginRight="5dp"
             android:scaleType="centerCrop" />
 
->>>>>>> 159e022cb07e15f59199905699ae22854d981be3
         <TextView
             android:id="@+id/post_building_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="TEST"
             android:textSize="20sp"
             android:textColor="@color/cardview_dark_background"
-            android:gravity="center"
             />
 
         <TextView
@@ -51,10 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="TEST"
             android:textSize="20sp"
             android:textColor="@color/cardview_dark_background"
-            android:gravity="center"
             />
 
         <TextView
@@ -63,10 +56,8 @@
             android:layout_height="wrap_content"
             android:hint="description"
             android:padding="10dp"
-            android:text="TEST"
             android:textSize="20sp"
             android:textColor="@color/cardview_dark_background"
-            android:gravity="center"
             />
     </LinearLayout>
 </android.support.v7.widget.CardView>
