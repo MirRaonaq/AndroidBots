@@ -1,5 +1,6 @@
 package com.example.fatin.foodbasket;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -23,7 +24,13 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.List;
+
+import pub.devrel.easypermissions.AfterPermissionGranted;
+import pub.devrel.easypermissions.AppSettingsDialog;
+import pub.devrel.easypermissions.EasyPermissions;
+
+public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks {
 
 
     Button shareBtn =null;
@@ -33,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
     TextView profile;
     FirebaseUser user;
+    private static final String TAG = "shareButton";
+    private static final String TAG2 = "mapButton"; //This is to test if map functionality is working
 
 
     @Override
@@ -78,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,12 +112,37 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d("map","map button");
-                Intent intent = new Intent(MainActivity.this,MapActivity.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(MainActivity.this,MapActivity.class);
+                startActivity(intent);*/
 
             }
         });
     }
+
+    @AfterPermissionGranted(123)
+    private void main2Activity(){
+        String[] permissions = {Manifest.permission.CAMERA,Manifest.permission.ACCESS_FINE_LOCATION,
+        Manifest.permission.ACCESS_COARSE_LOCATION};
+        if (EasyPermissions.hasPermissions(this,permissions)){
+            Log.d(TAG,"Already has permission");
+            Intent intent = new Intent(this,ImageCapture.class);
+            startActivity(intent);
+
+        }
+        else EasyPermissions.requestPermissions(this,"This app requires location and camera permissions to take picture and know where it is posted from",
+                123,permissions);
+
+
+
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        EasyPermissions.onRequestPermissionsResult(requestCode,permissions,grantResults,this);
+
+    }
+
+
     private void deactivateAccount() {
 
        //final FirebaseUser uid = user;
@@ -166,14 +202,40 @@ public class MainActivity extends AppCompatActivity {
         }
     }*/
 
-    public void main2Activity(){
-        Intent intent = new Intent(this,ImageCapture.class);
-        startActivity(intent);
+
+    @Override
+    public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
 
     }
+
+    @Override
+    public void onPermissionsDenied(int requestCode, @NonNull List<String> perms) {
+        if (EasyPermissions.somePermissionPermanentlyDenied(this,perms)){
+            new AppSettingsDialog.Builder(this).build().show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode==AppSettingsDialog.DEFAULT_SETTINGS_REQ_CODE){
+        Toast.makeText(getApplicationContext(),"Permissions granted",Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @AfterPermissionGranted(123)
     public void Main4Activity(){
-        Intent intent4 = new Intent(this,PostedImages.class);
-        startActivity(intent4);
+        String[] permission = {Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION};
+        if (EasyPermissions.hasPermissions(this,permission)){
+            Log.d(TAG2,"Already has permission");
+            Intent intent4 = new Intent(this,PostedImages.class);
+            startActivity(intent4);
+        }
+        else {
+            EasyPermissions.requestPermissions(this,"This app requires location and camera permissions to take picture and know where it is posted from",
+                    123,permission);
+        }
 
     }
 }
