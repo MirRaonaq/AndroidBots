@@ -24,6 +24,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+
             android:name=".Main3Activity"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -51,6 +61,8 @@
             android:name=".ResetPassWord"
             android:screenOrientation="portrait" />
         <activity android:name=".ClaimReport"></activity>
+
+
     </application>
 
 </manifest>
