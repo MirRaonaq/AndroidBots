@@ -26,16 +26,9 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
 
-    //AppLocationServices locationServices;
-    /*double _latitude =0.0;
-    double _longitude =0.0;
-    public static final int REQUEST_LOCATION=001;
-    GoogleApiClient googleApiClient;
-    LocationRequest locationRequest;
-    LocationSettingsRequest.Builder locationSettingsRequest;*/
     Button shareBtn =null;
     Button logoutBtn=null;
-    Button claimeBtn=null;
+    Button claimBtn=null;
     Button openMapButton;
 
     TextView profile;
@@ -85,15 +78,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-       /* locationServices = new AppLocationServices(this);
-
-        if (locationServices.getLocationIsEnable()) {
-            locationServices.setLocationAvailable(false);
-
-        } else {
-            locationServices.displayLocationSetting();
-        }*/
-
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        claimeBtn = findViewById(R.id.claimButton);
-        claimeBtn.setOnClickListener(new View.OnClickListener() {
+        claimBtn = findViewById(R.id.claimButton);
+        claimBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -119,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("map","map button");
                 Intent intent = new Intent(MainActivity.this,MapActivity.class);
                 startActivity(intent);
+
             }
         });
     }
