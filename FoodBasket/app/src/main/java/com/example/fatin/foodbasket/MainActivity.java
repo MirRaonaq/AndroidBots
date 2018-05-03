@@ -13,7 +13,7 @@ import android.widget.Spinner;
 import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import android.os.Handler;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationSettingsRequest;
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@NonNull Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         Spinner mySpinner = (Spinner) findViewById(R.id.spinner1);
 
