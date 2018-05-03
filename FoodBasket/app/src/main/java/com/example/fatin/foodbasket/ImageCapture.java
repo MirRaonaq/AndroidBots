@@ -85,19 +85,9 @@ public class ImageCapture extends AppCompatActivity {
         buildName = (EditText) findViewById(R.id.buildingName);
         roomNum = (EditText) findViewById(R.id.roomNumber);
         desc = (EditText) findViewById(R.id.description);
-/*
-        postBuildN =(TextView) findViewById(R.id.postBuildNum);
-        postDes =(TextView)findViewById(R.id.postDesc);
-        postRoomN=(TextView)findViewById(R.id.postRoomNum) ;*/
 
         storageReference = FirebaseStorage.getInstance().getReference();
-        //final FirebaseDatabase database = FirebaseDatabase.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
-
-       /* final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference ref = database.getReference("users");
-        DatabaseReference usersRef = ref.child(userName+"/email");
-        usersRef.setValue(userEmail);*/
 
         FirebaseInstanceId.getInstance().getToken();
 

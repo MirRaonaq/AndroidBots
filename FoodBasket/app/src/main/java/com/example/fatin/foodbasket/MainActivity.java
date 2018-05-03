@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()){
-                            try {
+                        /*    try {
                                 final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users/"+pUser);
                                 user.removeValue();
                                 progressDialog.dismiss();
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                                 progressDialog.dismiss();
 
                             }
-
+*/
                             startActivity(new Intent(MainActivity.this, Main3Activity.class));
 
                             Toast.makeText(MainActivity.this,"Deactivation was successful",Toast.LENGTH_LONG).show();

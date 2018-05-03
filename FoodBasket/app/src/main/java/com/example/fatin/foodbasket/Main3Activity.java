@@ -30,7 +30,6 @@ public class Main3Activity extends AppCompatActivity {
     private Button login;
     private Button register;
     private Button forgot;
-    //  private TextView Info;
     private int counter = 5;
     FirebaseDatabase fBase;
     DatabaseReference dataRef;
@@ -40,14 +39,10 @@ public class Main3Activity extends AppCompatActivity {
     String val;
 
     ProgressDialog progressDialog;
-
-    //authentication variable
     FirebaseAuth firebaseAuth = null;
     FirebaseAuth.AuthStateListener authStateListener;
 
     String TAG = "MAIN_TEST";
-
-   // static ArrayList<String> email_ =new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,20 +63,8 @@ public class Main3Activity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebase_auth) {
                 if (firebase_auth.getCurrentUser() != null) {
-                    if(!firebase_auth.getCurrentUser().isEmailVerified()) {
-                        //firebase_auth.signOut();
-
-                        //Toast.makeText(Main3Activity.this,"account may not have been verified", Toast.LENGTH_LONG).show();
-
-                    }else {
                         Intent intent = new Intent(Main3Activity.this, MainActivity.class);
                         startActivity(intent);
-                    }
-                    }
-                    else {
-                    //firebase_auth.getCurrentUser().reload();
-                    firebase_auth.signOut();
-                    //finish();
 
                 }
 
@@ -121,17 +104,6 @@ public class Main3Activity extends AppCompatActivity {
 
     }
 
-    private void verifiedEmail() {
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-
-            }
-        });
-
-    }
-
     private void loginUserWithEmail(String uemail, String pword) {
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("login in progress...");
@@ -145,12 +117,7 @@ public class Main3Activity extends AppCompatActivity {
                         progressDialog.dismiss();
                         inValidLogin();
                     } else {
-                        //checkIfEmailVerified();
                         progressDialog.dismiss();
-
-
-                        //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
-                        //  startActivity(intent);
                     }
 
                 }
@@ -160,42 +127,13 @@ public class Main3Activity extends AppCompatActivity {
             progressDialog.dismiss();
             inValidLogin();
         }
-        if(firebaseAuth.getCurrentUser() != null && !firebaseAuth.getCurrentUser().isEmailVerified()) {
-            //login.setVisibility(View.GONE);
-            firebaseAuth.getCurrentUser().reload();
-            Toast.makeText(Main3Activity.this,"account may not have been verified", Toast.LENGTH_LONG).show();
-            firebaseAuth.signOut();
-
-
-        }
     }
 
-    private void checkIfEmailVerified() {
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        user.reload();
-
-        if (user.isEmailVerified())
-        {
-            // user is verified, so you can finish this activity or send user to activity which you want.
-            finish();
-            Toast.makeText(this, "Successfully logged in", Toast.LENGTH_SHORT).show();
-        }
-        else
-        {
-            // email is not verified, so just prompt the message to the user and restart this activity.
-            // NOTE: don't forget to log out the user.
-            FirebaseAuth.getInstance().signOut();
-
-            //restart this activity
-
-        }
-    }
 
     private void loginUserWithUserName(final String user_email, final String pword) {
         progressDialog= new ProgressDialog(this);
         progressDialog.setMessage("login in progress...");
         final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users").child(user_email);
-        //Log.d(TAG, "loginUserWithUserName: "+user.getKey());
         user.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -211,10 +149,7 @@ public class Main3Activity extends AppCompatActivity {
                                     progressDialog.dismiss();
                                     inValidLogin();
                                 } else {
-                                    //checkIfEmailVerified();
                                     progressDialog.dismiss();
-                                    //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
-                                    //  startActivity(intent);
                                 }
 
                             }
@@ -236,15 +171,6 @@ public class Main3Activity extends AppCompatActivity {
 
             }
         });
-        if(firebaseAuth.getCurrentUser() != null && !firebaseAuth.getCurrentUser().isEmailVerified()) {
-
-            //login.setVisibility(View.GONE);
-            firebaseAuth.getCurrentUser().reload();
-            Toast.makeText(Main3Activity.this,"account may not have been verified", Toast.LENGTH_LONG).show();
-            firebaseAuth.signOut();
-
-
-        }
 
         }
 
