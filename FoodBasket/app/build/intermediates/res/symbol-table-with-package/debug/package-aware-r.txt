@@ -796,6 +796,7 @@ int drawable abc_vector_test 0x7f080059
 int drawable avd_hide_password 0x7f08005a
 int drawable avd_show_password 0x7f08005b
 int drawable background 0x7f08005c
+<<<<<<< HEAD
 int drawable camera_capture 0x7f08005d
 int drawable camera_capture2 0x7f08005e
 int drawable common_full_open_on_phone 0x7f08005f
@@ -841,16 +842,69 @@ int drawable notification_bg_low_pressed 0x7f080086
 int drawable notification_bg_normal 0x7f080087
 int drawable notification_bg_normal_pressed 0x7f080088
 int drawable notification_icon 0x7f080089
+=======
+int drawable camera 0x7f08005d
+int drawable camera_capture 0x7f08005e
+int drawable camera_capture2 0x7f08005f
+int drawable common_full_open_on_phone 0x7f080060
+int drawable common_google_signin_btn_icon_dark 0x7f080061
+int drawable common_google_signin_btn_icon_dark_focused 0x7f080062
+int drawable common_google_signin_btn_icon_dark_normal 0x7f080063
+int drawable common_google_signin_btn_icon_dark_normal_background 0x7f080064
+int drawable common_google_signin_btn_icon_disabled 0x7f080065
+int drawable common_google_signin_btn_icon_light 0x7f080066
+int drawable common_google_signin_btn_icon_light_focused 0x7f080067
+int drawable common_google_signin_btn_icon_light_normal 0x7f080068
+int drawable common_google_signin_btn_icon_light_normal_background 0x7f080069
+int drawable common_google_signin_btn_text_dark 0x7f08006a
+int drawable common_google_signin_btn_text_dark_focused 0x7f08006b
+int drawable common_google_signin_btn_text_dark_normal 0x7f08006c
+int drawable common_google_signin_btn_text_dark_normal_background 0x7f08006d
+int drawable common_google_signin_btn_text_disabled 0x7f08006e
+int drawable common_google_signin_btn_text_light 0x7f08006f
+int drawable common_google_signin_btn_text_light_focused 0x7f080070
+int drawable common_google_signin_btn_text_light_normal 0x7f080071
+int drawable common_google_signin_btn_text_light_normal_background 0x7f080072
+int drawable design_bottom_navigation_item_background 0x7f080073
+int drawable design_fab_background 0x7f080074
+int drawable design_ic_visibility 0x7f080075
+int drawable design_ic_visibility_off 0x7f080076
+int drawable design_password_eye 0x7f080077
+int drawable design_snackbar_background 0x7f080078
+int drawable edit_text_border 0x7f080079
+int drawable edit_text_password 0x7f08007a
+int drawable googleg_disabled_color_18 0x7f08007b
+int drawable googleg_standard_color_18 0x7f08007c
+int drawable ic_camera_alt_white_24dp 0x7f08007d
+int drawable ic_launcher_background 0x7f08007e
+int drawable ic_launcher_foreground 0x7f08007f
+int drawable icon 0x7f080080
+int drawable login_background 0x7f080081
+int drawable navigation_empty_icon 0x7f080082
+int drawable notification_action_background 0x7f080083
+int drawable notification_bg 0x7f080084
+int drawable notification_bg_low 0x7f080085
+int drawable notification_bg_low_normal 0x7f080086
+int drawable notification_bg_low_pressed 0x7f080087
+int drawable notification_bg_normal 0x7f080088
+int drawable notification_bg_normal_pressed 0x7f080089
+>>>>>>> 159e022cb07e15f59199905699ae22854d981be3
 int drawable notification_icon_background 0x7f08008a
 int drawable notification_template_icon_bg 0x7f08008b
 int drawable notification_template_icon_low_bg 0x7f08008c
 int drawable notification_tile_bg 0x7f08008d
 int drawable notify_panel_notification_icon_bg 0x7f08008e
 int drawable register_btn 0x7f08008f
+<<<<<<< HEAD
 int drawable textbgroundpostdate 0x7f080090
 int drawable tooltip_frame_dark 0x7f080091
 int drawable tooltip_frame_light 0x7f080092
 int drawable user_name 0x7f080093
+=======
+int drawable tooltip_frame_dark 0x7f080090
+int drawable tooltip_frame_light 0x7f080091
+int drawable user_name 0x7f080092
+>>>>>>> 159e022cb07e15f59199905699ae22854d981be3
 int id ALT 0x7f090000
 int id CTRL 0x7f090001
 int id FUNCTION 0x7f090002
