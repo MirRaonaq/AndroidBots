@@ -22,9 +22,12 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "testKey";
     AppLocationServices locationServices;
     double _latitude =0.0;
     double _longitude =0.0;
@@ -38,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView profile;
     FirebaseUser user;
+    String pUser;
 
 
     @Override
@@ -56,8 +60,11 @@ public class MainActivity extends AppCompatActivity {
 
         user = FirebaseAuth.getInstance().getCurrentUser();
         String currUser = user.getEmail();
-        String u = currUser.split("@")[0];
-        profile.setText(u);
+
+        Log.d(TAG, "onCreate: key "+user);
+
+        pUser = currUser.split("@")[0];
+        profile.setText(pUser);
         //Toast.makeText(this,"current user is "+user,Toast.LENGTH_LONG).show();
 
 
@@ -119,12 +126,22 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.setMessage("Deleting account...");
             progressDialog.show();
             try {
+                final String emaill =user.getEmail();
                 user.delete().addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()){
-                            progressDialog.dismiss();
+                            try {
+                                final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users/"+pUser);
+                                user.removeValue();
+                                progressDialog.dismiss();
+                            }catch (Exception e){
+                                progressDialog.dismiss();
+
+                            }
+
                             startActivity(new Intent(MainActivity.this, Main3Activity.class));
+
                             Toast.makeText(MainActivity.this,"Deactivation was successful",Toast.LENGTH_LONG).show();
                         }
 

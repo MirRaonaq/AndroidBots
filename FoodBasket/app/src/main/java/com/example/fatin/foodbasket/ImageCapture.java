@@ -43,6 +43,7 @@ import com.squareup.picasso.Picasso;
 import android.Manifest;
 
 import java.io.ByteArrayOutputStream;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
@@ -77,6 +78,7 @@ public class ImageCapture extends AppCompatActivity {
 
         setContentView(R.layout.capture_image);
         HideKeyBoard.hideKeyPad(findViewById(R.id.imageView), ImageCapture.this);
+        FirebaseAuth.getInstance().getCurrentUser().reload();
 
         mImageLabel = (ImageView) findViewById(R.id.imageView);
         btnShare = (Button) findViewById(R.id.buttonShare);
@@ -123,11 +125,15 @@ public class ImageCapture extends AppCompatActivity {
                         String currUser = user.getEmail();
                         String u = currUser.split("@")[0];
 
+                        Date d = new Date(System.currentTimeMillis());
+                        SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy");
+                        String formattedDate = formatter.format(d);
+
                         mdata.child("description").setValue(desc.getText().toString());
                         mdata.child("roomNum").setValue(roomNum.getText().toString());
                         mdata.child("buildingName").setValue(buildName.getText().toString());
                         mdata.child("image").setValue(uri_download.toString());
-                        mdata.child("date").setValue(String.valueOf(System.currentTimeMillis()));
+                        mdata.child("date").setValue(formattedDate);
                         mdata.child("posted_by").setValue(u);
 
 

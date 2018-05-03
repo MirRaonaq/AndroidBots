@@ -29,10 +29,17 @@
             android:scaleType="centerCrop"
             android:padding="10dp"
             />
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:id="@+id/postedDate"
+            android:textColor="@color/post_date"
+            android:background="@drawable/textbgroundpostdate"
+            />
         <TextView
             android:id="@+id/post_building_name"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:textColor="#050505" />

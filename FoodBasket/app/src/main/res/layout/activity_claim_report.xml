@@ -7,6 +7,12 @@
     tools:context=".ClaimReport"
     android:background="@drawable/background">
 
+    <ImageView
+        android:layout_marginTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/claimImage"/>
+
 
     <Button
         android:id="@+id/userClaim"

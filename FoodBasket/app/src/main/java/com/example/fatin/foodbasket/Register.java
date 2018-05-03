@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -58,31 +59,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         firebaseAuth=FirebaseAuth.getInstance();
         register_btn.setOnClickListener(this);
         user_name =(EditText)findViewById(R.id.username);
-       // user_pass_reEntered =(EditText) findViewById(R.id.reEnterPassword);
 
-        //final String pass = user_pass_reEntered.getText().toString().trim();
-        //final String iniPass =user_password.getText().toString().trim();
-
-    /*    user_pass_reEntered.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (hasFocus){
-
-                    if (!pass.equals(iniPass)){
-                        user_pass_reEntered.setBackgroundResource(R.drawable.edit_text_password);
-                    }else {
-                        user_pass_reEntered.setBackgroundResource(R.drawable.edit_text_border);
-                    }
-
-                }else {
-                    if (pass.equals(iniPass)){
-                        user_pass_reEntered.setBackgroundResource(R.drawable.edit_text_border);
-
-                    }
-                }
-            }
-
-        });*/
     }
 
     @Override
@@ -96,53 +73,89 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     }
 
     private void registerUser(final String userEmail,final String userPassword, final String userName) {
-
-        if(ValidateFieldInput.fieldsNotEmpty(userEmail,userPassword,userName)){
-            progressDialog.setTitle("Registration in progress...");
-            progressDialog.show();
-            firebaseAuth.createUserWithEmailAndPassword(userEmail,userPassword).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    if (task.isSuccessful()){
-                        progressDialog.dismiss();
-                        final FirebaseDatabase database = FirebaseDatabase.getInstance();
-                        final DatabaseReference ref = database.getReference("users");
-                        DatabaseReference usersRef = ref.child(userName+"/email");
-                        usersRef.setValue(userEmail);
-                        comfirmEnteredData(firebaseAuth.getCurrentUser(), userName);
-                        firebaseAuth.signOut();
-                        Intent intent = new Intent(Register.this, Main3Activity.class);
-                        startActivity(intent);
-
-                    }else {
-                        progressDialog.dismiss();
-                        user_email.setText("");
-                        user_password.setText("");
-                        Toast.makeText(Register.this,"There was an error in creating your account.", Toast.LENGTH_LONG).show();
-
-                    }
-                }
-            });
-        }else {
-            progressDialog.dismiss();
-           Toast.makeText(Register.this,"Input field cannot be empty.", Toast.LENGTH_LONG).show();
-
-       }
+        checkIfAcountAlreadyExist(userName, userEmail, userPassword);
     }
 
-    private boolean checkIfAcountAlreadyExist(final String userEmail, final String userName) {
-        boolean crated =false;
-        final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users").child(userEmail);
+    private void checkIfAcountAlreadyExist(final String userName, final String userEmail, final String userPassword) {
+        //boolean created =false;
+        final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users").child(userName);
         user.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
+           //FirebaseAuth firebaseAuth =null;
+
+           @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 try {
-                   // created=true;
+                    if (ValidateFieldInput.fieldsNotEmpty(userEmail, userPassword, userName)) {
+                        if (dataSnapshot.getValue() == null) {
+                            Log.d(TAG, "onDataChange: yes is null "+ dataSnapshot.getValue());
+
+                            firebaseAuth = FirebaseAuth.getInstance();
+                            progressDialog.setTitle("Registration in progress...");
+                            progressDialog.show();
+                            firebaseAuth.createUserWithEmailAndPassword(userEmail, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if (task.isSuccessful()) {
+
+                                        final FirebaseUser user = firebaseAuth.getCurrentUser();
+                                        user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                if (task.isSuccessful()) {
+                                                    progressDialog.dismiss();
+                                                    Toast.makeText(Register.this,
+                                                            "Verification email sent to " + user.getEmail(),
+                                                            Toast.LENGTH_SHORT).show();
+
+                                                    final FirebaseDatabase database = FirebaseDatabase.getInstance();
+                                                    final DatabaseReference ref = database.getReference("users");
+                                                    DatabaseReference usersRef = ref.child(userName + "/email");
+                                                    usersRef.setValue(userEmail);
+
+                                                    comfirmEnteredData(firebaseAuth.getCurrentUser(), userName);
+                                                    firebaseAuth.signOut();
+
+                                                    Intent intent = new Intent(Register.this, Main3Activity.class);
+                                                    startActivity(intent);
+
+                                                    //finish();
+                                                } else {
+                                                    progressDialog.dismiss();
+                                                    Log.e(TAG, "sendEmailVerification", task.getException());
+                                                    Toast.makeText(Register.this,
+                                                            "Failed to send verification email.",
+                                                            Toast.LENGTH_SHORT).show();
+                                                }
+                                            }
+
+                                        });
+
+                                    } else {
+                                        progressDialog.dismiss();
+                                        user_email.setText("");
+                                        user_password.setText("");
+                                        Toast.makeText(Register.this, "There was an error in creating your account.", Toast.LENGTH_LONG).show();
+
+                                    }
+
+                                }
+                            });
+                        }else {
+                            progressDialog.dismiss();
+                            Toast.makeText(Register.this,"User name is taken.", Toast.LENGTH_LONG).show();
+
+                        }
+                    }else {
+
+                        progressDialog.dismiss();
+                        Toast.makeText(Register.this,"Input field cannot be empty.", Toast.LENGTH_LONG).show();
+
+                    }
 
                 }catch (Exception e){
-                    DatabaseReference username_1 = user.child(userName);
-                    DatabaseReference ename =username_1.child("email");
-                    ename.setValue(userEmail);
+                    //DatabaseReference username_1 = user.child(userName);
+                    //DatabaseReference ename =username_1.child("email");
+                    //ename.setValue(userEmail);
                 }
             }
 
@@ -152,7 +165,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
             }
         });
 
-        return true;
+
     }
 
     private void comfirmEnteredData(FirebaseUser currentUser, String userName) {
@@ -164,6 +177,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         findViewById(R.id.username).setVisibility(View.GONE);
         findViewById(R.id.registerBtn).setVisibility(View.GONE);
         findViewById(R.id.email).setVisibility(View.GONE);
+        currentUser.reload();
+
 
 
 
