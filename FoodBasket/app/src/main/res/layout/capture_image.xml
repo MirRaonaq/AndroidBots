@@ -32,7 +32,7 @@
                 android:layout_weight="1"
                 android:layout_marginLeft="15pt"
                 android:contentDescription="@string/_image"
-                app:srcCompat="@android:color/background_light" />
+                app:srcCompat="@drawable/camera" />
 
             <TextView
                 android:id="@+id/topText"
