@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/464cf548cfa355124edf6f03d1a9e598/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/292a50609924ec686a76043f5403e029/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/4208c13f163a8e841b51ef7229d0cf95/AndroidManifest.xml:17:1-37:12
@@ -26,12 +26,13 @@ MERGED from [com.android.support:support-v4:27.1.0] /Users/Mir/.gradle/caches/tr
 MERGED from [com.android.support:cardview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/f4e7081798b608475f48a3e2b206d97d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/b6d5a8d2347c91983bc6f7e26dc1b381/AndroidManifest.xml:17:1-22:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9b6ca506bb9ddd3a0e6270b26b31ee4d/AndroidManifest.xml:17:1-22:12
+MERGED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/39c84a9fdecb7f6532f51594148a598f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/785e58d389ab43fb66fe89a8a15d40cc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/719e362ae077138cd67e7b0898c75742/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/aaa743a2cf49159760e44ccad24b6595/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/59ca2258bfb11380e0a6679397437366/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9b6ca506bb9ddd3a0e6270b26b31ee4d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/28ab4c1791a1345a2f443badc1ad32bb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/a59baa3b064c08c483f78fabea2b14b1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/4c87f48e2cd027347e75de7320cd4a3d/AndroidManifest.xml:17:1-22:12
@@ -54,20 +55,20 @@ MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /Users/
 MERGED from [android.arch.core:runtime:1.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/09a6ab3dda774e2e6ea6a6cd9dc06ba2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/0f3ace449fc900a90ff2af7caff9b187/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/e102bf5f874bb2cff71a5648fb6286da/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
 	package
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-68:12
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:1-70:12
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:2:11-69
@@ -119,8 +120,8 @@ MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/Mir/.gradle/cach
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/b6d5a8d2347c91983bc6f7e26dc1b381/AndroidManifest.xml:20:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9b6ca506bb9ddd3a0e6270b26b31ee4d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9b6ca506bb9ddd3a0e6270b26b31ee4d/AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/39c84a9fdecb7f6532f51594148a598f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/39c84a9fdecb7f6532f51594148a598f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/785e58d389ab43fb66fe89a8a15d40cc/AndroidManifest.xml:20:5-44
@@ -131,6 +132,8 @@ MERGED from [com.android.support:support-core-ui:27.1.0] /Users/Mir/.gradle/cach
 MERGED from [com.android.support:support-core-ui:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/aaa743a2cf49159760e44ccad24b6595/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/59ca2258bfb11380e0a6679397437366/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/59ca2258bfb11380e0a6679397437366/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9b6ca506bb9ddd3a0e6270b26b31ee4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/9b6ca506bb9ddd3a0e6270b26b31ee4d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/28ab4c1791a1345a2f443badc1ad32bb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/28ab4c1791a1345a2f443badc1ad32bb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/a59baa3b064c08c483f78fabea2b14b1/AndroidManifest.xml:20:5-44
@@ -159,12 +162,12 @@ INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidMani
 		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:7:9-35
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:9:5-81
+uses-permission#android.permission.CAMERA
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:11:5-64
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:11:22-62
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:10:5-67
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/5a125654b83cb6e9f08af3e9d31fcb68/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/5a125654b83cb6e9f08af3e9d31fcb68/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/cddb8d56d29971b4d349aa405f2cd970/AndroidManifest.xml:23:5-67
@@ -174,21 +177,21 @@ MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/Mir/.gradle/caches/
 MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.1.aar/cafc804e122b251017f2275a6dd91f1b/AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.1.aar/cafc804e122b251017f2275a6dd91f1b/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:10:22-64
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:12:5-75
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:14:5-75
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:12:22-72
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:14:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:13:5-80
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:13:22-77
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:15:22-77
 application
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:19:5-66:19
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:21:5-68:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/464cf548cfa355124edf6f03d1a9e598/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Mir/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/464cf548cfa355124edf6f03d1a9e598/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/4208c13f163a8e841b51ef7229d0cf95/AndroidManifest.xml:22:5-35:19
@@ -215,6 +218,8 @@ MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.g
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/3873da352815707d05fb7783a1557a0c/AndroidManifest.xml:22:5-26:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:7:5-12:19
+MERGED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.0.aar/535f3e946c2937f2783ee24bc4474906/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.0.aar/535f3e946c2937f2783ee24bc4474906/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.0.aar/a2e958a60e8ba09e31bff156ac9fc827/AndroidManifest.xml:5:5-6:19
@@ -244,79 +249,79 @@ MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/e102bf5f874bb2cff71a5648fb6286da/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/e102bf5f874bb2cff71a5648fb6286da/AndroidManifest.xml:5:5-6:19
 	android:supportsRtl
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:24:9-41
 	android:roundIcon
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:23:9-54
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:21:9-43
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:25:9-40
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:27:9-40
 activity#com.example.fatin.foodbasket.SplashActivity
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:26:9-34:20
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:28:9-36:20
 	android:theme
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:28:13-47
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:30:13-47
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:27:13-43
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:29:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:34:27-74
 activity#com.example.fatin.foodbasket.Main3Activity
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:35:9-44:20
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:37:9-46:20
 	android:screenOrientation
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:40:13-49
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:37:13-42
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:39:13-42
 activity#com.example.fatin.foodbasket.ImageCapture
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:45:9-48:74
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:47:9-50:74
 	android:screenOrientation
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:49:13-49
 	android:theme
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:48:13-71
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:50:13-71
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:46:13-41
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:48:13-41
 activity#com.example.fatin.foodbasket.MainActivity
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:49:9-53:47
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:51:9-55:47
 	android:screenOrientation
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:52:13-49
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:54:13-49
 	android:label
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:51:13-57
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:53:13-57
 	android:theme
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:53:13-44
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:55:13-44
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:50:13-41
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:52:13-41
 activity#com.example.fatin.foodbasket.PostedImages
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:54:9-56:52
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:56:9-58:52
 	android:screenOrientation
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:56:13-49
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:55:13-41
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:57:13-41
 activity#com.example.fatin.foodbasket.Register
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:57:9-59:52
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:59:9-61:52
 	android:screenOrientation
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:59:13-49
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:61:13-49
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:58:13-37
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:60:13-37
 activity#com.example.fatin.foodbasket.ResetPassWord
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:60:9-62:52
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:62:9-64:52
 	android:screenOrientation
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:62:13-49
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:64:13-49
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:61:13-42
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:63:13-42
 activity#com.example.fatin.foodbasket.ClaimReport
-ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:63:9-58
+ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:65:9-58
 	android:name
-		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:63:19-46
+		ADDED from /Users/Mir/Desktop/AndroidBots/FoodBasket/app/src/main/AndroidManifest.xml:65:19-46
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.0.aar/4208c13f163a8e841b51ef7229d0cf95/AndroidManifest.xml:28:9-34:19
 	android:exported
@@ -501,3 +506,13 @@ ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/tran
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Mir/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/d197cf913a455e248b4b2c3a66eb96b4/AndroidManifest.xml:9:13-64
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.2.0] /Users/Mir/.gradle/caches/transforms-1/files-1.1/easypermissions-1.2.0.aar/896e2cb6c1c0f72ac761b2332fc9a5f2/AndroidManifest.xml:13:13-86

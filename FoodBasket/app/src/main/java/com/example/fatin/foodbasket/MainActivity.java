@@ -1,5 +1,6 @@
 package com.example.fatin.foodbasket;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -13,42 +14,38 @@ import android.widget.Spinner;
 import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.os.Handler;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationSettingsRequest;
+
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.List;
 
-    private static final String TAG = "testKey";
-    AppLocationServices locationServices;
-    double _latitude =0.0;
-    double _longitude =0.0;
-    public static final int REQUEST_LOCATION=001;
-    GoogleApiClient googleApiClient;
-    LocationRequest locationRequest;
-    LocationSettingsRequest.Builder locationSettingsRequest;
+import pub.devrel.easypermissions.AfterPermissionGranted;
+import pub.devrel.easypermissions.AppSettingsDialog;
+import pub.devrel.easypermissions.EasyPermissions;
+
+public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks {
+
+
     Button shareBtn =null;
     Button logoutBtn=null;
     Button claimeBtn=null;
+    Button openMapButton;
 
     TextView profile;
     FirebaseUser user;
-    String pUser;
+    private static final String TAG = "shareButton";
+    private static final String TAG2 = "mapButton"; //This is to test if map functionality is working
 
 
     @Override
     protected void onCreate(@NonNull Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         Spinner mySpinner = (Spinner) findViewById(R.id.spinner1);
 
@@ -61,11 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
         user = FirebaseAuth.getInstance().getCurrentUser();
         String currUser = user.getEmail();
-
-        Log.d(TAG, "onCreate: key "+user);
-
-        pUser = currUser.split("@")[0];
-        profile.setText(pUser);
+        String u = currUser.split("@")[0];
+        profile.setText(u);
         //Toast.makeText(this,"current user is "+user,Toast.LENGTH_LONG).show();
 
 
@@ -73,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 1) {
-                  //  startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    //  startActivity(new Intent(MainActivity.this, MainActivity.class));
                 } else if (i == 2) {
                     FirebaseAuth.getInstance().signOut();
                     finish();
@@ -91,21 +85,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        locationServices = new AppLocationServices(this);
-
-        if (locationServices.getLocationIsEnable()) {
-            locationServices.setLocationAvailable(false);
-
-        } else {
-            locationServices.displayLocationSetting();
-        }
-
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 main2Activity();
-               // Log.d("FoodBasket", "Share button pressed");
+                Log.d("FoodBasket", "Share button pressed");
             }
         });
 
@@ -115,34 +100,95 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Main4Activity();
-              //  Log.d("FoodBasket", "Claim button pressed");
+                Log.d("FoodBasket", "Claim button pressed");
             }
         });
     }
+    public void Main4Activity(){
+        Intent intent4 = new Intent(this,PostedImages.class);
+        startActivity(intent4);
+
+
+    }
+
+    @AfterPermissionGranted(123)
+    private void main2Activity(){
+        String[] permissions = {Manifest.permission.CAMERA};
+        //If user allows permissions
+        if (EasyPermissions.hasPermissions(this,permissions)){
+            Log.d(TAG,"Already has permission");
+            Intent intent = new Intent(this,ImageCapture.class);
+            startActivity(intent);
+
+        }
+        //Request permission
+        else EasyPermissions.requestPermissions(this,"This app requires camera permission to take picture",
+                123,permissions);
+
+
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        EasyPermissions.onRequestPermissionsResult(requestCode,permissions,grantResults,this);
+
+    }
+    @Override
+    public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
+
+    }
+
+    @Override
+    public void onPermissionsDenied(int requestCode, @NonNull List<String> perms) {
+        if (EasyPermissions.somePermissionPermanentlyDenied(this,perms)){
+            new AppSettingsDialog.Builder(this).build().show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode==AppSettingsDialog.DEFAULT_SETTINGS_REQ_CODE){
+
+        }
+    }
+
+
+
+
+    /*@Override
+    protected void onResume() {
+        super.onResume();
+        if(locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+        }
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+        }
+    }*/
+
     private void deactivateAccount() {
 
-       //final FirebaseUser uid = user;
+        //final FirebaseUser uid = user;
         final ProgressDialog progressDialog = new ProgressDialog(this);
         if (user !=null){
             progressDialog.setMessage("Deleting account...");
             progressDialog.show();
             try {
-                final String emaill =user.getEmail();
                 user.delete().addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()){
-                        /*    try {
-                                final DatabaseReference user = FirebaseDatabase.getInstance().getReference("users/"+pUser);
-                                user.removeValue();
-                                progressDialog.dismiss();
-                            }catch (Exception e){
-                                progressDialog.dismiss();
-
-                            }
-*/
+                            progressDialog.dismiss();
                             startActivity(new Intent(MainActivity.this, Main3Activity.class));
-
                             Toast.makeText(MainActivity.this,"Deactivation was successful",Toast.LENGTH_LONG).show();
                         }
 
@@ -165,37 +211,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if(locationServices.getLocationIsEnable()){
-            finish();
-            startActivity(getIntent());
-            locationServices.setLocationAvailable(false);
-        }
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        if (locationServices.getLocationIsEnable()){
-            finish();
-            startActivity(getIntent());
-            locationServices.setLocationAvailable(false);
-
-        }
-    }
-
-    public void main2Activity(){
-        Intent intent = new Intent(this,ImageCapture.class);
-        startActivity(intent);
-
-    }
-    public void Main4Activity(){
-        Intent intent4 = new Intent(this,PostedImages.class);
-        startActivity(intent4);
 
     }
 }
