@@ -7,7 +7,7 @@
 
 Check out our landing page: http://mirraonaq.me/FoodBasket.github.io/
 
-Download Food Basket here: https://drive.google.com/file/d/1dKXIOgqJ5dImI3pDASv3DXEo-B_g81xh/view
+Download Food Basket here: https://drive.google.com/open?id=1ibrk7oB18htScBndD93rBiTLHZGWd8M5
 
 Note: Food Basket currently runs on Android API 21, 22, 23 (6.0), and 27 (8.1.0).  
 
@@ -15,7 +15,7 @@ Note: Food Basket currently runs on Android API 21, 22, 23 (6.0), and 27 (8.1.0)
 
 Food Basket is for free food and items.
 
-Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, such as building, room number, and quantity. Users nearby will receive a notification of the food and will have the chance to claim it. This same process also works with unwanted items such as furniture, books, and more.
+Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, such as building, room number, and quantity. Date and time will automaically be implemented when a user shares their food or item. Users nearby will have the chance to claim it. This same process also works with unwanted items such as furniture, books, and more.
 
 
 - No "half eaten food" meaning no food that someone has taken a bite out of
@@ -34,7 +34,7 @@ Suppose you are at an event and at the end there are pizza slices left. Instead 
 
 ### MVP(Minimum Viable Product)
 
-Food Basket is an android app that helps users share and claim foods or items. A user would be able to snap a picture of the food or item. Then, the user will provide a description , along with the building and room number in which the food or item is located in. Other nearby users will be notified that a food or an item has been posted. Users will be able to view or claim the food or item in the claim page.
+Food Basket is an android app that helps users share and claim foods or items. A user would be able to snap a picture of the food or item. Then, the user will provide a description , along with the building and room number in which the food or item is located in. Date and time will automaically be implemented when a user shares their food or item. Users will be able to view or claim the food or item in the claim page.
 
 ### Add-on Features:
 
@@ -55,6 +55,9 @@ https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
 
 **Beta Release**:
 https://www.youtube.com/watch?v=iSJF_6s901c&t=2s
+
+**Official Release**:
+https://www.youtube.com/watch?v=P9wT18X_buQ
 
 ### Run Food Basket
 

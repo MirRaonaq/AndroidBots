@@ -58,6 +58,7 @@ public class AppLocationServices extends Service implements LocationListener {
         initLocation();
 
     }
+
     public void setLatitude(double latitude) {
         this.latitude = latitude;
     }

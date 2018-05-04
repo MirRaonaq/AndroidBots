@@ -1,5 +1,6 @@
 package com.example.fatin.foodbasket;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -14,30 +15,31 @@ import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationSettingsRequest;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.List;
 
-    AppLocationServices locationServices;
-    double _latitude =0.0;
-    double _longitude =0.0;
-    public static final int REQUEST_LOCATION=001;
-    GoogleApiClient googleApiClient;
-    LocationRequest locationRequest;
-    LocationSettingsRequest.Builder locationSettingsRequest;
+import pub.devrel.easypermissions.AfterPermissionGranted;
+import pub.devrel.easypermissions.AppSettingsDialog;
+import pub.devrel.easypermissions.EasyPermissions;
+
+public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks {
+
+
     Button shareBtn =null;
     Button logoutBtn=null;
     Button claimeBtn=null;
+    Button openMapButton;
 
     TextView profile;
     FirebaseUser user;
+    private static final String TAG = "shareButton";
+    private static final String TAG2 = "mapButton"; //This is to test if map functionality is working
 
 
     @Override
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 1) {
-                  //  startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    //  startActivity(new Intent(MainActivity.this, MainActivity.class));
                 } else if (i == 2) {
                     FirebaseAuth.getInstance().signOut();
                     finish();
@@ -82,15 +84,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-        locationServices = new AppLocationServices(this);
-
-        if (locationServices.getLocationIsEnable()) {
-            locationServices.setLocationAvailable(false);
-
-        } else {
-            locationServices.displayLocationSetting();
-        }
 
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
@@ -111,9 +104,80 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void Main4Activity(){
+        Intent intent4 = new Intent(this,PostedImages.class);
+        startActivity(intent4);
+
+
+    }
+
+    @AfterPermissionGranted(123)
+    private void main2Activity(){
+        String[] permissions = {Manifest.permission.CAMERA};
+        //If user allows permissions
+        if (EasyPermissions.hasPermissions(this,permissions)){
+            Log.d(TAG,"Already has permission");
+            Intent intent = new Intent(this,ImageCapture.class);
+            startActivity(intent);
+
+        }
+        //Request permission
+        else EasyPermissions.requestPermissions(this,"This app requires camera permission to take picture",
+                123,permissions);
+
+
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        EasyPermissions.onRequestPermissionsResult(requestCode,permissions,grantResults,this);
+
+    }
+    @Override
+    public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
+
+    }
+
+    @Override
+    public void onPermissionsDenied(int requestCode, @NonNull List<String> perms) {
+        if (EasyPermissions.somePermissionPermanentlyDenied(this,perms)){
+            new AppSettingsDialog.Builder(this).build().show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode==AppSettingsDialog.DEFAULT_SETTINGS_REQ_CODE){
+
+        }
+    }
+
+
+
+
+    /*@Override
+    protected void onResume() {
+        super.onResume();
+        if(locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+        }
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+        }
+    }*/
+
     private void deactivateAccount() {
 
-       //final FirebaseUser uid = user;
+        //final FirebaseUser uid = user;
         final ProgressDialog progressDialog = new ProgressDialog(this);
         if (user !=null){
             progressDialog.setMessage("Deleting account...");
@@ -147,37 +211,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if(locationServices.getLocationIsEnable()){
-            finish();
-            startActivity(getIntent());
-            locationServices.setLocationAvailable(false);
-        }
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        if (locationServices.getLocationIsEnable()){
-            finish();
-            startActivity(getIntent());
-            locationServices.setLocationAvailable(false);
-
-        }
-    }
-
-    public void main2Activity(){
-        Intent intent = new Intent(this,ImageCapture.class);
-        startActivity(intent);
-
-    }
-    public void Main4Activity(){
-        Intent intent4 = new Intent(this,PostedImages.class);
-        startActivity(intent4);
 
     }
 }

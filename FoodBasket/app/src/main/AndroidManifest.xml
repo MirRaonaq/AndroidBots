@@ -3,10 +3,12 @@
     package="com.example.fatin.foodbasket">
 
     <uses-sdk
-        android:maxSdkVersion="26"
+        android:maxSdkVersion="27"
         android:minSdkVersion="23" />
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
+    <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -24,6 +26,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+
             android:name=".Main3Activity"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -51,6 +63,8 @@
             android:name=".ResetPassWord"
             android:screenOrientation="portrait" />
         <activity android:name=".ClaimReport"></activity>
+
+
     </application>
 
 </manifest>
