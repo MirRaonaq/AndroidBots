@@ -1,0 +1,41 @@
+Date: 05/04/2018 @ 4:00 p.m.
+
+Memebers present:
+
+	- Kemo Khan
+	- Fatin Nazat
+	- Ziang Zhao
+	- Wentao Chen
+	- Mir Raonaq
+
+Meeting Discussions:
+
+  - Presentation objectives
+  - Presentation delivery
+  - Practice
+
+
+Individual Contributions since last meeting:
+	Kemo
+		- Finished date and time feature
+	Mir
+    		- Finished camera logo feature, updated landing page, updated readme, released official release
+	Fatin:
+		- Finished youtube video, continue work on map feature
+	Wentao:
+		- Finished splash page
+	Ziang:
+		- Helped Wentao with splash page
+
+Individual Expected Contributions before next meeting:
+
+	Kemo
+		- Maintain official release, work on presentation
+	Fatin
+		- Maintain official release, work on map feature, work on presentation 
+	Mir
+		- Maintain official release, work on presentation 
+	Ziang
+		- Work on presentation
+	Wentao
+		- Work on presentation 
