@@ -87,7 +87,7 @@ public class ImageCapture extends AppCompatActivity {
         desc = (EditText) findViewById(R.id.description);
 
         storageReference = FirebaseStorage.getInstance().getReference();
-        databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
+         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
 
         FirebaseInstanceId.getInstance().getToken();
 
@@ -116,7 +116,7 @@ public class ImageCapture extends AppCompatActivity {
                         String u = currUser.split("@")[0];
 
                         Date d = new Date(System.currentTimeMillis());
-                        SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy");
+                        SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy hh:mm:ss a");
                         String formattedDate = formatter.format(d);
 
                         mdata.child("description").setValue(desc.getText().toString());
