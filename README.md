@@ -56,6 +56,9 @@ https://www.youtube.com/watch?v=XYYHNZdhbGs&t=2s
 **Beta Release**:
 https://www.youtube.com/watch?v=iSJF_6s901c&t=2s
 
+**Official Release**:
+https://www.youtube.com/watch?v=P9wT18X_buQ
+
 ### Run Food Basket
 
 **How to Run Food Basket (Computer -> Android Device)**
