@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -22,14 +22,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCVbRpLb9Sf4gh1p0BzCqATOOYI2Lh0h_4"/>
-
+            android:value="AIzaSyCVbRpLb9Sf4gh1p0BzCqATOOYI2Lh0h_4" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
         <activity
             android:name=".Main3Activity"
             android:screenOrientation="portrait">
@@ -58,9 +57,10 @@
             android:name=".ResetPassWord"
             android:screenOrientation="portrait" />
         <activity android:name=".ClaimReport" />
-        <activity android:name=".MapActivity">
-
-        </activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity
+            android:name=".GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps"></activity>
     </application>
 
 </manifest>

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
     Button shareBtn =null;
     Button logoutBtn=null;
-    Button claimBtn=null;
+    Button claimeBtn=null;
     Button openMapButton;
 
     TextView profile;
@@ -87,8 +87,6 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             }
         });
 
-
-
         shareBtn= (Button)findViewById(R.id.shareButton);
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,8 +96,8 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             }
         });
 
-        claimBtn = findViewById(R.id.claimButton);
-        claimBtn.setOnClickListener(new View.OnClickListener() {
+        claimeBtn = findViewById(R.id.claimButton);
+        claimeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -112,40 +110,90 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             @Override
             public void onClick(View view) {
                 Log.d("map","map button");
-                /*Intent intent = new Intent(MainActivity.this,MapActivity.class);
-                startActivity(intent);*/
+
+                Intent intent = new Intent(MainActivity.this,GoogleMapsActivity.class);
+                startActivity(intent);
 
             }
         });
+    }
+    public void Main4Activity(){
+        Intent intent4 = new Intent(this,PostedImages.class);
+        startActivity(intent4);
+
+
     }
 
     @AfterPermissionGranted(123)
     private void main2Activity(){
         String[] permissions = {Manifest.permission.CAMERA,Manifest.permission.ACCESS_FINE_LOCATION,
         Manifest.permission.ACCESS_COARSE_LOCATION};
+        //If user allows permissions
         if (EasyPermissions.hasPermissions(this,permissions)){
             Log.d(TAG,"Already has permission");
             Intent intent = new Intent(this,ImageCapture.class);
             startActivity(intent);
 
         }
+        //Request permission
         else EasyPermissions.requestPermissions(this,"This app requires location and camera permissions to take picture and know where it is posted from",
                 123,permissions);
 
 
-
-    }
+        }
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         EasyPermissions.onRequestPermissionsResult(requestCode,permissions,grantResults,this);
 
     }
+    @Override
+    public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
 
+    }
+
+    @Override
+    public void onPermissionsDenied(int requestCode, @NonNull List<String> perms) {
+        if (EasyPermissions.somePermissionPermanentlyDenied(this,perms)){
+            new AppSettingsDialog.Builder(this).build().show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode==AppSettingsDialog.DEFAULT_SETTINGS_REQ_CODE){
+
+        }
+    }
+
+
+
+
+    /*@Override
+    protected void onResume() {
+        super.onResume();
+        if(locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (locationServices.getLocationIsEnable()){
+            finish();
+            startActivity(getIntent());
+            locationServices.setLocationAvailable(false);
+
+        }
+    }*/
 
     private void deactivateAccount() {
 
-       //final FirebaseUser uid = user;
+        //final FirebaseUser uid = user;
         final ProgressDialog progressDialog = new ProgressDialog(this);
         if (user !=null){
             progressDialog.setMessage("Deleting account...");
@@ -179,63 +227,6 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
         }
 
-
-    }
-    /*@Override
-    protected void onResume() {
-        super.onResume();
-        if(locationServices.getLocationIsEnable()){
-            finish();
-            startActivity(getIntent());
-            locationServices.setLocationAvailable(false);
-        }
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        if (locationServices.getLocationIsEnable()){
-            finish();
-            startActivity(getIntent());
-            locationServices.setLocationAvailable(false);
-
-        }
-    }*/
-
-
-    @Override
-    public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
-
-    }
-
-    @Override
-    public void onPermissionsDenied(int requestCode, @NonNull List<String> perms) {
-        if (EasyPermissions.somePermissionPermanentlyDenied(this,perms)){
-            new AppSettingsDialog.Builder(this).build().show();
-        }
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode==AppSettingsDialog.DEFAULT_SETTINGS_REQ_CODE){
-        Toast.makeText(getApplicationContext(),"Permissions granted",Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    @AfterPermissionGranted(123)
-    public void Main4Activity(){
-        String[] permission = {Manifest.permission.ACCESS_FINE_LOCATION,
-                Manifest.permission.ACCESS_COARSE_LOCATION};
-        if (EasyPermissions.hasPermissions(this,permission)){
-            Log.d(TAG2,"Already has permission");
-            Intent intent4 = new Intent(this,PostedImages.class);
-            startActivity(intent4);
-        }
-        else {
-            EasyPermissions.requestPermissions(this,"This app requires location and camera permissions to take picture and know where it is posted from",
-                    123,permission);
-        }
 
     }
 }

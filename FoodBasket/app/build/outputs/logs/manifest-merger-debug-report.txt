@@ -212,6 +212,10 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:15:5-65
 	android:name
 		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:16:22-72
 application
 ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:18:5-64:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Fatin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a35c461c92831c92f64fcd919c66a851\AndroidManifest.xml:9:5-20
@@ -287,79 +291,85 @@ MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] C:
 	android:theme
 		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:24:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:26:9-28:70
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:25:9-27:71
 	android:value
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:28:13-68
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:27:13-68
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:27:13-58
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:26:13-58
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:30:9-32:69
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:28:9-30:69
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Fatin\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\bdcdfbb18e81b7c254c6ae343ced0e98\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] C:\Users\Fatin\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.0.aar\bdcdfbb18e81b7c254c6ae343ced0e98\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:30:13-66
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:29:13-58
 activity#com.example.fatin.foodbasket.Main3Activity
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:33:9-41:20
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:screenOrientation
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:34:13-49
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:34:13-42
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:33:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:38:27-74
 activity#com.example.fatin.foodbasket.ImageCapture
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:42:9-45:74
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:41:9-44:74
 	android:screenOrientation
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:43:13-49
 	android:theme
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:45:13-71
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:44:13-71
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:43:13-41
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:42:13-41
 activity#com.example.fatin.foodbasket.MainActivity
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:46:9-50:47
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:45:9-49:47
 	android:screenOrientation
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:48:13-49
 	android:label
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:48:13-57
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:47:13-57
 	android:theme
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:50:13-44
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:49:13-44
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:47:13-41
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:46:13-41
 activity#com.example.fatin.foodbasket.PostedImages
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:51:9-53:52
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:50:9-52:52
 	android:screenOrientation
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:52:13-49
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:52:13-41
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:51:13-41
 activity#com.example.fatin.foodbasket.Register
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:54:9-56:52
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:53:9-55:52
 	android:screenOrientation
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:54:13-37
 activity#com.example.fatin.foodbasket.ResetPassWord
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:57:9-59:52
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:56:9-58:52
 	android:screenOrientation
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:59:13-49
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:58:13-42
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:57:13-42
 activity#com.example.fatin.foodbasket.ClaimReport
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:60:9-49
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:59:9-49
+	android:name
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:59:19-46
+activity#com.example.fatin.foodbasket.MapActivity
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:60:9-58
 	android:name
 		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:60:19-46
-activity#com.example.fatin.foodbasket.MapActivity
-ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:61:9-63:20
+activity#com.example.fatin.foodbasket.GoogleMapsActivity
+ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:61:9-63:75
+	android:label
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:63:13-63
 	android:name
-		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:61:19-46
+		ADDED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:62:13-47
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:12.0.0] C:\Users\Fatin\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.0.aar\3286088a348578cc350c410a38c33736\AndroidManifest.xml:28:9-34:19
 	android:exported
@@ -546,5 +556,3 @@ ADDED from [pub.devrel:easypermissions:1.2.0] C:\Users\Fatin\.gradle\caches\tran
 		ADDED from [pub.devrel:easypermissions:1.2.0] C:\Users\Fatin\.gradle\caches\transforms-1\files-1.1\easypermissions-1.2.0.aar\e6bc1bf2541a1a6b4a3d032123717d5e\AndroidManifest.xml:16:13-63
 	android:name
 		ADDED from [pub.devrel:easypermissions:1.2.0] C:\Users\Fatin\.gradle\caches\transforms-1\files-1.1\easypermissions-1.2.0.aar\e6bc1bf2541a1a6b4a3d032123717d5e\AndroidManifest.xml:13:13-86
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\Fatin\Desktop\beta fatin\AndroidBots\FoodBasket\app\src\main\AndroidManifest.xml:2:1-66:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
