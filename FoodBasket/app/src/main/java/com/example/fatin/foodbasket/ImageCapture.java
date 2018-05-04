@@ -10,6 +10,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.PersistableBundle;
 import android.provider.MediaStore;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -25,12 +26,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.fatin.foodbasket.notification.Notification;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -39,6 +43,7 @@ import com.squareup.picasso.Picasso;
 import android.Manifest;
 
 import java.io.ByteArrayOutputStream;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
@@ -73,25 +78,18 @@ public class ImageCapture extends AppCompatActivity {
 
         setContentView(R.layout.capture_image);
         HideKeyBoard.hideKeyPad(findViewById(R.id.imageView), ImageCapture.this);
+        FirebaseAuth.getInstance().getCurrentUser().reload();
 
         mImageLabel = (ImageView) findViewById(R.id.imageView);
         btnShare = (Button) findViewById(R.id.buttonShare);
         buildName = (EditText) findViewById(R.id.buildingName);
         roomNum = (EditText) findViewById(R.id.roomNumber);
         desc = (EditText) findViewById(R.id.description);
-/*
-        postBuildN =(TextView) findViewById(R.id.postBuildNum);
-        postDes =(TextView)findViewById(R.id.postDesc);
-        postRoomN=(TextView)findViewById(R.id.postRoomNum) ;*/
 
         storageReference = FirebaseStorage.getInstance().getReference();
-        //final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
+         databaseReference = FirebaseDatabase.getInstance().getReference("users").child("photos");
 
-       /* final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference ref = database.getReference("users");
-        DatabaseReference usersRef = ref.child(userName+"/email");
-        usersRef.setValue(userEmail);*/
+        FirebaseInstanceId.getInstance().getToken();
 
         if (ContextCompat.checkSelfPermission((Activity) this, Manifest.permission.WRITE_EXTERNAL_STORAGE) ==
                 PackageManager.PERMISSION_GRANTED) {
@@ -106,6 +104,7 @@ public class ImageCapture extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 progressDialog.setTitle("Uploading........");
+
                 if (uri_download != null) {
                     if (ValidateFieldInput.fieldsNotEmpty(desc.getText().toString(), roomNum.getText().toString(), desc.getText().toString())) {
                         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -116,11 +115,15 @@ public class ImageCapture extends AppCompatActivity {
                         String currUser = user.getEmail();
                         String u = currUser.split("@")[0];
 
+                        Date d = new Date(System.currentTimeMillis());
+                        SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy hh:mm:ss a");
+                        String formattedDate = formatter.format(d);
+
                         mdata.child("description").setValue(desc.getText().toString());
                         mdata.child("roomNum").setValue(roomNum.getText().toString());
                         mdata.child("buildingName").setValue(buildName.getText().toString());
                         mdata.child("image").setValue(uri_download.toString());
-                        mdata.child("date").setValue(new Date(System.currentTimeMillis()).toString());
+                        mdata.child("date").setValue(formattedDate);
                         mdata.child("posted_by").setValue(u);
                         mdata.child("claimed").setValue(0);
                         mdata.child("reported").setValue(0);
@@ -128,6 +131,9 @@ public class ImageCapture extends AppCompatActivity {
 
 
                         progressDialog.dismiss();
+                        Notification.notifyUsers(getApplicationContext());
+                        FirebaseMessaging.getInstance().subscribeToTopic("all");
+
 
                         Intent intent = new Intent(ImageCapture.this, PostedImages.class);
                         startActivity(intent);

@@ -15,6 +15,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,7 +30,6 @@ public class Main3Activity extends AppCompatActivity {
     private Button login;
     private Button register;
     private Button forgot;
-    //  private TextView Info;
     private int counter = 5;
     FirebaseDatabase fBase;
     DatabaseReference dataRef;
@@ -39,14 +39,10 @@ public class Main3Activity extends AppCompatActivity {
     String val;
 
     ProgressDialog progressDialog;
-
-    //authentication variable
     FirebaseAuth firebaseAuth = null;
     FirebaseAuth.AuthStateListener authStateListener;
 
     String TAG = "MAIN_TEST";
-
-   // static ArrayList<String> email_ =new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,9 +63,9 @@ public class Main3Activity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebase_auth) {
                 if (firebase_auth.getCurrentUser() != null) {
-                    //open when sign in is successful.
-                     Intent intent = new Intent(Main3Activity.this, MainActivity.class);
-                     startActivity(intent);
+                        Intent intent = new Intent(Main3Activity.this, MainActivity.class);
+                        startActivity(intent);
+
                 }
 
             }
@@ -93,7 +89,6 @@ public class Main3Activity extends AppCompatActivity {
 
                 }else {
                     loginUserWithUserName(_user_email, _pasword);
-                    Log.d(TAG, "onClick: email return email");
                 }
 
             }
@@ -123,8 +118,6 @@ public class Main3Activity extends AppCompatActivity {
                         inValidLogin();
                     } else {
                         progressDialog.dismiss();
-                        //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
-                        //  startActivity(intent);
                     }
 
                 }
@@ -135,6 +128,7 @@ public class Main3Activity extends AppCompatActivity {
             inValidLogin();
         }
     }
+
 
     private void loginUserWithUserName(final String user_email, final String pword) {
         progressDialog= new ProgressDialog(this);
@@ -156,8 +150,6 @@ public class Main3Activity extends AppCompatActivity {
                                     inValidLogin();
                                 } else {
                                     progressDialog.dismiss();
-                                    //  Intent intent = new Intent(Main3Activity.this,MainActivity.class);
-                                    //  startActivity(intent);
                                 }
 
                             }
@@ -180,21 +172,19 @@ public class Main3Activity extends AppCompatActivity {
             }
         });
 
-
-    }
+        }
 
 
     @Override
     protected void onStart() {
         super.onStart();
-        firebaseAuth.addAuthStateListener(authStateListener);
+            firebaseAuth.addAuthStateListener(authStateListener);
+
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-       // firebaseAuth.signOut();
-       //
        firebaseAuth.removeAuthStateListener(authStateListener);
     }
 

@@ -14,8 +14,7 @@
         android:layout_height="fill_parent"
         android:background="@drawable/background"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="-7dp"
-        tools:layout_editor_absoluteY="40dp">
+     >
 
     </LinearLayout>
 
