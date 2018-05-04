@@ -15,7 +15,7 @@ Note: Food Basket currently runs on Android API 21, 22, 23 (6.0), and 27 (8.1.0)
 
 Food Basket is for free food and items.
 
-Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, such as building, room number, and quantity. Date and Time will automaically be implemented when a user shares their food or item. Users nearby will have the chance to claim it. This same process also works with unwanted items such as furniture, books, and more.
+Suppose you are at an event and at the end there are pizza slices left. Instead of it going to waste, you can share the food with the community or people near you. Food Basket allows you to snap a picture of the food, then give a description, such as building, room number, and quantity. Date and time will automaically be implemented when a user shares their food or item. Users nearby will have the chance to claim it. This same process also works with unwanted items such as furniture, books, and more.
 
 
 - No "half eaten food" meaning no food that someone has taken a bite out of
