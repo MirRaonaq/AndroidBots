@@ -34,7 +34,7 @@ Suppose you are at an event and at the end there are pizza slices left. Instead 
 
 ### MVP(Minimum Viable Product)
 
-Food Basket is an android app that helps users share and claim foods or items. A user would be able to snap a picture of the food or item. Then, the user will provide a description , along with the building and room number in which the food or item is located in. Date and Time will automaically be implemented when a user shares their food or item. Users will be able to view or claim the food or item in the claim page.
+Food Basket is an android app that helps users share and claim foods or items. A user would be able to snap a picture of the food or item. Then, the user will provide a description , along with the building and room number in which the food or item is located in. Date and time will automaically be implemented when a user shares their food or item. Users will be able to view or claim the food or item in the claim page.
 
 ### Add-on Features:
 
