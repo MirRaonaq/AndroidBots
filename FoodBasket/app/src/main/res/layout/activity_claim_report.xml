@@ -4,9 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".ClaimReport">
+    tools:context=".ClaimReport"
+    android:background="@drawable/background">
 
+    <ImageView
+        android:layout_marginTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/claimImage"/>
     <Button
         android:id="@+id/userClaim"
         android:layout_width="match_parent"
@@ -21,13 +26,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.866" />
 
-    <!--<ImageView
-        android:id="@+id/singleImage"
-        android:layout_width="match_parent"
-        android:layout_height="239dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="0dp"
-        app:srcCompat="@android:color/background_light"
-        />-->
 </android.support.constraint.ConstraintLayout>
